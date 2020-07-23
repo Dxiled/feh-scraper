@@ -1,0 +1,2339 @@
+{
+    "aerobatics_1": {
+        "id": "aerobatics_1",
+        "name": "Aerobatics 1",
+        "description": "If unit's HP = 100%, unit can move to a space adjacent to any infantry, armored, or cavalry ally within 2 spaces.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "aerobatics_2": {
+        "id": "aerobatics_2",
+        "name": "Aerobatics 2",
+        "description": "If unit's HP \u2265 50%, unit can move to a space adjacent to any infantry, armored, or cavalry ally within 2 spaces.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "aerobatics_3": {
+        "id": "aerobatics_3",
+        "name": "Aerobatics 3",
+        "description": "Unit can move to a space adjacent to any infantry, armored, or cavalry ally within 2 spaces.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "atk_cantrip_1": {
+        "id": "atk_cantrip_1",
+        "name": "Atk Cantrip 1",
+        "description": "If Sing or Dance is used, inflicts Atk-3 on nearest foes within 4 spaces of unit through their next actions.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "atk_cantrip_2": {
+        "id": "atk_cantrip_2",
+        "name": "Atk Cantrip 2",
+        "description": "If Sing or Dance is used, inflicts Atk-5 on nearest foes within 4 spaces of unit through their next actions.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "atk_cantrip_3": {
+        "id": "atk_cantrip_3",
+        "name": "Atk Cantrip 3",
+        "description": "If Sing or Dance is used, inflicts Atk-7 on nearest foes within 4 spaces of unit through their next actions.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "atk/def_link_1": {
+        "id": "atk/def_link_1",
+        "name": "Atk/Def Link 1",
+        "description": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Def+2 to unit and target ally or unit and targeting ally for 1 turn.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "atk/def_link_2": {
+        "id": "atk/def_link_2",
+        "name": "Atk/Def Link 2",
+        "description": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Def+4 to unit and target ally or unit and targeting ally for 1 turn.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "atk/def_link_3": {
+        "id": "atk/def_link_3",
+        "name": "Atk/Def Link 3",
+        "description": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Def+6 to unit and target ally or unit and targeting ally for 1 turn.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "atk/def_ruse_1": {
+        "id": "atk/def_ruse_1",
+        "name": "Atk/Def Ruse 1",
+        "description": "If a Rally Assist skill is used by unit or targets unit, inflicts Atk/Def-1 and\u3010Guard\u3011on foes in cardinal directions of unit and target through their next actions.\u3010Guard\u3011Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "atk/def_ruse_2": {
+        "id": "atk/def_ruse_2",
+        "name": "Atk/Def Ruse 2",
+        "description": "If a Rally Assist skill is used by unit or targets unit, inflicts Atk/Def-3 and\u3010Guard\u3011on foes in cardinal directions of unit and target through their next actions.\u3010Guard\u3011Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "atk/def_ruse_3": {
+        "id": "atk/def_ruse_3",
+        "name": "Atk/Def Ruse 3",
+        "description": "If a Rally Assist skill is used by unit or targets unit, inflicts Atk/Def-5 and\u3010Guard\u3011on foes in cardinal directions of unit and target through their next actions.\u3010Guard\u3011Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "atk_feint_1": {
+        "id": "atk_feint_1",
+        "name": "Atk Feint 1",
+        "description": "If a Rally Assist skill is used by unit or targets unit, inflicts Atk-3 on foes in cardinal directions of unit through their next actions.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "atk_feint_2": {
+        "id": "atk_feint_2",
+        "name": "Atk Feint 2",
+        "description": "If a Rally Assist skill is used by unit or targets unit, inflicts Atk-5 on foes in cardinal directions of unit through their next actions.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "atk_feint_3": {
+        "id": "atk_feint_3",
+        "name": "Atk Feint 3",
+        "description": "If a Rally Assist skill is used by unit or targets unit, inflicts Atk-7 on foes in cardinal directions of unit through their next actions.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "atk/res_link_1": {
+        "id": "atk/res_link_1",
+        "name": "Atk/Res Link 1",
+        "description": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Res+2 to unit and target ally or unit and targeting ally for 1 turn.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "atk/res_link_2": {
+        "id": "atk/res_link_2",
+        "name": "Atk/Res Link 2",
+        "description": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Res+4 to unit and target ally or unit and targeting ally for 1 turn.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "atk/res_link_3": {
+        "id": "atk/res_link_3",
+        "name": "Atk/Res Link 3",
+        "description": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Res+6 to unit and target ally or unit and targeting ally for 1 turn.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "atk/spd_link_1": {
+        "id": "atk/spd_link_1",
+        "name": "Atk/Spd Link 1",
+        "description": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Spd+2 to unit and target ally or unit and targeting ally for 1 turn.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "atk/spd_link_2": {
+        "id": "atk/spd_link_2",
+        "name": "Atk/Spd Link 2",
+        "description": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Spd+4 to unit and target ally or unit and targeting ally for 1 turn.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "atk/spd_link_3": {
+        "id": "atk/spd_link_3",
+        "name": "Atk/Spd Link 3",
+        "description": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Spd+6 to unit and target ally or unit and targeting ally for 1 turn.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "atk/spd_ruse_1": {
+        "id": "atk/spd_ruse_1",
+        "name": "Atk/Spd Ruse 1",
+        "description": "If a Rally Assist skill is used by unit or targets unit, inflicts Atk/Spd-1 and\u3010Guard\u3011on foes in cardinal directions of unit and target through their next actions.\u3010Guard\u3011Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "atk/spd_ruse_2": {
+        "id": "atk/spd_ruse_2",
+        "name": "Atk/Spd Ruse 2",
+        "description": "If a Rally Assist skill is used by unit or targets unit, inflicts Atk/Spd-3 and\u3010Guard\u3011on foes in cardinal directions of unit and target through their next actions.\u3010Guard\u3011Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "atk/spd_ruse_3": {
+        "id": "atk/spd_ruse_3",
+        "name": "Atk/Spd Ruse 3",
+        "description": "If a Rally Assist skill is used by unit or targets unit, inflicts Atk/Spd-5 and\u3010Guard\u3011on foes in cardinal directions of unit and target through their next actions.\u3010Guard\u3011Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "axebreaker_1": {
+        "id": "axebreaker_1",
+        "name": "Axebreaker 1",
+        "description": "If unit's HP \u2265 90% in combat against an axe foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "axebreaker_2": {
+        "id": "axebreaker_2",
+        "name": "Axebreaker 2",
+        "description": "If unit's HP \u2265 70% in combat against an axe foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "axebreaker_3": {
+        "id": "axebreaker_3",
+        "name": "Axebreaker 3",
+        "description": "If unit's HP \u2265 50% in combat against an axe foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "b_tomebreaker_1": {
+        "id": "b_tomebreaker_1",
+        "name": "B Tomebreaker 1",
+        "description": "If unit's HP \u2265 90% in combat against a blue tome foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "b_tomebreaker_2": {
+        "id": "b_tomebreaker_2",
+        "name": "B Tomebreaker 2",
+        "description": "If unit's HP \u2265 70% in combat against a blue tome foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "b_tomebreaker_3": {
+        "id": "b_tomebreaker_3",
+        "name": "B Tomebreaker 3",
+        "description": "If unit's HP \u2265 50% in combat against a blue tome foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "belief_in_love": {
+        "id": "belief_in_love",
+        "name": "Belief in Love",
+        "description": "If foe initiates combat or if foe's HP = 100% at start of combat, inflicts Atk/Def-5 on foe during combat.",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "beorc's_blessing": {
+        "id": "beorc's_blessing",
+        "name": "Beorc's Blessing",
+        "description": "Neutralizes cavalry and flying foes' bonuses (from skills like Fortify, Rally, etc.) during combat.(Skill cannot be inherited.)",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "binding_shield": {
+        "id": "binding_shield",
+        "name": "Binding Shield",
+        "description": "In combat against a dragon foe, unit makes a guaranteed follow-up attack and foe cannot counterattack or make a follow-up attack.",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "blaze_dance_1": {
+        "id": "blaze_dance_1",
+        "name": "Blaze Dance 1",
+        "description": "If Sing or Dance is used, grants Atk+2 to target.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "blaze_dance_2": {
+        "id": "blaze_dance_2",
+        "name": "Blaze Dance 2",
+        "description": "If Sing or Dance is used, grants Atk+3 to target.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "blaze_dance_3": {
+        "id": "blaze_dance_3",
+        "name": "Blaze Dance 3",
+        "description": "If Sing or Dance is used, grants Atk+4 to target.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "bold_fighter_1": {
+        "id": "bold_fighter_1",
+        "name": "Bold Fighter 1",
+        "description": "If unit's HP = 100% and unit initiates combat, grants Special cooldown charge +1 per unit's attack, and unit makes a guaranteed follow-up attack. (Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "bold_fighter_2": {
+        "id": "bold_fighter_2",
+        "name": "Bold Fighter 2",
+        "description": "If unit's HP \u2265 50% and unit initiates combat, grants Special cooldown charge +1 per unit's attack, and unit makes a guaranteed follow-up attack. (Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "bold_fighter_3": {
+        "id": "bold_fighter_3",
+        "name": "Bold Fighter 3",
+        "description": "If unit initiates combat, grants Special cooldown charge +1 per unit's attack, and unit makes a guaranteed follow-up attack. (Does not stack.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "bowbreaker_1": {
+        "id": "bowbreaker_1",
+        "name": "Bowbreaker 1",
+        "description": "If unit's HP \u2265 90% in combat against a colorless bow foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "bowbreaker_2": {
+        "id": "bowbreaker_2",
+        "name": "Bowbreaker 2",
+        "description": "If unit's HP \u2265 70% in combat against a colorless bow foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "bowbreaker_3": {
+        "id": "bowbreaker_3",
+        "name": "Bowbreaker 3",
+        "description": "If unit's HP \u2265 50% in combat against a colorless bow foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "brash_assault_1": {
+        "id": "brash_assault_1",
+        "name": "Brash Assault 1",
+        "description": "If unit initiates combat against a foe that can counter and unit's HP \u2264 30%, unit makes a guaranteed follow-up attack.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "brash_assault_2": {
+        "id": "brash_assault_2",
+        "name": "Brash Assault 2",
+        "description": "If unit initiates combat against a foe that can counter and unit's HP \u2264 40%, unit makes a guaranteed follow-up attack.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "brash_assault_3": {
+        "id": "brash_assault_3",
+        "name": "Brash Assault 3",
+        "description": "If unit initiates combat against a foe that can counter and unit's HP \u2264 50%, unit makes a guaranteed follow-up attack.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "bushido": {
+        "id": "bushido",
+        "name": "Bushido",
+        "description": "Deals +10 damage when Special triggers.",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "caldera_dance_1": {
+        "id": "caldera_dance_1",
+        "name": "Caldera Dance 1",
+        "description": "If Sing or Dance is used, grants Atk+2 and Def+3 to target.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "caldera_dance_2": {
+        "id": "caldera_dance_2",
+        "name": "Caldera Dance 2",
+        "description": "If Sing or Dance is used, grants Atk+3 and Def+4 to target.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "cancel_affinity_1": {
+        "id": "cancel_affinity_1",
+        "name": "Cancel Affinity 1",
+        "description": "Neutralizes all weapon-triangle advantage granted by unit's and foe's skills.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "cancel_affinity_2": {
+        "id": "cancel_affinity_2",
+        "name": "Cancel Affinity 2",
+        "description": "Neutralizes weapon-triangle advantage granted by unit's skills. If unit has weapon-triangle disadvantage, neutralizes weapon-triangle advantage granted by foe's skills.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "cancel_affinity_3": {
+        "id": "cancel_affinity_3",
+        "name": "Cancel Affinity 3",
+        "description": "Neutralizes weapon-triangle advantage granted by unit's skills. If unit has weapon-triangle disadvantage, reverses weapon-triangle advantage granted by foe's skills.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "chill_atk_1": {
+        "id": "chill_atk_1",
+        "name": "Chill Atk 1",
+        "description": "At start of turn, inflicts Atk-3 on foe on the enemy team with the highest Atk through its next action.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "chill_atk_2": {
+        "id": "chill_atk_2",
+        "name": "Chill Atk 2",
+        "description": "At start of turn, inflicts Atk-5 on foe on the enemy team with the highest Atk through its next action.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "chill_atk_3": {
+        "id": "chill_atk_3",
+        "name": "Chill Atk 3",
+        "description": "At start of turn, inflicts Atk-7 on foe on the enemy team with the highest Atk through its next action.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "chill_atk/res_1": {
+        "id": "chill_atk/res_1",
+        "name": "Chill Atk/Res 1",
+        "description": "At start of turn, inflicts Atk/Res-3 on foe on the enemy team with the highest Atk+Res total through its next action.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "chill_atk/res_2": {
+        "id": "chill_atk/res_2",
+        "name": "Chill Atk/Res 2",
+        "description": "At start of turn, inflicts Atk/Res-5 on foe on the enemy team with the highest Atk+Res total through its next action.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "chill_atk/spd_1": {
+        "id": "chill_atk/spd_1",
+        "name": "Chill Atk/Spd 1",
+        "description": "At start of turn, inflicts Atk/Spd-3 on foe on the enemy team with the highest Atk+Spd total through its next action.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "chill_atk/spd_2": {
+        "id": "chill_atk/spd_2",
+        "name": "Chill Atk/Spd 2",
+        "description": "At start of turn, inflicts Atk/Spd-5 on foe on the enemy team with the highest Atk+Spd total through its next action.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "chill_def_1": {
+        "id": "chill_def_1",
+        "name": "Chill Def 1",
+        "description": "At start of turn, inflicts Def-3 on foe on the enemy team with the highest Def through its next action.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "chill_def_2": {
+        "id": "chill_def_2",
+        "name": "Chill Def 2",
+        "description": "At start of turn, inflicts Def-5 on foe on the enemy team with the highest Def through its next action.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "chill_def_3": {
+        "id": "chill_def_3",
+        "name": "Chill Def 3",
+        "description": "At start of turn, inflicts Def-7 on foe on the enemy team with the highest Def through its next action.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "chill_res_1": {
+        "id": "chill_res_1",
+        "name": "Chill Res 1",
+        "description": "At start of turn, inflicts Res-3 on foe on the enemy team with the highest Res through its next action.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "chill_res_2": {
+        "id": "chill_res_2",
+        "name": "Chill Res 2",
+        "description": "At start of turn, inflicts Res-5 on foe on the enemy team with the highest Res through its next action.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "chill_res_3": {
+        "id": "chill_res_3",
+        "name": "Chill Res 3",
+        "description": "At start of turn, inflicts Res-7 on foe on the enemy team with the highest Res through its next action.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "chill_spd_1": {
+        "id": "chill_spd_1",
+        "name": "Chill Spd 1",
+        "description": "At start of turn, inflicts Spd-3 on foe on the enemy team with the highest Spd through its next action.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "chill_spd_2": {
+        "id": "chill_spd_2",
+        "name": "Chill Spd 2",
+        "description": "At start of turn, inflicts Spd-5 on foe on the enemy team with the highest Spd through its next action.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "chill_spd_3": {
+        "id": "chill_spd_3",
+        "name": "Chill Spd 3",
+        "description": "At start of turn, inflicts Spd-7 on foe on the enemy team with the highest Spd through its next action.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "chill_spd/def_1": {
+        "id": "chill_spd/def_1",
+        "name": "Chill Spd/Def 1",
+        "description": "At start of turn, inflicts Spd/Def-3 on foe on the enemy team with the highest Spd+Def total through its next action.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "chill_spd/def_2": {
+        "id": "chill_spd/def_2",
+        "name": "Chill Spd/Def 2",
+        "description": "At start of turn, inflicts Spd/Def-5 on foe on the enemy team with the highest Spd+Def total through its next action.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "chill_spd/res_1": {
+        "id": "chill_spd/res_1",
+        "name": "Chill Spd/Res 1",
+        "description": "At start of turn, inflicts Spd/Res-3 on foe on the enemy team with the highest Spd+Res total through its next action.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "chill_spd/res_2": {
+        "id": "chill_spd/res_2",
+        "name": "Chill Spd/Res 2",
+        "description": "At start of turn, inflicts Spd/Res-5 on foe on the enemy team with the highest Spd+Res total through its next action.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "chilling_seal": {
+        "id": "chilling_seal",
+        "name": "Chilling Seal",
+        "description": "At start of turn, if unit's HP \u2265 50%, inflicts Atk/Spd-6 on foe on the enemy team with the lowest Def through its next action. (Skill cannot be inherited.)",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "close_call_1": {
+        "id": "close_call_1",
+        "name": "Close Call 1",
+        "description": "If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding R\u00f8kkr area-of-effect Specials) by percentage = difference between stats \u00d7 2 (max 20%). If unit initiates combat, unit moves 1 space away after combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "close_call_2": {
+        "id": "close_call_2",
+        "name": "Close Call 2",
+        "description": "If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding R\u00f8kkr area-of-effect Specials) by percentage = difference between stats \u00d7 3 (max 30%). If unit initiates combat, unit moves 1 space away after combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "close_call_3": {
+        "id": "close_call_3",
+        "name": "Close Call 3",
+        "description": "If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding R\u00f8kkr area-of-effect Specials) by percentage = difference between stats \u00d7 4 (max 40%). If unit initiates combat, unit moves 1 space away after combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "crusader's_ward": {
+        "id": "crusader's_ward",
+        "name": "Crusader's Ward",
+        "description": "If unit receives consecutive attacks and foe's Range = 2, reduces damage from foe's second attack onward by 80%. (Skill cannot be inherited.)",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "daggerbreaker_1": {
+        "id": "daggerbreaker_1",
+        "name": "Daggerbreaker 1",
+        "description": "If unit's HP \u2265 90% in combat against a colorless dagger foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "daggerbreaker_2": {
+        "id": "daggerbreaker_2",
+        "name": "Daggerbreaker 2",
+        "description": "If unit's HP \u2265 70% in combat against a colorless dagger foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "daggerbreaker_3": {
+        "id": "daggerbreaker_3",
+        "name": "Daggerbreaker 3",
+        "description": "If unit's HP \u2265 50% in combat against a colorless dagger foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "daring_fighter_1": {
+        "id": "daring_fighter_1",
+        "name": "Daring Fighter 1",
+        "description": "If unit initiates combat, neutralizes effects that prevent unit's follow-up attacks during combat. If unit's HP \u2264 40% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "daring_fighter_2": {
+        "id": "daring_fighter_2",
+        "name": "Daring Fighter 2",
+        "description": "If unit initiates combat, neutralizes effects that prevent unit's follow-up attacks during combat. If unit's HP \u2264 60% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "daring_fighter_3": {
+        "id": "daring_fighter_3",
+        "name": "Daring Fighter 3",
+        "description": "If unit initiates combat, neutralizes effects that prevent unit's follow-up attacks during combat. If unit's HP \u2264 80% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "dazzling_staff_1": {
+        "id": "dazzling_staff_1",
+        "name": "Dazzling Staff 1",
+        "description": "At start of combat, if unit's HP = 100%, foe cannot counterattack.",
+        "sp": 60,
+        "restrictions": [
+            "staffonly"
+        ]
+    },
+    "dazzling_staff_2": {
+        "id": "dazzling_staff_2",
+        "name": "Dazzling Staff 2",
+        "description": "At start of combat, if unit's HP \u2265 50%, foe cannot counterattack.",
+        "sp": 120,
+        "restrictions": [
+            "staffonly"
+        ]
+    },
+    "dazzling_staff_3": {
+        "id": "dazzling_staff_3",
+        "name": "Dazzling Staff 3",
+        "description": "Foe cannot counterattack.",
+        "sp": 240,
+        "restrictions": [
+            "staffonly"
+        ]
+    },
+    "deadly_balance": {
+        "id": "deadly_balance",
+        "name": "Deadly Balance",
+        "description": "At start of combat, if unit's HP \u2265 50% or if\u3010Penalty\u3011is active on unit, inflicts Atk/Def-5 on foe and grants Special cooldown charge +1 per foe's attack during combat. (Only highest value applied. Does not stack. Special cooldown charge granted even if foe's attack deals 0 damage.)\u3010Penalty\u3011All effects that last \"on foe through its next action.\" Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "def_feint_1": {
+        "id": "def_feint_1",
+        "name": "Def Feint 1",
+        "description": "If a Rally Assist skill is used by unit or targets unit, inflicts Def-3 on foes in cardinal directions of unit through their next actions.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "def_feint_2": {
+        "id": "def_feint_2",
+        "name": "Def Feint 2",
+        "description": "If a Rally Assist skill is used by unit or targets unit, inflicts Def-5 on foes in cardinal directions of unit through their next actions.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "def_feint_3": {
+        "id": "def_feint_3",
+        "name": "Def Feint 3",
+        "description": "If a Rally Assist skill is used by unit or targets unit, inflicts Def-7 on foes in cardinal directions of unit through their next actions.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "def/res_link_1": {
+        "id": "def/res_link_1",
+        "name": "Def/Res Link 1",
+        "description": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Def/Res+2 to unit and target ally or unit and targeting ally for 1 turn.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "def/res_link_2": {
+        "id": "def/res_link_2",
+        "name": "Def/Res Link 2",
+        "description": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Def/Res+4 to unit and target ally or unit and targeting ally for 1 turn.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "def/res_link_3": {
+        "id": "def/res_link_3",
+        "name": "Def/Res Link 3",
+        "description": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Def/Res+6 to unit and target ally or unit and targeting ally for 1 turn.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "def/res_ruse_1": {
+        "id": "def/res_ruse_1",
+        "name": "Def/Res Ruse 1",
+        "description": "If a Rally Assist skill is used by unit or targets unit, inflicts Def/Res-1 and\u3010Guard\u3011on foes in cardinal directions of unit and target through their next actions.\u3010Guard\u3011Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "def/res_ruse_2": {
+        "id": "def/res_ruse_2",
+        "name": "Def/Res Ruse 2",
+        "description": "If a Rally Assist skill is used by unit or targets unit, inflicts Def/Res-3 and\u3010Guard\u3011on foes in cardinal directions of unit and target through their next actions.\u3010Guard\u3011Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "def/res_ruse_3": {
+        "id": "def/res_ruse_3",
+        "name": "Def/Res Ruse 3",
+        "description": "If a Rally Assist skill is used by unit or targets unit, inflicts Def/Res-5 and\u3010Guard\u3011on foes in cardinal directions of unit and target through their next actions.\u3010Guard\u3011Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "deluge_dance_1": {
+        "id": "deluge_dance_1",
+        "name": "Deluge Dance 1",
+        "description": "If Sing or Dance is used, grants Spd+2 and Res+3 to target.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "deluge_dance_2": {
+        "id": "deluge_dance_2",
+        "name": "Deluge Dance 2",
+        "description": "If Sing or Dance is used, grants Spd+3 and Res+4 to target.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "desperation_1": {
+        "id": "desperation_1",
+        "name": "Desperation 1",
+        "description": "If unit's HP \u2264 25% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "desperation_2": {
+        "id": "desperation_2",
+        "name": "Desperation 2",
+        "description": "If unit's HP \u2264 50% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "desperation_3": {
+        "id": "desperation_3",
+        "name": "Desperation 3",
+        "description": "If unit's HP \u2264 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "disarm_trap_1": {
+        "id": "disarm_trap_1",
+        "name": "Disarm Trap 1",
+        "description": "While attacking in Aether Raids, if unit ends movement on a space with a Bolt Trap or a Heavy Trap and that trap's level \u2264 1, cancels trap's effect.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "disarm_trap_2": {
+        "id": "disarm_trap_2",
+        "name": "Disarm Trap 2",
+        "description": "While attacking in Aether Raids, if unit ends movement on a space with a Bolt Trap or a Heavy Trap and that trap's level \u2264 3, cancels trap's effect.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "disarm_trap_3": {
+        "id": "disarm_trap_3",
+        "name": "Disarm Trap 3",
+        "description": "While attacking in Aether Raids, if unit ends movement on a space with a Bolt Trap or a Heavy Trap, cancels trap's effect.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "double_lion": {
+        "id": "double_lion",
+        "name": "Double Lion",
+        "description": "If unit's HP = 100% at start of combat and unit initiates combat, unit attacks twice, but deals 1 damage to unit after combat. (Does not stack.)",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "drag_back": {
+        "id": "drag_back",
+        "name": "Drag Back",
+        "description": "If unit initiates combat, unit moves 1 space away after combat.Target foe moves to unit's previous space.",
+        "sp": 150,
+        "restrictions": []
+    },
+    "dull_close_1": {
+        "id": "dull_close_1",
+        "name": "Dull Close 1",
+        "description": "At start of combat, if unit's HP = 100% and foe uses sword, lance, axe, dragonstone, or beast damage, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "dull_close_2": {
+        "id": "dull_close_2",
+        "name": "Dull Close 2",
+        "description": "At start of combat, if unit's HP \u2265 50% and foe uses sword, lance, axe, dragonstone, or beast damage, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "dull_close_3": {
+        "id": "dull_close_3",
+        "name": "Dull Close 3",
+        "description": "If foe uses sword, lance, axe, dragonstone, or beast damage, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "dull_ranged_1": {
+        "id": "dull_ranged_1",
+        "name": "Dull Ranged 1",
+        "description": "At start of combat, if unit's HP = 100% and foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "dull_ranged_2": {
+        "id": "dull_ranged_2",
+        "name": "Dull Ranged 2",
+        "description": "At start of combat, if unit's HP \u2265 50% and foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "dull_ranged_3": {
+        "id": "dull_ranged_3",
+        "name": "Dull Ranged 3",
+        "description": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "earth_dance_1": {
+        "id": "earth_dance_1",
+        "name": "Earth Dance 1",
+        "description": "If Sing or Dance is used, grants Def+3 to target.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "earth_dance_2": {
+        "id": "earth_dance_2",
+        "name": "Earth Dance 2",
+        "description": "If Sing or Dance is used, grants Def+4 to target.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "earth_dance_3": {
+        "id": "earth_dance_3",
+        "name": "Earth Dance 3",
+        "description": "If Sing or Dance is used, grants Def+5 to target.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "escape_route_1": {
+        "id": "escape_route_1",
+        "name": "Escape Route 1",
+        "description": "If unit's HP \u2264 30%, unit can move to a space adjacent to any ally.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "escape_route_2": {
+        "id": "escape_route_2",
+        "name": "Escape Route 2",
+        "description": "If unit's HP \u2264 40%, unit can move to a space adjacent to any ally.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "escape_route_3": {
+        "id": "escape_route_3",
+        "name": "Escape Route 3",
+        "description": "If unit's HP \u2264 50%, unit can move to a space adjacent to any ally.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "even_pulse_tie_1": {
+        "id": "even_pulse_tie_1",
+        "name": "Even Pulse Tie 1",
+        "description": "At start of even-numbered turns, if any foe's HP+5 \u2264 unit's HP and that foe's Special is ready, inflicts Special cooldown count+2 on foe with the lowest HP among those foes. (Cannot exceed the foe's maximum Special cooldown.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "even_pulse_tie_2": {
+        "id": "even_pulse_tie_2",
+        "name": "Even Pulse Tie 2",
+        "description": "At start of even-numbered turns, if any foe's HP+3 \u2264 unit's HP and that foe's Special is ready, inflicts Special cooldown count+2 on foe with the lowest HP among those foes. (Cannot exceed the foe's maximum Special cooldown.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "even_pulse_tie_3": {
+        "id": "even_pulse_tie_3",
+        "name": "Even Pulse Tie 3",
+        "description": "At start of even-numbered turns, if any foe's HP+1 \u2264 unit's HP and that foe's Special is ready, inflicts Special cooldown count+2 on foe with the lowest HP among those foes. (Cannot exceed the foe's maximum Special cooldown.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "fireflood_dance_1": {
+        "id": "fireflood_dance_1",
+        "name": "Fireflood Dance 1",
+        "description": "If Sing or Dance is used, grants Atk+2 and Res+3 to target.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "fireflood_dance_2": {
+        "id": "fireflood_dance_2",
+        "name": "Fireflood Dance 2",
+        "description": "If Sing or Dance is used, grants Atk+3 and Res+4 to target.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "firestorm_dance_1": {
+        "id": "firestorm_dance_1",
+        "name": "Firestorm Dance 1",
+        "description": "If Sing or Dance is used, grants Atk/Spd+2 to target.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "firestorm_dance_2": {
+        "id": "firestorm_dance_2",
+        "name": "Firestorm Dance 2",
+        "description": "If Sing or Dance is used, grants Atk/Spd+3 to target.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "flier_formation_1": {
+        "id": "flier_formation_1",
+        "name": "Flier Formation 1",
+        "description": "If unit's HP = 100%, unit can move to a space adjacent to a flying ally within 2 spaces.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "flier_formation_2": {
+        "id": "flier_formation_2",
+        "name": "Flier Formation 2",
+        "description": "If unit's HP \u2265 50%, unit can move to a space adjacent to a flying ally within 2 spaces.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "flier_formation_3": {
+        "id": "flier_formation_3",
+        "name": "Flier Formation 3",
+        "description": "Unit can move to a space adjacent to a flying ally within 2 spaces.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "follow-up_ring": {
+        "id": "follow-up_ring",
+        "name": "Follow-Up Ring",
+        "description": "At start of combat, if unit's HP \u2265 50%, unit makes a guaranteed follow-up attack.(Skill cannot be inherited.)",
+        "sp": 200,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "freezing_seal": {
+        "id": "freezing_seal",
+        "name": "Freezing Seal",
+        "description": "At start of turn, if unit's HP \u2265 50%, inflicts Atk/Spd-6 on foe on the enemy team with the lowest Res through its next action.",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "g_tomebreaker_1": {
+        "id": "g_tomebreaker_1",
+        "name": "G Tomebreaker 1",
+        "description": "If unit's HP \u2265 90% in combat against a green tome foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "g_tomebreaker_2": {
+        "id": "g_tomebreaker_2",
+        "name": "G Tomebreaker 2",
+        "description": "If unit's HP \u2265 70% in combat against a green tome foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "g_tomebreaker_3": {
+        "id": "g_tomebreaker_3",
+        "name": "G Tomebreaker 3",
+        "description": "If unit's HP \u2265 50% in combat against a green tome foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "gale_dance_1": {
+        "id": "gale_dance_1",
+        "name": "Gale Dance 1",
+        "description": "If Sing or Dance is used, grants Spd+2 to target.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "gale_dance_2": {
+        "id": "gale_dance_2",
+        "name": "Gale Dance 2",
+        "description": "If Sing or Dance is used, grants Spd+3 to target.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "gale_dance_3": {
+        "id": "gale_dance_3",
+        "name": "Gale Dance 3",
+        "description": "If Sing or Dance is used, grants Spd+4 to target.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "geyser_dance_1": {
+        "id": "geyser_dance_1",
+        "name": "Geyser Dance 1",
+        "description": "If Sing or Dance is used, grants Def/Res+3 to target.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "geyser_dance_2": {
+        "id": "geyser_dance_2",
+        "name": "Geyser Dance 2",
+        "description": "If Sing or Dance is used, grants Def/Res+4 to target.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "guard_1": {
+        "id": "guard_1",
+        "name": "Guard 1",
+        "description": "At start of combat, if unit's HP = 100%, inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)",
+        "sp": 50,
+        "restrictions": []
+    },
+    "guard_2": {
+        "id": "guard_2",
+        "name": "Guard 2",
+        "description": "At start of combat, if unit's HP \u2265 90%, inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)",
+        "sp": 100,
+        "restrictions": []
+    },
+    "guard_3": {
+        "id": "guard_3",
+        "name": "Guard 3",
+        "description": "At start of combat, if unit's HP \u2265 80%, inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)",
+        "sp": 200,
+        "restrictions": []
+    },
+    "guard_bearing_1": {
+        "id": "guard_bearing_1",
+        "name": "Guard Bearing 1",
+        "description": "During unit's first combat in enemy phase, if foe initiates combat, reduces damage from foe's first attack by 30%.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "guard_bearing_2": {
+        "id": "guard_bearing_2",
+        "name": "Guard Bearing 2",
+        "description": "During unit's first combat in enemy phase, if foe initiates combat, reduces damage from foe's first attack by 40%.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "guard_bearing_3": {
+        "id": "guard_bearing_3",
+        "name": "Guard Bearing 3",
+        "description": "During unit's first combat in enemy phase, if foe initiates combat, reduces damage from foe's first attack by 50%.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "hit_and_run": {
+        "id": "hit_and_run",
+        "name": "Hit and Run",
+        "description": "If unit initiates combat, unit moves 1 space away after combat.",
+        "sp": 150,
+        "restrictions": []
+    },
+    "holy_war's_end": {
+        "id": "holy_war's_end",
+        "name": "Holy War's End",
+        "description": "If unit's HP \u2265 50% and foe initiates combat, unit makes a guaranteed follow-up attack before foe can counterattack.",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "killing_intent": {
+        "id": "killing_intent",
+        "name": "Killing Intent",
+        "description": "At start of combat, if foe's HP < 100% or if\u3010Penalty\u3011is active on foe, inflicts Spd/Res-5 on foe, and if unit initiates combat, unit can make a follow-up attack before foe can counterattack.\u3010Penalty\u3011All effects that last \"on foe through its next action.\" Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "knock_back": {
+        "id": "knock_back",
+        "name": "Knock Back",
+        "description": "If unit initiates combat, target foe moves 1 space away after combat.",
+        "sp": 150,
+        "restrictions": []
+    },
+    "lancebreaker_1": {
+        "id": "lancebreaker_1",
+        "name": "Lancebreaker 1",
+        "description": "If unit's HP \u2265 90% in combat against a lance foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "lancebreaker_2": {
+        "id": "lancebreaker_2",
+        "name": "Lancebreaker 2",
+        "description": "If unit's HP \u2265 70% in combat against a lance foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "lancebreaker_3": {
+        "id": "lancebreaker_3",
+        "name": "Lancebreaker 3",
+        "description": "If unit's HP \u2265 50% in combat against a lance foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "light_and_dark": {
+        "id": "light_and_dark",
+        "name": "Light and Dark",
+        "description": "Inflicts Atk/Spd/Def/Res-2 on foe, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.), and disables foe's skills that \"calculate damage using the lower of foe's Def or Res\" during combat.",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "live_for_bounty": {
+        "id": "live_for_bounty",
+        "name": "Live for Bounty",
+        "description": "If unit survives, get 1.5x shards/crystals from a Training Tower map.(Only highest value applied. Does not stack.)",
+        "sp": 100,
+        "restrictions": []
+    },
+    "live_for_honor": {
+        "id": "live_for_honor",
+        "name": "Live for Honor",
+        "description": "If unit survives, get 1.5x badges from a Training Tower map.(Only highest value applied. Does not stack.)",
+        "sp": 100,
+        "restrictions": []
+    },
+    "live_to_serve_1": {
+        "id": "live_to_serve_1",
+        "name": "Live to Serve 1",
+        "description": "When healing an ally with a staff, restores HP to unit = 50% of HP restored to target.",
+        "sp": 40,
+        "restrictions": [
+            "staffonly"
+        ]
+    },
+    "live_to_serve_2": {
+        "id": "live_to_serve_2",
+        "name": "Live to Serve 2",
+        "description": "When healing an ally with a staff, restores HP to unit = 75% of HP restored to target.",
+        "sp": 80,
+        "restrictions": [
+            "staffonly"
+        ]
+    },
+    "live_to_serve_3": {
+        "id": "live_to_serve_3",
+        "name": "Live to Serve 3",
+        "description": "When healing an ally with a staff, restores HP to unit = HP restored to target.",
+        "sp": 160,
+        "restrictions": [
+            "staffonly"
+        ]
+    },
+    "lull_atk/def_1": {
+        "id": "lull_atk/def_1",
+        "name": "Lull Atk/Def 1",
+        "description": "Inflicts Atk/Def-1 on foe and neutralizes foe's bonuses to Atk/Def (from skills like Fortify, Rally, etc.) during combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "lull_atk/def_2": {
+        "id": "lull_atk/def_2",
+        "name": "Lull Atk/Def 2",
+        "description": "Inflicts Atk/Def-2 on foe and neutralizes foe's bonuses to Atk/Def (from skills like Fortify, Rally, etc.) during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "lull_atk/def_3": {
+        "id": "lull_atk/def_3",
+        "name": "Lull Atk/Def 3",
+        "description": "Inflicts Atk/Def-3 on foe and neutralizes foe's bonuses to Atk/Def (from skills like Fortify, Rally, etc.) during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "lull_atk/res_1": {
+        "id": "lull_atk/res_1",
+        "name": "Lull Atk/Res 1",
+        "description": "Inflicts Atk/Res-1 on foe and neutralizes foe's bonuses to Atk/Res (from skills like Fortify, Rally, etc.) during combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "lull_atk/res_2": {
+        "id": "lull_atk/res_2",
+        "name": "Lull Atk/Res 2",
+        "description": "Inflicts Atk/Res-2 on foe and neutralizes foe's bonuses to Atk/Res (from skills like Fortify, Rally, etc.) during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "lull_atk/res_3": {
+        "id": "lull_atk/res_3",
+        "name": "Lull Atk/Res 3",
+        "description": "Inflicts Atk/Res-3 on foe and neutralizes foe's bonuses to Atk/Res (from skills like Fortify, Rally, etc.) during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "lull_atk/spd_1": {
+        "id": "lull_atk/spd_1",
+        "name": "Lull Atk/Spd 1",
+        "description": "Inflicts Atk/Spd-1 on foe and neutralizes foe's bonuses to Atk/Spd (from skills like Fortify, Rally, etc.) during combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "lull_atk/spd_2": {
+        "id": "lull_atk/spd_2",
+        "name": "Lull Atk/Spd 2",
+        "description": "Inflicts Atk/Spd-2 on foe and neutralizes foe's bonuses to Atk/Spd (from skills like Fortify, Rally, etc.) during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "lull_atk/spd_3": {
+        "id": "lull_atk/spd_3",
+        "name": "Lull Atk/Spd 3",
+        "description": "Inflicts Atk/Spd-3 on foe and neutralizes foe's bonuses to Atk/Spd (from skills like Fortify, Rally, etc.) during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "lull_spd/def_1": {
+        "id": "lull_spd/def_1",
+        "name": "Lull Spd/Def 1",
+        "description": "Inflicts Spd/Def-1 on foe and neutralizes foe's bonuses to Spd/Def (from skills like Fortify, Rally, etc.) during combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "lull_spd/def_2": {
+        "id": "lull_spd/def_2",
+        "name": "Lull Spd/Def 2",
+        "description": "Inflicts Spd/Def-2 on foe and neutralizes foe's bonuses to Spd/Def (from skills like Fortify, Rally, etc.) during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "lull_spd/def_3": {
+        "id": "lull_spd/def_3",
+        "name": "Lull Spd/Def 3",
+        "description": "Inflicts Spd/Def-3 on foe and neutralizes foe's bonuses to Spd/Def (from skills like Fortify, Rally, etc.) during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "lull_spd/res_1": {
+        "id": "lull_spd/res_1",
+        "name": "Lull Spd/Res 1",
+        "description": "Inflicts Spd/Res-1 on foe and neutralizes foe's bonuses to Spd/Res (from skills like Fortify, Rally, etc.) during combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "lull_spd/res_2": {
+        "id": "lull_spd/res_2",
+        "name": "Lull Spd/Res 2",
+        "description": "Inflicts Spd/Res-2 on foe and neutralizes foe's bonuses to Spd/Res (from skills like Fortify, Rally, etc.) during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "lull_spd/res_3": {
+        "id": "lull_spd/res_3",
+        "name": "Lull Spd/Res 3",
+        "description": "Inflicts Spd/Res-3 on foe and neutralizes foe's bonuses to Spd/Res (from skills like Fortify, Rally, etc.) during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "lunar_brace": {
+        "id": "lunar_brace",
+        "name": "Lunar Brace",
+        "description": "Slows Special trigger (cooldown count+1).Deals damage = 50% of foe's Def when Special triggers.",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "lunge": {
+        "id": "lunge",
+        "name": "Lunge",
+        "description": "If unit initiates combat, unit and target foe swap spaces after combat.",
+        "sp": 150,
+        "restrictions": []
+    },
+    "mystic_boost_1": {
+        "id": "mystic_boost_1",
+        "name": "Mystic Boost 1",
+        "description": "Disables foe's skills that \"calculate damage using the lower of foe's Def or Res\" and \"calculate damage from staff like other weapons.\" Restores 2 HP after combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "mystic_boost_2": {
+        "id": "mystic_boost_2",
+        "name": "Mystic Boost 2",
+        "description": "Disables foe's skills that \"calculate damage using the lower of foe's Def or Res\" and \"calculate damage from staff like other weapons.\" Restores 4 HP after combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "mystic_boost_3": {
+        "id": "mystic_boost_3",
+        "name": "Mystic Boost 3",
+        "description": "Disables foe's skills that \"calculate damage using the lower of foe's Def or Res\" and \"calculate damage from staff like other weapons.\" Restores 6 HP after combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "null_c-disrupt_1": {
+        "id": "null_c-disrupt_1",
+        "name": "Null C-Disrupt 1",
+        "description": "At start of combat, if unit's HP = 100%, neutralizes effects that prevent unit's counterattacks during combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "null_c-disrupt_2": {
+        "id": "null_c-disrupt_2",
+        "name": "Null C-Disrupt 2",
+        "description": "At start of combat, if unit's HP \u2265 50%, neutralizes effects that prevent unit's counterattacks during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "null_c-disrupt_3": {
+        "id": "null_c-disrupt_3",
+        "name": "Null C-Disrupt 3",
+        "description": "Neutralizes effects that prevent unit's counterattacks during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "null_follow-up_1": {
+        "id": "null_follow-up_1",
+        "name": "Null Follow-Up 1",
+        "description": "At start of combat, if unit's HP = 100%, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "null_follow-up_2": {
+        "id": "null_follow-up_2",
+        "name": "Null Follow-Up 2",
+        "description": "At start of combat, if unit's HP \u2265 50%, neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "null_follow-up_3": {
+        "id": "null_follow-up_3",
+        "name": "Null Follow-Up 3",
+        "description": "Neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "obstruct_1": {
+        "id": "obstruct_1",
+        "name": "Obstruct 1",
+        "description": "If unit's HP \u2265 90%, foes cannot move through spaces adjacent to unit.(Does not affect foes with Pass skills.)",
+        "sp": 50,
+        "restrictions": []
+    },
+    "obstruct_2": {
+        "id": "obstruct_2",
+        "name": "Obstruct 2",
+        "description": "If unit's HP \u2265 70%, foes cannot move through spaces adjacent to unit.(Does not affect foes with Pass skills.)",
+        "sp": 100,
+        "restrictions": []
+    },
+    "obstruct_3": {
+        "id": "obstruct_3",
+        "name": "Obstruct 3",
+        "description": "If unit's HP \u2265 50%, foes cannot move through spaces adjacent to unit.(Does not affect foes with Pass skills.)",
+        "sp": 200,
+        "restrictions": []
+    },
+    "odd_follow-up_1": {
+        "id": "odd_follow-up_1",
+        "name": "Odd Follow-Up 1",
+        "description": "If it is an odd-numbered turn and unit's HP = 100%, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "odd_follow-up_2": {
+        "id": "odd_follow-up_2",
+        "name": "Odd Follow-Up 2",
+        "description": "If it is an odd-numbered turn and unit's HP \u2265 50%, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "odd_follow-up_3": {
+        "id": "odd_follow-up_3",
+        "name": "Odd Follow-Up 3",
+        "description": "If it is an odd-numbered turn, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "odd_pulse_tie_1": {
+        "id": "odd_pulse_tie_1",
+        "name": "Odd Pulse Tie 1",
+        "description": "At start of odd-numbered turns, if any foe's HP+5 \u2264 unit's HP and that foe's Special is ready, inflicts Special cooldown count+2 on foe with the lowest HP among those foes. (Cannot exceed the foe's maximum Special cooldown.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "odd_pulse_tie_2": {
+        "id": "odd_pulse_tie_2",
+        "name": "Odd Pulse Tie 2",
+        "description": "At start of odd-numbered turns, if any foe's HP+3 \u2264 unit's HP and that foe's Special is ready, inflicts Special cooldown count+2 on foe with the lowest HP among those foes. (Cannot exceed the foe's maximum Special cooldown.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "odd_pulse_tie_3": {
+        "id": "odd_pulse_tie_3",
+        "name": "Odd Pulse Tie 3",
+        "description": "At start of odd-numbered turns, if any foe's HP+1 \u2264 unit's HP and that foe's Special is ready, inflicts Special cooldown count+2 on foe with the lowest HP among those foes. (Cannot exceed the foe's maximum Special cooldown.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "pass_1": {
+        "id": "pass_1",
+        "name": "Pass 1",
+        "description": "If unit's HP \u2265 75%, unit can move through foes' spaces.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "pass_2": {
+        "id": "pass_2",
+        "name": "Pass 2",
+        "description": "If unit's HP \u2265 50%, unit can move through foes' spaces.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "pass_3": {
+        "id": "pass_3",
+        "name": "Pass 3",
+        "description": "If unit's HP \u2265 25%, unit can move through foes' spaces.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "pegasus_flight_1": {
+        "id": "pegasus_flight_1",
+        "name": "Pegasus Flight 1",
+        "description": "At start of combat, if unit's Spd \u2265 foe's Spd-7, inflicts penalty on foe's Atk/Def during combat = 30% of difference between Res stats (unit\u2019s Res minus foe\u2019s Res) before combat. (Maximum penalty of -3.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "pegasus_flight_2": {
+        "id": "pegasus_flight_2",
+        "name": "Pegasus Flight 2",
+        "description": "At start of combat, if unit's Spd \u2265 foe's Spd-7, inflicts penalty on foe's Atk/Def during combat = 40% of difference between Res stats (unit\u2019s Res minus foe\u2019s Res) before combat. (Maximum penalty of -5.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "pegasus_flight_3": {
+        "id": "pegasus_flight_3",
+        "name": "Pegasus Flight 3",
+        "description": "At start of combat, if unit's Spd \u2265 foe's Spd-7, inflicts penalty on foe's Atk/Def during combat = 50% of difference between Res stats (unit\u2019s Res minus foe\u2019s Res) before combat. (Maximum penalty of -7.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "poison_strike_1": {
+        "id": "poison_strike_1",
+        "name": "Poison Strike 1",
+        "description": "If unit initiates combat, deals 4 damage to foe after combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "poison_strike_2": {
+        "id": "poison_strike_2",
+        "name": "Poison Strike 2",
+        "description": "If unit initiates combat, deals 7 damage to foe after combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "poison_strike_3": {
+        "id": "poison_strike_3",
+        "name": "Poison Strike 3",
+        "description": "If unit initiates combat, deals 10 damage to foe after combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "quick_riposte_1": {
+        "id": "quick_riposte_1",
+        "name": "Quick Riposte 1",
+        "description": "If unit's HP \u2265 90% and foe initiates combat, unit makes a guaranteed follow-up attack.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "quick_riposte_2": {
+        "id": "quick_riposte_2",
+        "name": "Quick Riposte 2",
+        "description": "If unit's HP \u2265 80% and foe initiates combat, unit makes a guaranteed follow-up attack.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "quick_riposte_3": {
+        "id": "quick_riposte_3",
+        "name": "Quick Riposte 3",
+        "description": "If unit's HP \u2265 70% and foe initiates combat, unit makes a guaranteed follow-up attack.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "r_tomebreaker_1": {
+        "id": "r_tomebreaker_1",
+        "name": "R Tomebreaker 1",
+        "description": "If unit's HP \u2265 90% in combat against a red tome foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "r_tomebreaker_2": {
+        "id": "r_tomebreaker_2",
+        "name": "R Tomebreaker 2",
+        "description": "If unit's HP \u2265 70% in combat against a red tome foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "r_tomebreaker_3": {
+        "id": "r_tomebreaker_3",
+        "name": "R Tomebreaker 3",
+        "description": "If unit's HP \u2265 50% in combat against a red tome foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "raging_storm": {
+        "id": "raging_storm",
+        "name": "Raging Storm",
+        "description": "If unit initiates combat, grants another action to unit if unit is not adjacent to an ally after combat. (Once per turn. If a skill that moves unit after combat is used, references unit's position after that movement occurs.) If foe uses dragonstone or beast damage and unit is not adjacent to an ally, unit makes a guaranteed follow-up attack during combat.",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "recover_ring": {
+        "id": "recover_ring",
+        "name": "Recover Ring",
+        "description": "At start of turn, restores 10 HP.(Skill cannot be inherited.)",
+        "sp": 200,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "renewal_1": {
+        "id": "renewal_1",
+        "name": "Renewal 1",
+        "description": "At the start of every fourth turn, restores 10 HP.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "renewal_2": {
+        "id": "renewal_2",
+        "name": "Renewal 2",
+        "description": "At the start of every third turn, restores 10 HP.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "renewal_3": {
+        "id": "renewal_3",
+        "name": "Renewal 3",
+        "description": "At start of odd-numbered turns, restores 10 HP.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "repel_1": {
+        "id": "repel_1",
+        "name": "Repel 1",
+        "description": "If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding R\u00f8kkr area-of-effect Specials) by percentage = difference between stats \u00d7 2 (max 20%). If unit initiates combat, foe is moved 1 space away after combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "repel_2": {
+        "id": "repel_2",
+        "name": "Repel 2",
+        "description": "If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding R\u00f8kkr area-of-effect Specials) by percentage = difference between stats \u00d7 3 (max 30%). If unit initiates combat, foe is moved 1 space away after combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "repel_3": {
+        "id": "repel_3",
+        "name": "Repel 3",
+        "description": "If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding R\u00f8kkr area-of-effect Specials) by percentage = difference between stats \u00d7 4 (max 40%). If unit initiates combat, foe is moved 1 space away after combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "res_feint_1": {
+        "id": "res_feint_1",
+        "name": "Res Feint 1",
+        "description": "If a Rally Assist skill is used by unit or targets unit, inflicts Res-3 on foes in cardinal directions of unit through their next actions.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "res_feint_2": {
+        "id": "res_feint_2",
+        "name": "Res Feint 2",
+        "description": "If a Rally Assist skill is used by unit or targets unit, inflicts Res-5 on foes in cardinal directions of unit through their next actions.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "res_feint_3": {
+        "id": "res_feint_3",
+        "name": "Res Feint 3",
+        "description": "If a Rally Assist skill is used by unit or targets unit, inflicts Res-7 on foes in cardinal directions of unit through their next actions.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "rockslide_dance_1": {
+        "id": "rockslide_dance_1",
+        "name": "Rockslide Dance 1",
+        "description": "If Sing or Dance is used, grants Spd+2 and Def+3 to target.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "rockslide_dance_2": {
+        "id": "rockslide_dance_2",
+        "name": "Rockslide Dance 2",
+        "description": "If Sing or Dance is used, grants Spd+3 and Def+4 to target.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "s_drink": {
+        "id": "s_drink",
+        "name": "S Drink",
+        "description": "At the start of turn 1, restores 99 HP and grants Special cooldown count-1.",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "sabotage_atk_1": {
+        "id": "sabotage_atk_1",
+        "name": "Sabotage Atk 1",
+        "description": "At start of turn, if any foe's Res \u2264 unit's Res-3 and that foe is adjacent to another foe, inflicts Atk-3 on that foe through its next action.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "sabotage_atk_2": {
+        "id": "sabotage_atk_2",
+        "name": "Sabotage Atk 2",
+        "description": "At start of turn, if any foe's Res \u2264 unit's Res-3 and that foe is adjacent to another foe, inflicts Atk-5 on that foe through its next action.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "sabotage_atk_3": {
+        "id": "sabotage_atk_3",
+        "name": "Sabotage Atk 3",
+        "description": "At start of turn, if any foe's Res \u2264 unit's Res-3 and that foe is adjacent to another foe, inflicts Atk-7 on that foe through its next action.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "sabotage_def_1": {
+        "id": "sabotage_def_1",
+        "name": "Sabotage Def 1",
+        "description": "At start of turn, if any foe's Res \u2264 unit's Res-3 and that foe is adjacent to another foe, inflicts Def-3 on that foe through its next action.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "sabotage_def_2": {
+        "id": "sabotage_def_2",
+        "name": "Sabotage Def 2",
+        "description": "At start of turn, if any foe's Res \u2264 unit's Res-3 and that foe is adjacent to another foe, inflicts Def-5 on that foe through its next action.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "sabotage_def_3": {
+        "id": "sabotage_def_3",
+        "name": "Sabotage Def 3",
+        "description": "At start of turn, if any foe's Res \u2264 unit's Res-3 and that foe is adjacent to another foe, inflicts Def-7 on that foe through its next action.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "sabotage_res_1": {
+        "id": "sabotage_res_1",
+        "name": "Sabotage Res 1",
+        "description": "At start of turn, if any foe's Res \u2264 unit's Res-3 and that foe is adjacent to another foe, inflicts Res-3 on that foe through its next action.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "sabotage_res_2": {
+        "id": "sabotage_res_2",
+        "name": "Sabotage Res 2",
+        "description": "At start of turn, if any foe's Res \u2264 unit's Res-3 and that foe is adjacent to another foe, inflicts Res-5 on that foe through its next action.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "sabotage_res_3": {
+        "id": "sabotage_res_3",
+        "name": "Sabotage Res 3",
+        "description": "At start of turn, if any foe's Res \u2264 unit's Res-3 and that foe is adjacent to another foe, inflicts Res-7 on that foe through its next action.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "sabotage_spd_1": {
+        "id": "sabotage_spd_1",
+        "name": "Sabotage Spd 1",
+        "description": "At start of turn, if any foe's Res \u2264 unit\u2019s Res-3 and that foe is adjacent to another foe, inflicts Spd-3 on that foe through its next action.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "sabotage_spd_2": {
+        "id": "sabotage_spd_2",
+        "name": "Sabotage Spd 2",
+        "description": "At start of turn, if any foe's Res \u2264 unit\u2019s Res-3 and that foe is adjacent to another foe, inflicts Spd-5 on that foe through its next action.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "sabotage_spd_3": {
+        "id": "sabotage_spd_3",
+        "name": "Sabotage Spd 3",
+        "description": "At start of turn, if any foe's Res \u2264 unit\u2019s Res-3 and that foe is adjacent to another foe, inflicts Spd-7 on that foe through its next action.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "sacae's_blessing": {
+        "id": "sacae's_blessing",
+        "name": "Sacae's Blessing",
+        "description": "If foe uses sword, lance, or axe, foe cannot counterattack.(Skill cannot be inherited.)",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "seal_atk_1": {
+        "id": "seal_atk_1",
+        "name": "Seal Atk 1",
+        "description": "Inflicts Atk-3 on foe through its next action after combat.",
+        "sp": 40,
+        "restrictions": []
+    },
+    "seal_atk_2": {
+        "id": "seal_atk_2",
+        "name": "Seal Atk 2",
+        "description": "Inflicts Atk-5 on foe through its next action after combat.",
+        "sp": 80,
+        "restrictions": []
+    },
+    "seal_atk_3": {
+        "id": "seal_atk_3",
+        "name": "Seal Atk 3",
+        "description": "Inflicts Atk-7 on foe through its next action after combat.",
+        "sp": 160,
+        "restrictions": []
+    },
+    "seal_atk/def_1": {
+        "id": "seal_atk/def_1",
+        "name": "Seal Atk/Def 1",
+        "description": "Inflicts Atk/Def-3 on foe through its next action after combat.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "seal_atk/def_2": {
+        "id": "seal_atk/def_2",
+        "name": "Seal Atk/Def 2",
+        "description": "Inflicts Atk/Def-5 on foe through its next action after combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "seal_atk/spd_1": {
+        "id": "seal_atk/spd_1",
+        "name": "Seal Atk/Spd 1",
+        "description": "Inflicts Atk/Spd-3 on foe through its next action after combat.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "seal_atk/spd_2": {
+        "id": "seal_atk/spd_2",
+        "name": "Seal Atk/Spd 2",
+        "description": "Inflicts Atk/Spd-5 on foe through its next action after combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "seal_def_1": {
+        "id": "seal_def_1",
+        "name": "Seal Def 1",
+        "description": "Inflicts Def-3 on foe through its next action after combat.",
+        "sp": 40,
+        "restrictions": []
+    },
+    "seal_def_2": {
+        "id": "seal_def_2",
+        "name": "Seal Def 2",
+        "description": "Inflicts Def-5 on foe through its next action after combat.",
+        "sp": 80,
+        "restrictions": []
+    },
+    "seal_def_3": {
+        "id": "seal_def_3",
+        "name": "Seal Def 3",
+        "description": "Inflicts Def-7 on foe through its next action after combat.",
+        "sp": 160,
+        "restrictions": []
+    },
+    "seal_def/res_1": {
+        "id": "seal_def/res_1",
+        "name": "Seal Def/Res 1",
+        "description": "Inflicts Def/Res-3 on foe through its next action after combat.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "seal_def/res_2": {
+        "id": "seal_def/res_2",
+        "name": "Seal Def/Res 2",
+        "description": "Inflicts Def/Res-5 on foe through its next action after combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "seal_res_1": {
+        "id": "seal_res_1",
+        "name": "Seal Res 1",
+        "description": "Inflicts Res-3 on foe through its next action after combat.",
+        "sp": 40,
+        "restrictions": []
+    },
+    "seal_res_2": {
+        "id": "seal_res_2",
+        "name": "Seal Res 2",
+        "description": "Inflicts Res-5 on foe through its next action after combat.",
+        "sp": 80,
+        "restrictions": []
+    },
+    "seal_res_3": {
+        "id": "seal_res_3",
+        "name": "Seal Res 3",
+        "description": "Inflicts Res-7 on foe through its next action after combat.",
+        "sp": 160,
+        "restrictions": []
+    },
+    "seal_spd_1": {
+        "id": "seal_spd_1",
+        "name": "Seal Spd 1",
+        "description": "Inflicts Spd-3 on foe through its next action after combat.",
+        "sp": 40,
+        "restrictions": []
+    },
+    "seal_spd_2": {
+        "id": "seal_spd_2",
+        "name": "Seal Spd 2",
+        "description": "Inflicts Spd-5 on foe through its next action after combat.",
+        "sp": 80,
+        "restrictions": []
+    },
+    "seal_spd_3": {
+        "id": "seal_spd_3",
+        "name": "Seal Spd 3",
+        "description": "Inflicts Spd-7 on foe through its next action after combat.",
+        "sp": 160,
+        "restrictions": []
+    },
+    "seal_spd/def_1": {
+        "id": "seal_spd/def_1",
+        "name": "Seal Spd/Def 1",
+        "description": "Inflicts Spd/Def-3 on foe through its next action after combat.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "seal_spd/def_2": {
+        "id": "seal_spd/def_2",
+        "name": "Seal Spd/Def 2",
+        "description": "Inflicts Spd/Def-5 on foe through its next action after combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "seal_spd/res_1": {
+        "id": "seal_spd/res_1",
+        "name": "Seal Spd/Res 1",
+        "description": "Inflicts Spd/Res-3 on foe through its next action after combat.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "seal_spd/res_2": {
+        "id": "seal_spd/res_2",
+        "name": "Seal Spd/Res 2",
+        "description": "Inflicts Spd/Res-5 on foe through its next action after combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "shield_pulse_1": {
+        "id": "shield_pulse_1",
+        "name": "Shield Pulse 1",
+        "description": "At the start of turn 1, if foe's attack triggers Special, grants Special cooldown count-1.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "shield_pulse_2": {
+        "id": "shield_pulse_2",
+        "name": "Shield Pulse 2",
+        "description": "At the start of turn 1, if foe's attack triggers Special, grants Special cooldown count-1. Reduces damage dealt to unit by 5 when Special triggers.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "shield_pulse_3": {
+        "id": "shield_pulse_3",
+        "name": "Shield Pulse 3",
+        "description": "At the start of turn 1, if foe's attack triggers Special, grants Special cooldown count-2. Reduces damage dealt to unit by 5 when Special triggers.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "solar_brace": {
+        "id": "solar_brace",
+        "name": "Solar Brace",
+        "description": "Restores HP = 30% of damage dealt when Special triggers.(Stacks with effects of skills like Sol.)",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "soul_of_zofia": {
+        "id": "soul_of_zofia",
+        "name": "Soul of Zofia",
+        "description": "Neutralizes effects that guarantee foe's follow-up attacks or prevent unit's follow-up attacks during combat. If unit's HP \u2264 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "spd/def_link_1": {
+        "id": "spd/def_link_1",
+        "name": "Spd/Def Link 1",
+        "description": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Spd/Def+2 to unit and target ally or unit and targeting ally for 1 turn.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "spd/def_link_2": {
+        "id": "spd/def_link_2",
+        "name": "Spd/Def Link 2",
+        "description": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Spd/Def+4 to unit and target ally or unit and targeting ally for 1 turn.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "spd/def_link_3": {
+        "id": "spd/def_link_3",
+        "name": "Spd/Def Link 3",
+        "description": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Spd/Def+6 to unit and target ally or unit and targeting ally for 1 turn.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "spd/def_ruse_1": {
+        "id": "spd/def_ruse_1",
+        "name": "Spd/Def Ruse 1",
+        "description": "If a Rally Assist skill is used by unit or targets unit, inflicts Spd/Def-1 and\u3010Guard\u3011on foes in cardinal directions of unit and target through their next actions.\u3010Guard\u3011Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "spd/def_ruse_2": {
+        "id": "spd/def_ruse_2",
+        "name": "Spd/Def Ruse 2",
+        "description": "If a Rally Assist skill is used by unit or targets unit, inflicts Spd/Def-3 and\u3010Guard\u3011on foes in cardinal directions of unit and target through their next actions.\u3010Guard\u3011Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "spd/def_ruse_3": {
+        "id": "spd/def_ruse_3",
+        "name": "Spd/Def Ruse 3",
+        "description": "If a Rally Assist skill is used by unit or targets unit, inflicts Spd/Def-5 and\u3010Guard\u3011on foes in cardinal directions of unit and target through their next actions.\u3010Guard\u3011Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "spd/def_snag_1": {
+        "id": "spd/def_snag_1",
+        "name": "Spd/Def Snag 1",
+        "description": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, inflicts Spd/Def-2 on nearest foes within 4 spaces of both unit and target through their next actions.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "spd/def_snag_2": {
+        "id": "spd/def_snag_2",
+        "name": "Spd/Def Snag 2",
+        "description": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, inflicts Spd/Def-4 on nearest foes within 4 spaces of both unit and target through their next actions.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "spd/def_snag_3": {
+        "id": "spd/def_snag_3",
+        "name": "Spd/Def Snag 3",
+        "description": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, inflicts Spd/Def-6 on nearest foes within 4 spaces of both unit and targeted ally through their next action.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "spd_feint_1": {
+        "id": "spd_feint_1",
+        "name": "Spd Feint 1",
+        "description": "If a Rally Assist skill is used by unit or targets unit, inflicts Spd-3 on foes in cardinal directions of unit through their next actions.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "spd_feint_2": {
+        "id": "spd_feint_2",
+        "name": "Spd Feint 2",
+        "description": "If a Rally Assist skill is used by unit or targets unit, inflicts Spd-5 on foes in cardinal directions of unit through their next actions.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "spd_feint_3": {
+        "id": "spd_feint_3",
+        "name": "Spd Feint 3",
+        "description": "If a Rally Assist skill is used by unit or targets unit, inflicts Spd-7 on foes in cardinal directions of unit through their next actions.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "spd/res_link_1": {
+        "id": "spd/res_link_1",
+        "name": "Spd/Res Link 1",
+        "description": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Spd/Res+2 to unit and target ally or unit and targeting ally for 1 turn.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "spd/res_link_2": {
+        "id": "spd/res_link_2",
+        "name": "Spd/Res Link 2",
+        "description": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Spd/Res+4 to unit and target ally or unit and targeting ally for 1 turn.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "spd/res_link_3": {
+        "id": "spd/res_link_3",
+        "name": "Spd/Res Link 3",
+        "description": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Spd/Res+6 to unit and target ally or unit and targeting ally for 1 turn.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "spd/res_ruse_1": {
+        "id": "spd/res_ruse_1",
+        "name": "Spd/Res Ruse 1",
+        "description": "If a Rally Assist skill is used by unit or targets unit, inflicts Spd/Res-1 and\u3010Guard\u3011on foes in cardinal directions of unit and target through their next actions.\u3010Guard\u3011Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "spd/res_ruse_2": {
+        "id": "spd/res_ruse_2",
+        "name": "Spd/Res Ruse 2",
+        "description": "If a Rally Assist skill is used by unit or targets unit, inflicts Spd/Res-3 and\u3010Guard\u3011on foes in cardinal directions of unit and target through their next actions.\u3010Guard\u3011Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "spd/res_ruse_3": {
+        "id": "spd/res_ruse_3",
+        "name": "Spd/Res Ruse 3",
+        "description": "If a Rally Assist skill is used by unit or targets unit, inflicts Spd/Res-5 and\u3010Guard\u3011on foes in cardinal directions of unit and target through their next actions.\u3010Guard\u3011Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "spd/res_snag_1": {
+        "id": "spd/res_snag_1",
+        "name": "Spd/Res Snag 1",
+        "description": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, inflicts Spd/Res-2 on nearest foes within 4 spaces of both unit and target through their next actions.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "spd/res_snag_2": {
+        "id": "spd/res_snag_2",
+        "name": "Spd/Res Snag 2",
+        "description": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, inflicts Spd/Res-4 on nearest foes within 4 spaces of both unit and target through their next actions.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "spd/res_snag_3": {
+        "id": "spd/res_snag_3",
+        "name": "Spd/Res Snag 3",
+        "description": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, inflicts Spd/Res-6 on nearest foes within 4 spaces of both unit and target through their next actions.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "special_fighter_1": {
+        "id": "special_fighter_1",
+        "name": "Special Fighter 1",
+        "description": "At start of combat, if unit's HP \u2265 90%, grants Special cooldown charge +1 to unit and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "special_fighter_2": {
+        "id": "special_fighter_2",
+        "name": "Special Fighter 2",
+        "description": "At start of combat, if unit's HP \u2265 70%, grants Special cooldown charge +1 to unit and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "special_fighter_3": {
+        "id": "special_fighter_3",
+        "name": "Special Fighter 3",
+        "description": "At start of combat, if unit's HP \u2265 50%, grants Special cooldown charge +1 to unit and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "special_spiral_1": {
+        "id": "special_spiral_1",
+        "name": "Special Spiral 1",
+        "description": "If unit initiates combat and unit's Special triggers before or during combat, grants Special cooldown count-1 after combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "special_spiral_2": {
+        "id": "special_spiral_2",
+        "name": "Special Spiral 2",
+        "description": "If Special triggers before or during combat, grants Special cooldown count-1 after combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "special_spiral_3": {
+        "id": "special_spiral_3",
+        "name": "Special Spiral 3",
+        "description": "If Special triggers before or during combat, grants Special cooldown count-2 after combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "spurn_1": {
+        "id": "spurn_1",
+        "name": "Spurn 1",
+        "description": "If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding R\u00f8kkr area-of-effect Specials) by percentage = difference between stats \u00d7 2 (max 20%). If unit's HP \u2264 25% and unit's attack triggers Special, deals +5 damage when Special triggers.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "spurn_2": {
+        "id": "spurn_2",
+        "name": "Spurn 2",
+        "description": "If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding R\u00f8kkr area-of-effect Specials) by percentage = difference between stats \u00d7 3 (max 30%). If unit's HP \u2264 50% and unit's attack triggers Special, deals +5 damage when Special triggers.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "spurn_3": {
+        "id": "spurn_3",
+        "name": "Spurn 3",
+        "description": "If unit's Spd > foe's Spd, reduces damage from attacks during combat and from area-of-effect Specials (excluding R\u00f8kkr area-of-effect Specials) by percentage = difference between stats \u00d7 4 (max 40%). If unit's HP \u2264 75% and unit's attack triggers Special, deals +5 damage when Special triggers.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "sudden_panic_1": {
+        "id": "sudden_panic_1",
+        "name": "Sudden Panic 1",
+        "description": "At start of turn, if any foe's HP \u2264 unit's HP-5 and that foe is adjacent to another foe, inflicts \u3010Panic\u3011on that foe.\u3010Panic\u3011Converts bonuses on target into penalties through its next action.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "sudden_panic_2": {
+        "id": "sudden_panic_2",
+        "name": "Sudden Panic 2",
+        "description": "At start of turn, if any foe's HP \u2264 unit's HP-3 and that foe is adjacent to another foe, inflicts \u3010Panic\u3011on that foe.\u3010Panic\u3011Converts bonuses on target into penalties through its next action.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "sudden_panic_3": {
+        "id": "sudden_panic_3",
+        "name": "Sudden Panic 3",
+        "description": "At start of turn, if any foe's HP \u2264 unit's HP-1 and that foe is adjacent to another foe, inflicts \u3010Panic\u3011on that foe.\u3010Panic\u3011Converts bonuses on target into penalties through its next action.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "swordbreaker_1": {
+        "id": "swordbreaker_1",
+        "name": "Swordbreaker 1",
+        "description": "If unit's HP \u2265 90% in combat against a sword foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "swordbreaker_2": {
+        "id": "swordbreaker_2",
+        "name": "Swordbreaker 2",
+        "description": "If unit's HP \u2265 70% in combat against a sword foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "swordbreaker_3": {
+        "id": "swordbreaker_3",
+        "name": "Swordbreaker 3",
+        "description": "If unit's HP \u2265 50% in combat against a sword foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "torrent_dance_1": {
+        "id": "torrent_dance_1",
+        "name": "Torrent Dance 1",
+        "description": "If Sing or Dance is used, grants Res+3 to target.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "torrent_dance_2": {
+        "id": "torrent_dance_2",
+        "name": "Torrent Dance 2",
+        "description": "If Sing or Dance is used, grants Res+4 to target.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "torrent_dance_3": {
+        "id": "torrent_dance_3",
+        "name": "Torrent Dance 3",
+        "description": "If Sing or Dance is used, grants Res+5 to target.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "vantage_1": {
+        "id": "vantage_1",
+        "name": "Vantage 1",
+        "description": "If unit's HP \u2264 25% and foe initiates combat, unit can counterattack before foe's first attack.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "vantage_2": {
+        "id": "vantage_2",
+        "name": "Vantage 2",
+        "description": "If unit's HP \u2264 50% and foe initiates combat, unit can counterattack before foe's first attack.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "vantage_3": {
+        "id": "vantage_3",
+        "name": "Vantage 3",
+        "description": "If unit's HP \u2264 75% and foe initiates combat, unit can counterattack before foe's first attack.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "vengeful_fighter_1": {
+        "id": "vengeful_fighter_1",
+        "name": "Vengeful Fighter 1",
+        "description": "If unit's HP \u2265 90% and foe initiates combat, grants Special cooldown charge +1 per unit's attack, and unit makes a guaranteed follow-up attack. (Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "vengeful_fighter_2": {
+        "id": "vengeful_fighter_2",
+        "name": "Vengeful Fighter 2",
+        "description": "If unit's HP \u2265 70% and foe initiates combat, grants Special cooldown charge +1 per unit's attack, and unit makes a guaranteed follow-up attack. (Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "vengeful_fighter_3": {
+        "id": "vengeful_fighter_3",
+        "name": "Vengeful Fighter 3",
+        "description": "If unit's HP \u2265 50% and foe initiates combat, grants Special cooldown charge +1 per unit's attack, and unit makes a guaranteed follow-up attack. (Does not stack.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "warp_powder": {
+        "id": "warp_powder",
+        "name": "Warp Powder",
+        "description": "If unit's HP \u2265 80%, unit can move to a space adjacent to any ally within 2 spaces.",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "wary_fighter_1": {
+        "id": "wary_fighter_1",
+        "name": "Wary Fighter 1",
+        "description": "If unit's HP \u2265 90%, unit and foe cannot make a follow-up attack.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "wary_fighter_2": {
+        "id": "wary_fighter_2",
+        "name": "Wary Fighter 2",
+        "description": "If unit's HP \u2265 70%, unit and foe cannot make a follow-up attack.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "wary_fighter_3": {
+        "id": "wary_fighter_3",
+        "name": "Wary Fighter 3",
+        "description": "If unit's HP \u2265 50%, unit and foe cannot make a follow-up attack.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "watersweep_1": {
+        "id": "watersweep_1",
+        "name": "Watersweep 1",
+        "description": "If unit initiates combat, unit cannot make a follow-up attack. If unit's Spd \u2265 foe's Spd+5 and foe uses magic, staff, or dragonstone, foe cannot counterattack.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "watersweep_2": {
+        "id": "watersweep_2",
+        "name": "Watersweep 2",
+        "description": "If unit initiates combat, unit cannot make a follow-up attack. If unit's Spd \u2265 foe's Spd+3 and foe uses magic, staff, or dragonstone, foe cannot counterattack.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "watersweep_3": {
+        "id": "watersweep_3",
+        "name": "Watersweep 3",
+        "description": "If unit initiates combat, unit cannot make a follow-up attack. If unit's Spd > foe's Spd and foe uses magic, staff, or dragonstone, foe cannot counterattack.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "windsweep_1": {
+        "id": "windsweep_1",
+        "name": "Windsweep 1",
+        "description": "If unit initiates combat, unit cannot make a follow-up attack. If unit\u2019s Spd \u2265 foe\u2019s Spd+5 and foe uses sword, lance, axe, bow, dagger, or beast damage, foe cannot counterattack.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "windsweep_2": {
+        "id": "windsweep_2",
+        "name": "Windsweep 2",
+        "description": "If unit initiates combat, unit cannot make a follow-up attack. If unit\u2019s Spd \u2265 foe\u2019s Spd+3 and foe uses sword, lance, axe, bow, dagger, or beast damage, foe cannot counterattack.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "windsweep_3": {
+        "id": "windsweep_3",
+        "name": "Windsweep 3",
+        "description": "If unit initiates combat, unit cannot make a follow-up attack. If unit\u2019s Spd > foe\u2019s Spd and foe uses sword, lance, axe, bow, dagger, or beast damage, foe cannot counterattack.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "wings_of_mercy_1": {
+        "id": "wings_of_mercy_1",
+        "name": "Wings of Mercy 1",
+        "description": "If an ally's HP \u2264 30%, unit can move to a space adjacent to that ally.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "wings_of_mercy_2": {
+        "id": "wings_of_mercy_2",
+        "name": "Wings of Mercy 2",
+        "description": "If an ally's HP \u2264 40%, unit can move to a space adjacent to that ally.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "wings_of_mercy_3": {
+        "id": "wings_of_mercy_3",
+        "name": "Wings of Mercy 3",
+        "description": "If an ally's HP \u2264 50%, unit can move to a space adjacent to that ally.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "wrath_1": {
+        "id": "wrath_1",
+        "name": "Wrath 1",
+        "description": "At start of turn, if unit's HP \u2264 25% and unit's attack triggers Special, grants Special cooldown count-1, and deals +10 damage when Special triggers.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "wrath_2": {
+        "id": "wrath_2",
+        "name": "Wrath 2",
+        "description": "At start of turn, if unit's HP \u2264 50% and unit's attack triggers Special, grants Special cooldown count-1, and deals +10 damage when Special triggers.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "wrath_3": {
+        "id": "wrath_3",
+        "name": "Wrath 3",
+        "description": "At start of turn, if unit's HP \u2264 75% and unit's attack triggers Special, grants Special cooldown count-1, and deals +10 damage when Special triggers.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "wrathful_staff_1": {
+        "id": "wrathful_staff_1",
+        "name": "Wrathful Staff 1",
+        "description": "At start of combat, if unit's HP = 100%, calculates damage from staff like other weapons.",
+        "sp": 60,
+        "restrictions": [
+            "staffonly"
+        ]
+    },
+    "wrathful_staff_2": {
+        "id": "wrathful_staff_2",
+        "name": "Wrathful Staff 2",
+        "description": "At start of combat, if unit's HP \u2265 50%, calculates damage from staff like other weapons.",
+        "sp": 120,
+        "restrictions": [
+            "staffonly"
+        ]
+    },
+    "wrathful_staff_3": {
+        "id": "wrathful_staff_3",
+        "name": "Wrathful Staff 3",
+        "description": "Calculates damage from staff like other weapons.",
+        "sp": 240,
+        "restrictions": [
+            "staffonly"
+        ]
+    },
+    "yune's_whispers": {
+        "id": "yune's_whispers",
+        "name": "Yune's Whispers",
+        "description": "At start of turn, if any foe's Res \u2264 unit's Res-3 and that foe is adjacent to another foe, inflicts Atk/Spd-6 on that foe through its next action.",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    }
+}

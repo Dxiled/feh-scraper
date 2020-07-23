@@ -1,0 +1,2198 @@
+{
+    "ar-d_atk/def_1": {
+        "id": "ar-d_atk/def_1",
+        "name": "AR-D Atk/Def 1",
+        "description": "If defending in Aether Raids, grants Atk/Def+X during combat. (Calculates X based on number of your defensive structures: \u22655 structures grants +4; 4 grants +3; 3 grants +2; \u22642 grants +1. Destroyed defensive structures are not counted.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "ar-d_atk/def_2": {
+        "id": "ar-d_atk/def_2",
+        "name": "AR-D Atk/Def 2",
+        "description": "If defending in Aether Raids, grants Atk/Def+X during combat. (Calculates X based on number of your defensive structures: \u22655 structures grants +7; 4 grants +5; 3 grants +3; \u22642 grants +1. Destroyed defensive structures are not counted.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "ar-d_atk/def_3": {
+        "id": "ar-d_atk/def_3",
+        "name": "AR-D Atk/Def 3",
+        "description": "If defending in Aether Raids, grants Atk/Def+X during combat. (Calculates X based on number of your defensive structures: \u22655 structures grants +10; 4 grants +7; 3 grants +4; \u22642 grants +1. Destroyed defensive structures are not counted.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "ar-d_atk/res_1": {
+        "id": "ar-d_atk/res_1",
+        "name": "AR-D Atk/Res 1",
+        "description": "If defending in Aether Raids, grants Atk/Res+X during combat. (Calculates X based on number of your defensive structures: \u22655 structures grants +4; 4 grants +3; 3 grants +2; \u22642 grants +1. Destroyed defensive structures are not counted.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "ar-d_atk/res_2": {
+        "id": "ar-d_atk/res_2",
+        "name": "AR-D Atk/Res 2",
+        "description": "If defending in Aether Raids, grants Atk/Res+X during combat. (Calculates X based on number of your defensive structures: \u22655 structures grants +7; 4 grants +5; 3 grants +3; \u22642 grants +1. Destroyed defensive structures are not counted.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "ar-d_atk/res_3": {
+        "id": "ar-d_atk/res_3",
+        "name": "AR-D Atk/Res 3",
+        "description": "If defending in Aether Raids, grants Atk/Res+X during combat. (Calculates X based on number of your defensive structures: \u22655 structures grants +10; 4 grants +7; 3 grants +4; \u22642 grants +1. Destroyed defensive structures are not counted.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "ar-d_def/res_1": {
+        "id": "ar-d_def/res_1",
+        "name": "AR-D Def/Res 1",
+        "description": "If defending in Aether Raids, grants Def/Res+X during combat. (Calculates X based on number of your defensive structures: \u22655 structures grants +4; 4 grants +3; 3 grants +2; \u22642 grants +1. Destroyed defensive structures are not counted.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "ar-d_def/res_2": {
+        "id": "ar-d_def/res_2",
+        "name": "AR-D Def/Res 2",
+        "description": "If defending in Aether Raids, grants Def/Res+X during combat. (Calculates X based on number of your defensive structures: \u22655 structures grants +7; 4 grants +5; 3 grants +3; \u22642 grants +1. Destroyed defensive structures are not counted.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "ar-d_def/res_3": {
+        "id": "ar-d_def/res_3",
+        "name": "AR-D Def/Res 3",
+        "description": "If defending in Aether Raids, grants Def/Res+X during combat. (Calculates X based on number of your defensive structures: \u22655 structures grants +10; 4 grants +7; 3 grants +4; \u22642 grants +1. Destroyed defensive structures are not counted.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "ar-d_spd/def_1": {
+        "id": "ar-d_spd/def_1",
+        "name": "AR-D Spd/Def 1",
+        "description": "If defending in Aether Raids, grants Spd/Def+X during combat. (Calculates X based on number of your defensive structures: \u22655 structures grants +4; 4 grants +3; 3 grants +2; \u22642 grants +1. Destroyed defensive structures are not counted.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "ar-d_spd/def_2": {
+        "id": "ar-d_spd/def_2",
+        "name": "AR-D Spd/Def 2",
+        "description": "If defending in Aether Raids, grants Spd/Def+X during combat. (Calculates X based on number of your defensive structures: \u22655 structures grants +7; 4 grants +5; 3 grants +3; \u22642 grants +1. Destroyed defensive structures are not counted.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "ar-d_spd/def_3": {
+        "id": "ar-d_spd/def_3",
+        "name": "AR-D Spd/Def 3",
+        "description": "If defending in Aether Raids, grants Spd/Def+X during combat. (Calculates X based on number of your defensive structures: \u22655 structures grants +10; 4 grants +7; 3 grants +4; \u22642 grants +1. Destroyed defensive structures are not counted.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "ar-d_spd/res_1": {
+        "id": "ar-d_spd/res_1",
+        "name": "AR-D Spd/Res 1",
+        "description": "If defending in Aether Raids, grants Spd/Res+X during combat. (Calculates X based on number of your defensive structures: \u22655 structures grants +4; 4 grants +3; 3 grants +2; \u22642 grants +1. Destroyed defensive structures are not counted.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "ar-d_spd/res_2": {
+        "id": "ar-d_spd/res_2",
+        "name": "AR-D Spd/Res 2",
+        "description": "If defending in Aether Raids, grants Spd/Res+X during combat. (Calculates X based on number of your defensive structures: \u22655 structures grants +7; 4 grants +5; 3 grants +3; \u22642 grants +1. Destroyed defensive structures are not counted.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "ar-d_spd/res_3": {
+        "id": "ar-d_spd/res_3",
+        "name": "AR-D Spd/Res 3",
+        "description": "If defending in Aether Raids, grants Spd/Res+X during combat. (Calculates X based on number of your defensive structures: \u22655 structures grants +10; 4 grants +7; 3 grants +4; \u22642 grants +1. Destroyed defensive structures are not counted.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "ar-o_atk/def_1": {
+        "id": "ar-o_atk/def_1",
+        "name": "AR-O Atk/Def 1",
+        "description": "If attacking in Aether Raids, grants Atk/Def+X during combat. (Calculates X based on number of foe's defensive structures: \u22642 structures grants +4; 3 grants +3; 4 grants +2; \u22655 grants +1. Destroyed defensive structures are not counted.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "ar-o_atk/def_2": {
+        "id": "ar-o_atk/def_2",
+        "name": "AR-O Atk/Def 2",
+        "description": "If attacking in Aether Raids, grants Atk/Def+X during combat. (Calculates X based on number of foe's defensive structures: \u22642 structures grants +7; 3 grants +5; 4 grants +3; \u22655 grants +1. Destroyed defensive structures are not counted.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "ar-o_atk/def_3": {
+        "id": "ar-o_atk/def_3",
+        "name": "AR-O Atk/Def 3",
+        "description": "If attacking in Aether Raids, grants Atk/Def+X during combat. (Calculates X based on number of foe's defensive structures: \u22642 structures grants +10; 3 grants +7; 4 grants +4; \u22655 grants +1. Destroyed defensive structures are not counted.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "ar-o_atk/spd_1": {
+        "id": "ar-o_atk/spd_1",
+        "name": "AR-O Atk/Spd 1",
+        "description": "If attacking in Aether Raids, grants Atk/Spd+X during combat. (Calculates X based on number of foe's defensive structures: \u22642 structures grants +4; 3 grants +3; 4 grants +2; \u22655 grants +1. Destroyed defensive structures are not counted.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "ar-o_atk/spd_2": {
+        "id": "ar-o_atk/spd_2",
+        "name": "AR-O Atk/Spd 2",
+        "description": "If attacking in Aether Raids, grants Atk/Spd+X during combat. (Calculates X based on number of foe's defensive structures: \u22642 structures grants +7; 3 grants +5; 4 grants +3; \u22655 grants +1. Destroyed defensive structures are not counted.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "ar-o_atk/spd_3": {
+        "id": "ar-o_atk/spd_3",
+        "name": "AR-O Atk/Spd 3",
+        "description": "If attacking in Aether Raids, grants Atk/Spd+X during combat. (Calculates X based on number of foe's defensive structures: \u22642 structures grants +10; 3 grants +7; 4 grants +4; \u22655 grants +1. Destroyed defensive structures are not counted.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "ar-o_spd/res_1": {
+        "id": "ar-o_spd/res_1",
+        "name": "AR-O Spd/Res 1",
+        "description": "If attacking in Aether Raids, grants Spd/Res+X during combat. (Calculates X based on number of foe's defensive structures: \u22642 structures grants +4; 3 grants +3; 4 grants +2; \u22655 grants +1. Destroyed defensive structures are not counted.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "ar-o_spd/res_2": {
+        "id": "ar-o_spd/res_2",
+        "name": "AR-O Spd/Res 2",
+        "description": "If attacking in Aether Raids, grants Spd/Res+X during combat. (Calculates X based on number of foe's defensive structures: \u22642 structures grants +7; 3 grants +5; 4 grants +3; \u22655 grants +1. Destroyed defensive structures are not counted.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "ar-o_spd/res_3": {
+        "id": "ar-o_spd/res_3",
+        "name": "AR-O Spd/Res 3",
+        "description": "If attacking in Aether Raids, grants Spd/Res+X during combat. (Calculates X based on number of foe's defensive structures: \u22642 structures grants +10; 3 grants +7; 4 grants +4; \u22655 grants +1. Destroyed defensive structures are not counted.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "armored_blow_1": {
+        "id": "armored_blow_1",
+        "name": "Armored Blow 1",
+        "description": "If unit initiates combat, grants Def+2 during combat.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "armored_blow_2": {
+        "id": "armored_blow_2",
+        "name": "Armored Blow 2",
+        "description": "If unit initiates combat, grants Def+4 during combat.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "armored_blow_3": {
+        "id": "armored_blow_3",
+        "name": "Armored Blow 3",
+        "description": "If unit initiates combat, grants Def+6 during combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "ashera's_chosen": {
+        "id": "ashera's_chosen",
+        "name": "Ashera's Chosen",
+        "description": "Neutralizes \"effective against flying\" bonuses. If unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, grants Atk/Def+6 during combat.",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "atk/def_bond_1": {
+        "id": "atk/def_bond_1",
+        "name": "Atk/Def Bond 1",
+        "description": "If unit is adjacent to an ally, grants Atk/Def+3 during combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "atk/def_bond_2": {
+        "id": "atk/def_bond_2",
+        "name": "Atk/Def Bond 2",
+        "description": "If unit is adjacent to an ally, grants Atk/Def+4 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "atk/def_bond_3": {
+        "id": "atk/def_bond_3",
+        "name": "Atk/Def Bond 3",
+        "description": "If unit is adjacent to an ally, grants Atk/Def+5 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "atk/def_form_1": {
+        "id": "atk/def_form_1",
+        "name": "Atk/Def Form 1",
+        "description": "Grants Atk/Def+X to unit during combat. (X = number of allies within 2 spaces; max 3.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "atk/def_form_2": {
+        "id": "atk/def_form_2",
+        "name": "Atk/Def Form 2",
+        "description": "Grants Atk/Def+X to unit during combat. (X = number of allies within 2 spaces + 2; max 5.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "atk/def_form_3": {
+        "id": "atk/def_form_3",
+        "name": "Atk/Def Form 3",
+        "description": "Grants Atk/Def+X to unit during combat. (X = 2 \u00d7 number of allies within 2 spaces, + 1; max 7.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "atk/def_push_1": {
+        "id": "atk/def_push_1",
+        "name": "Atk/Def Push 1",
+        "description": "At start of combat, if unit's HP = 100%, grants Atk/Def+3, but if unit attacked, deals 1 damage to unit after combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "atk/def_push_2": {
+        "id": "atk/def_push_2",
+        "name": "Atk/Def Push 2",
+        "description": "At start of combat, if unit's HP = 100%, grants Atk/Def+4, but if unit attacked, deals 1 damage to unit after combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "atk/def_push_3": {
+        "id": "atk/def_push_3",
+        "name": "Atk/Def Push 3",
+        "description": "At start of combat, if unit's HP = 100%, grants Atk/Def+5, but if unit attacked, deals 1 damage to unit after combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "atk/def_push_4": {
+        "id": "atk/def_push_4",
+        "name": "Atk/Def Push 4",
+        "description": "At start of combat, if unit's HP \u2265 25%, grants Atk/Def+7, but if unit attacked, deals 5 damage to unit after combat.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "atk/def_solo_1": {
+        "id": "atk/def_solo_1",
+        "name": "Atk/Def Solo 1",
+        "description": "If unit is not adjacent to an ally, grants Atk/Def+2 during combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "atk/def_solo_2": {
+        "id": "atk/def_solo_2",
+        "name": "Atk/Def Solo 2",
+        "description": "If unit is not adjacent to an ally, grants Atk/Def+4 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "atk/def_solo_3": {
+        "id": "atk/def_solo_3",
+        "name": "Atk/Def Solo 3",
+        "description": "If unit is not adjacent to an ally, grants Atk/Def+6 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "atk/res_bond_1": {
+        "id": "atk/res_bond_1",
+        "name": "Atk/Res Bond 1",
+        "description": "If unit is adjacent to an ally, grants Atk/Res+3 during combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "atk/res_bond_2": {
+        "id": "atk/res_bond_2",
+        "name": "Atk/Res Bond 2",
+        "description": "If unit is adjacent to an ally, grants Atk/Res+4 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "atk/res_bond_3": {
+        "id": "atk/res_bond_3",
+        "name": "Atk/Res Bond 3",
+        "description": "If unit is adjacent to an ally, grants Atk/Res+5 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "atk/res_bond_4": {
+        "id": "atk/res_bond_4",
+        "name": "Atk/Res Bond 4",
+        "description": "If unit is adjacent to an ally, grants Atk/Res+7 to unit and neutralizes unit's penalties to Atk/Res during combat.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "atk/res_push_1": {
+        "id": "atk/res_push_1",
+        "name": "Atk/Res Push 1",
+        "description": "At start of combat, if unit's HP = 100%, grants Atk/Res+3, but if unit attacked, deals 1 damage to unit after combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "atk/res_push_2": {
+        "id": "atk/res_push_2",
+        "name": "Atk/Res Push 2",
+        "description": "At start of combat, if unit's HP = 100%, grants Atk/Res+4, but if unit attacked, deals 1 damage to unit after combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "atk/res_push_3": {
+        "id": "atk/res_push_3",
+        "name": "Atk/Res Push 3",
+        "description": "At start of combat, if unit's HP = 100%, grants Atk/Res+5, but if unit attacked, deals 1 damage to unit after combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "atk/res_push_4": {
+        "id": "atk/res_push_4",
+        "name": "Atk/Res Push 4",
+        "description": "At start of combat, if unit's HP \u2265 25%, grants Atk/Res+7, but after combat, if unit attacked, deals 5 damage to unit.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "atk/res_solo_1": {
+        "id": "atk/res_solo_1",
+        "name": "Atk/Res Solo 1",
+        "description": "If unit is not adjacent to an ally, grants Atk/Res+2 during combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "atk/res_solo_2": {
+        "id": "atk/res_solo_2",
+        "name": "Atk/Res Solo 2",
+        "description": "If unit is not adjacent to an ally, grants Atk/Res+4 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "atk/res_solo_3": {
+        "id": "atk/res_solo_3",
+        "name": "Atk/Res Solo 3",
+        "description": "If unit is not adjacent to an ally, grants Atk/Res+6 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "atk/res_solo_4": {
+        "id": "atk/res_solo_4",
+        "name": "Atk/Res Solo 4",
+        "description": "If unit is not adjacent to an ally, grants Atk/Res+7 during combat.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "atk/spd_1": {
+        "id": "atk/spd_1",
+        "name": "Atk/Spd 1",
+        "description": "Grants Atk/Spd+1.",
+        "sp": 80,
+        "restrictions": []
+    },
+    "atk/spd_2": {
+        "id": "atk/spd_2",
+        "name": "Atk/Spd 2",
+        "description": "Grants Atk/Spd+2.",
+        "sp": 160,
+        "restrictions": []
+    },
+    "atk/spd_bond_1": {
+        "id": "atk/spd_bond_1",
+        "name": "Atk/Spd Bond 1",
+        "description": "If unit is adjacent to an ally, grants Atk/Spd+3 during combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "atk/spd_bond_2": {
+        "id": "atk/spd_bond_2",
+        "name": "Atk/Spd Bond 2",
+        "description": "If unit is adjacent to an ally, grants Atk/Spd+4 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "atk/spd_bond_3": {
+        "id": "atk/spd_bond_3",
+        "name": "Atk/Spd Bond 3",
+        "description": "If unit is adjacent to an ally, grants Atk/Spd+5 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "atk/spd_bond_4": {
+        "id": "atk/spd_bond_4",
+        "name": "Atk/Spd Bond 4",
+        "description": "If unit is adjacent to an ally, grants Atk/Spd+7 to unit and neutralizes unit's penalties to Atk/Spd during combat.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "atk/spd_form_1": {
+        "id": "atk/spd_form_1",
+        "name": "Atk/Spd Form 1",
+        "description": "Grants Atk/Spd+X to unit during combat. (X = number of allies within 2 spaces; max 3.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "atk/spd_form_2": {
+        "id": "atk/spd_form_2",
+        "name": "Atk/Spd Form 2",
+        "description": "Grants Atk/Spd+X to unit during combat. (X = number of allies within 2 spaces + 2; max 5.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "atk/spd_form_3": {
+        "id": "atk/spd_form_3",
+        "name": "Atk/Spd Form 3",
+        "description": "Grants Atk/Spd+X to unit during combat. (X = 2 \u00d7 number of allies within 2 spaces, + 1; max 7.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "atk/spd_push_1": {
+        "id": "atk/spd_push_1",
+        "name": "Atk/Spd Push 1",
+        "description": "At start of combat, if unit's HP = 100%, grants Atk/Spd+3, but if unit attacked, deals 1 damage to unit after combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "atk/spd_push_2": {
+        "id": "atk/spd_push_2",
+        "name": "Atk/Spd Push 2",
+        "description": "At start of combat, if unit's HP = 100%, grants Atk/Spd+4, but if unit attacked, deals 1 damage to unit after combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "atk/spd_push_3": {
+        "id": "atk/spd_push_3",
+        "name": "Atk/Spd Push 3",
+        "description": "At start of combat, if unit's HP = 100%, grants Atk/Spd+5, but if unit attacked, deals 1 damage to unit after combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "atk/spd_push_4": {
+        "id": "atk/spd_push_4",
+        "name": "Atk/Spd Push 4",
+        "description": "At start of combat, if unit's HP \u2265 25%, grants Atk/Spd+7, but after combat, if unit attacked, deals 5 damage to unit.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "atk/spd_solo_1": {
+        "id": "atk/spd_solo_1",
+        "name": "Atk/Spd Solo 1",
+        "description": "If unit is not adjacent to an ally, grants Atk/Spd+2 during combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "atk/spd_solo_2": {
+        "id": "atk/spd_solo_2",
+        "name": "Atk/Spd Solo 2",
+        "description": "If unit is not adjacent to an ally, grants Atk/Spd+4 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "atk/spd_solo_3": {
+        "id": "atk/spd_solo_3",
+        "name": "Atk/Spd Solo 3",
+        "description": "If unit is not adjacent to an ally, grants Atk/Spd+6 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "atk/spd_solo_4": {
+        "id": "atk/spd_solo_4",
+        "name": "Atk/Spd Solo 4",
+        "description": "If unit is not adjacent to an ally, grants Atk/Spd+7 during combat.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "attack/def_+1": {
+        "id": "attack/def_+1",
+        "name": "Attack/Def +1",
+        "description": "Grants Atk/Def+1.",
+        "sp": 80,
+        "restrictions": []
+    },
+    "attack/def_+2": {
+        "id": "attack/def_+2",
+        "name": "Attack/Def +2",
+        "description": "Grants Atk/Def+2.",
+        "sp": 160,
+        "restrictions": []
+    },
+    "attack_+1": {
+        "id": "attack_+1",
+        "name": "Attack +1",
+        "description": "Grants Atk+1.",
+        "sp": 30,
+        "restrictions": []
+    },
+    "attack_+2": {
+        "id": "attack_+2",
+        "name": "Attack +2",
+        "description": "Grants Atk+2.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "attack_+3": {
+        "id": "attack_+3",
+        "name": "Attack +3",
+        "description": "Grants Atk+3.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "attack/res_1": {
+        "id": "attack/res_1",
+        "name": "Attack/Res 1",
+        "description": "Grants Atk/Res+1.",
+        "sp": 80,
+        "restrictions": []
+    },
+    "attack/res_2": {
+        "id": "attack/res_2",
+        "name": "Attack/Res 2",
+        "description": "Grants Atk/Res+2.",
+        "sp": 160,
+        "restrictions": []
+    },
+    "b_duel_flying_1": {
+        "id": "b_duel_flying_1",
+        "name": "B Duel Flying 1",
+        "description": "Grants HP+3. If unit is 5\u2605 and level 40 and unit's stats total less than 160, treats unit's stats as 160 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)",
+        "sp": 70,
+        "restrictions": []
+    },
+    "b_duel_flying_2": {
+        "id": "b_duel_flying_2",
+        "name": "B Duel Flying 2",
+        "description": "Grants HP+4. If unit is 5\u2605 and level 40 and unit's stats total less than 165, treats unit's stats as 165 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)",
+        "sp": 150,
+        "restrictions": []
+    },
+    "b_duel_flying_3": {
+        "id": "b_duel_flying_3",
+        "name": "B Duel Flying 3",
+        "description": "Grants HP+5. If unit is 5\u2605 and level 40 and unit's stats total less than 170, treats unit's stats as 170 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)",
+        "sp": 300,
+        "restrictions": []
+    },
+    "b_duel_infantry_1": {
+        "id": "b_duel_infantry_1",
+        "name": "B Duel Infantry 1",
+        "description": "Grants HP+3. If unit is 5\u2605 and level 40 and unit's stats total less than 160, treats unit's stats as 160 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)",
+        "sp": 70,
+        "restrictions": []
+    },
+    "b_duel_infantry_2": {
+        "id": "b_duel_infantry_2",
+        "name": "B Duel Infantry 2",
+        "description": "Grants HP+4. If unit is 5\u2605 and level 40 and unit's stats total less than 165, treats unit's stats as 165 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)",
+        "sp": 150,
+        "restrictions": []
+    },
+    "b_duel_infantry_3": {
+        "id": "b_duel_infantry_3",
+        "name": "B Duel Infantry 3",
+        "description": "Grants HP+5. If unit is 5\u2605 and level 40 and unit's stats total less than 170, treats unit's stats as 170 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)",
+        "sp": 300,
+        "restrictions": []
+    },
+    "blade_session_1": {
+        "id": "blade_session_1",
+        "name": "Blade Session 1",
+        "description": "If unit initiates combat, grants bonus to unit's Atk/Spd during combat = 1 + number of allies who have already acted (max value of 3).",
+        "sp": 60,
+        "restrictions": []
+    },
+    "blade_session_2": {
+        "id": "blade_session_2",
+        "name": "Blade Session 2",
+        "description": "If unit initiates combat, grants bonus to unit's Atk/Spd during combat = 2 + number of allies who have already acted \u00d7 2 (max value of 6).",
+        "sp": 120,
+        "restrictions": []
+    },
+    "blade_session_3": {
+        "id": "blade_session_3",
+        "name": "Blade Session 3",
+        "description": "If unit initiates combat, grants bonus to unit's Atk/Spd during combat = 3 + number of allies who have already acted \u00d7 3 (max value of 9).",
+        "sp": 240,
+        "restrictions": []
+    },
+    "bonus_doubler_1": {
+        "id": "bonus_doubler_1",
+        "name": "Bonus Doubler 1",
+        "description": "Grants bonus to Atk/Spd/Def/Res during combat = 50% of current bonus on each of unit's stats. Calculates each stat bonus independently.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "bonus_doubler_2": {
+        "id": "bonus_doubler_2",
+        "name": "Bonus Doubler 2",
+        "description": "Grants bonus to Atk/Spd/Def/Res during combat = 75% of current bonus on each of unit's stats. Calculates each stat bonus independently.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "bonus_doubler_3": {
+        "id": "bonus_doubler_3",
+        "name": "Bonus Doubler 3",
+        "description": "Grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats. Calculates each stat bonus independently.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "bracing_blow_1": {
+        "id": "bracing_blow_1",
+        "name": "Bracing Blow 1",
+        "description": "If unit initiates combat, grants Def/Res+2 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "bracing_blow_2": {
+        "id": "bracing_blow_2",
+        "name": "Bracing Blow 2",
+        "description": "If unit initiates combat, grants Def/Res+4 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "bracing_stance_1": {
+        "id": "bracing_stance_1",
+        "name": "Bracing Stance 1",
+        "description": "If foe initiates combat, grants Def/Res+2 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "bracing_stance_2": {
+        "id": "bracing_stance_2",
+        "name": "Bracing Stance 2",
+        "description": "If foe initiates combat, grants Def/Res+4 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "bracing_stance_3": {
+        "id": "bracing_stance_3",
+        "name": "Bracing Stance 3",
+        "description": "If foe initiates combat, grants Def/Res+6 during combat and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)",
+        "sp": 300,
+        "restrictions": []
+    },
+    "brazen_atk/def_1": {
+        "id": "brazen_atk/def_1",
+        "name": "Brazen Atk/Def 1",
+        "description": "At start of combat, if unit's HP \u2264 80%, grants Atk/Def+3 during combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "brazen_atk/def_2": {
+        "id": "brazen_atk/def_2",
+        "name": "Brazen Atk/Def 2",
+        "description": "At start of combat, if unit's HP \u2264 80%, grants Atk/Def+5 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "brazen_atk/def_3": {
+        "id": "brazen_atk/def_3",
+        "name": "Brazen Atk/Def 3",
+        "description": "At start of combat, if unit's HP \u2264 80%, grants Atk/Def+7 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "brazen_atk/res_1": {
+        "id": "brazen_atk/res_1",
+        "name": "Brazen Atk/Res 1",
+        "description": "At start of combat, if unit's HP \u2264 80%, grants Atk/Res+3 during combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "brazen_atk/res_2": {
+        "id": "brazen_atk/res_2",
+        "name": "Brazen Atk/Res 2",
+        "description": "At start of combat, if unit's HP \u2264 80%, grants Atk/Res+5 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "brazen_atk/res_3": {
+        "id": "brazen_atk/res_3",
+        "name": "Brazen Atk/Res 3",
+        "description": "At start of combat, if unit's HP \u2264 80%, grants Atk/Res+7 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "brazen_atk/spd_1": {
+        "id": "brazen_atk/spd_1",
+        "name": "Brazen Atk/Spd 1",
+        "description": "At start of combat, if unit's HP \u2264 80%, grants Atk/Spd+3 during combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "brazen_atk/spd_2": {
+        "id": "brazen_atk/spd_2",
+        "name": "Brazen Atk/Spd 2",
+        "description": "At start of combat, if unit's HP \u2264 80%, grants Atk/Spd+5 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "brazen_atk/spd_3": {
+        "id": "brazen_atk/spd_3",
+        "name": "Brazen Atk/Spd 3",
+        "description": "At start of combat, if unit's HP \u2264 80%, grants Atk/Spd+7 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "brazen_atk/spd_4": {
+        "id": "brazen_atk/spd_4",
+        "name": "Brazen Atk/Spd 4",
+        "description": "At start of combat, if unit's HP \u2264 80%, grants Atk+9 and Spd+10 during combat.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "brazen_def/res_1": {
+        "id": "brazen_def/res_1",
+        "name": "Brazen Def/Res 1",
+        "description": "At start of combat, if unit's HP \u2264 80%, grants Def/Res+3 during combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "brazen_def/res_2": {
+        "id": "brazen_def/res_2",
+        "name": "Brazen Def/Res 2",
+        "description": "At start of combat, if unit's HP \u2264 80%, grants Def/Res+5 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "brazen_def/res_3": {
+        "id": "brazen_def/res_3",
+        "name": "Brazen Def/Res 3",
+        "description": "At start of combat, if unit's HP \u2264 80%, grants Def/Res+7 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "brazen_spd/def_1": {
+        "id": "brazen_spd/def_1",
+        "name": "Brazen Spd/Def 1",
+        "description": "At start of combat, if unit's HP \u2264 80%, grants Spd/Def+3 during combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "brazen_spd/def_2": {
+        "id": "brazen_spd/def_2",
+        "name": "Brazen Spd/Def 2",
+        "description": "At start of combat, if unit's HP \u2264 80%, grants Spd/Def+5 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "brazen_spd/def_3": {
+        "id": "brazen_spd/def_3",
+        "name": "Brazen Spd/Def 3",
+        "description": "At start of combat, if unit's HP \u2264 80%, grants Spd/Def+7 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "brazen_spd/res_1": {
+        "id": "brazen_spd/res_1",
+        "name": "Brazen Spd/Res 1",
+        "description": "At start of combat, if unit's HP \u2264 80%, grants Spd/Res+3 during combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "brazen_spd/res_2": {
+        "id": "brazen_spd/res_2",
+        "name": "Brazen Spd/Res 2",
+        "description": "At start of combat, if unit's HP \u2264 80%, grants Spd/Res+5 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "brazen_spd/res_3": {
+        "id": "brazen_spd/res_3",
+        "name": "Brazen Spd/Res 3",
+        "description": "At start of combat, if unit's HP \u2264 80%, grants Spd/Res+7 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "c_duel_infantry_1": {
+        "id": "c_duel_infantry_1",
+        "name": "C Duel Infantry 1",
+        "description": "Grants HP+3. If unit is 5\u2605 and level 40 and unit's stats total less than 160, treats unit's stats as 160 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)",
+        "sp": 70,
+        "restrictions": []
+    },
+    "c_duel_infantry_2": {
+        "id": "c_duel_infantry_2",
+        "name": "C Duel Infantry 2",
+        "description": "Grants HP+4. If unit is 5\u2605 and level 40 and unit's stats total less than 165, treats unit's stats as 165 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)",
+        "sp": 150,
+        "restrictions": []
+    },
+    "c_duel_infantry_3": {
+        "id": "c_duel_infantry_3",
+        "name": "C Duel Infantry 3",
+        "description": "Grants HP+5. If unit is 5\u2605 and level 40 and unit's stats total less than 170, treats unit's stats as 170 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)",
+        "sp": 300,
+        "restrictions": []
+    },
+    "close_counter": {
+        "id": "close_counter",
+        "name": "Close Counter",
+        "description": "Unit can counterattack regardless of foe's range.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "close_def_1": {
+        "id": "close_def_1",
+        "name": "Close Def 1",
+        "description": "If foe initiates combat and uses sword, lance, axe, dragonstone, or beast damage, grants Def/Res+2 during combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "close_def_2": {
+        "id": "close_def_2",
+        "name": "Close Def 2",
+        "description": "If foe initiates combat and uses sword, lance, axe, dragonstone, or beast damage, grants Def/Res+4 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "close_def_3": {
+        "id": "close_def_3",
+        "name": "Close Def 3",
+        "description": "If foe initiates combat and uses sword, lance, axe, dragonstone, or beast damage, grants Def/Res+6 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "close_foil": {
+        "id": "close_foil",
+        "name": "Close Foil",
+        "description": "If sword, lance, axe, bow, dagger, or beast foe initiates combat, grants Atk/Def+5 to unit during combat and unit can counterattack regardless of foe's range.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "darting_blow_1": {
+        "id": "darting_blow_1",
+        "name": "Darting Blow 1",
+        "description": "If unit initiates combat, grants Spd+2 during combat.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "darting_blow_2": {
+        "id": "darting_blow_2",
+        "name": "Darting Blow 2",
+        "description": "If unit initiates combat, grants Spd+4 during combat.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "darting_blow_3": {
+        "id": "darting_blow_3",
+        "name": "Darting Blow 3",
+        "description": "If unit initiates combat, grants Spd+6 during combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "darting_blow_4": {
+        "id": "darting_blow_4",
+        "name": "Darting Blow 4",
+        "description": "If unit initiates combat, grants Spd+9 during combat.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "darting_breath": {
+        "id": "darting_breath",
+        "name": "Darting Breath",
+        "description": "If foe initiates combat, grants Spd+4 during combat and Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "darting_stance_1": {
+        "id": "darting_stance_1",
+        "name": "Darting Stance 1",
+        "description": "If foe initiates combat, grants Spd+2 during combat.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "darting_stance_2": {
+        "id": "darting_stance_2",
+        "name": "Darting Stance 2",
+        "description": "If foe initiates combat, grants Spd+4 during combat.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "darting_stance_3": {
+        "id": "darting_stance_3",
+        "name": "Darting Stance 3",
+        "description": "If foe initiates combat, grants Spd+6 during combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "death_blow_1": {
+        "id": "death_blow_1",
+        "name": "Death Blow 1",
+        "description": "If unit initiates combat, grants Atk+2 during combat.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "death_blow_2": {
+        "id": "death_blow_2",
+        "name": "Death Blow 2",
+        "description": "If unit initiates combat, grants Atk+4 during combat.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "death_blow_3": {
+        "id": "death_blow_3",
+        "name": "Death Blow 3",
+        "description": "If unit initiates combat, grants Atk+6 during combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "death_blow_4": {
+        "id": "death_blow_4",
+        "name": "Death Blow 4",
+        "description": "If unit initiates combat, grants Atk+8 during combat.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "def/res_1": {
+        "id": "def/res_1",
+        "name": "Def/Res 1",
+        "description": "Grants Def/Res+1.",
+        "sp": 80,
+        "restrictions": []
+    },
+    "def/res_2": {
+        "id": "def/res_2",
+        "name": "Def/Res 2",
+        "description": "Grants Def/Res+2.",
+        "sp": 160,
+        "restrictions": []
+    },
+    "def/res_bond_1": {
+        "id": "def/res_bond_1",
+        "name": "Def/Res Bond 1",
+        "description": "If unit is adjacent to an ally, grants Def/Res+3 during combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "def/res_bond_2": {
+        "id": "def/res_bond_2",
+        "name": "Def/Res Bond 2",
+        "description": "If unit is adjacent to an ally, grants Def/Res+4 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "def/res_bond_3": {
+        "id": "def/res_bond_3",
+        "name": "Def/Res Bond 3",
+        "description": "If unit is adjacent to an ally, grants Def/Res+5 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "def/res_solo_1": {
+        "id": "def/res_solo_1",
+        "name": "Def/Res Solo 1",
+        "description": "If unit is not adjacent to an ally, grants Def/Res+2 during combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "def/res_solo_2": {
+        "id": "def/res_solo_2",
+        "name": "Def/Res Solo 2",
+        "description": "If unit is not adjacent to an ally, grants Def/Res+4 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "def/res_solo_3": {
+        "id": "def/res_solo_3",
+        "name": "Def/Res Solo 3",
+        "description": "If unit is not adjacent to an ally, grants Def/Res+6 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "defense_+1": {
+        "id": "defense_+1",
+        "name": "Defense +1",
+        "description": "Grants Def+1.",
+        "sp": 30,
+        "restrictions": []
+    },
+    "defense_+2": {
+        "id": "defense_+2",
+        "name": "Defense +2",
+        "description": "Grants Def+2.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "defense_+3": {
+        "id": "defense_+3",
+        "name": "Defense +3",
+        "description": "Grants Def+3.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "defiant_atk_1": {
+        "id": "defiant_atk_1",
+        "name": "Defiant Atk 1",
+        "description": "At start of turn, if unit's HP \u2264 50%, grants Atk+3 for 1 turn.",
+        "sp": 40,
+        "restrictions": []
+    },
+    "defiant_atk_2": {
+        "id": "defiant_atk_2",
+        "name": "Defiant Atk 2",
+        "description": "At start of turn, if unit's HP \u2264 50%, grants Atk+5 for 1 turn.",
+        "sp": 80,
+        "restrictions": []
+    },
+    "defiant_atk_3": {
+        "id": "defiant_atk_3",
+        "name": "Defiant Atk 3",
+        "description": "At start of turn, if unit's HP \u2264 50%, grants Atk+7 for 1 turn.",
+        "sp": 160,
+        "restrictions": []
+    },
+    "defiant_def_1": {
+        "id": "defiant_def_1",
+        "name": "Defiant Def 1",
+        "description": "At start of turn, if unit's HP \u2264 50%, grants Def+3 for 1 turn.",
+        "sp": 40,
+        "restrictions": []
+    },
+    "defiant_def_2": {
+        "id": "defiant_def_2",
+        "name": "Defiant Def 2",
+        "description": "At start of turn, if unit's HP \u2264 50%, grants Def+5 for 1 turn.",
+        "sp": 80,
+        "restrictions": []
+    },
+    "defiant_def_3": {
+        "id": "defiant_def_3",
+        "name": "Defiant Def 3",
+        "description": "At start of turn, if unit's HP \u2264 50%, grants Def+7 for 1 turn.",
+        "sp": 160,
+        "restrictions": []
+    },
+    "defiant_res_1": {
+        "id": "defiant_res_1",
+        "name": "Defiant Res 1",
+        "description": "At start of turn, if unit's HP \u2264 50%, grants Res+3 for 1 turn.",
+        "sp": 40,
+        "restrictions": []
+    },
+    "defiant_res_2": {
+        "id": "defiant_res_2",
+        "name": "Defiant Res 2",
+        "description": "At start of turn, if unit's HP \u2264 50%, grants Res+5 for 1 turn.",
+        "sp": 80,
+        "restrictions": []
+    },
+    "defiant_res_3": {
+        "id": "defiant_res_3",
+        "name": "Defiant Res 3",
+        "description": "At start of turn, if unit's HP \u2264 50%, grants Res+7 for 1 turn.",
+        "sp": 160,
+        "restrictions": []
+    },
+    "defiant_spd_1": {
+        "id": "defiant_spd_1",
+        "name": "Defiant Spd 1",
+        "description": "At start of turn, if unit's HP \u2264 50%, grants Spd+3 for 1 turn.",
+        "sp": 40,
+        "restrictions": []
+    },
+    "defiant_spd_2": {
+        "id": "defiant_spd_2",
+        "name": "Defiant Spd 2",
+        "description": "At start of turn, if unit's HP \u2264 50%, grants Spd+5 for 1 turn.",
+        "sp": 80,
+        "restrictions": []
+    },
+    "defiant_spd_3": {
+        "id": "defiant_spd_3",
+        "name": "Defiant Spd 3",
+        "description": "At start of turn, if unit's HP \u2264 50%, grants Spd+7 for 1 turn.",
+        "sp": 160,
+        "restrictions": []
+    },
+    "distant_counter": {
+        "id": "distant_counter",
+        "name": "Distant Counter",
+        "description": "Unit can counterattack regardless of foe's range.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "distant_def_1": {
+        "id": "distant_def_1",
+        "name": "Distant Def 1",
+        "description": "If foe initiates combat and uses bow, dagger, magic, or staff, grants Def/Res+2 during combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "distant_def_2": {
+        "id": "distant_def_2",
+        "name": "Distant Def 2",
+        "description": "If foe initiates combat and uses bow, dagger, magic, or staff, grants Def/Res+4 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "distant_def_3": {
+        "id": "distant_def_3",
+        "name": "Distant Def 3",
+        "description": "If foe initiates combat and uses bow, dagger, magic, or staff, grants Def/Res+6 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "distant_def_4": {
+        "id": "distant_def_4",
+        "name": "Distant Def 4",
+        "description": "If foe initiates combat and uses bow, dagger, magic, or staff, grants Def/Res+8 and neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "distant_foil": {
+        "id": "distant_foil",
+        "name": "Distant Foil",
+        "description": "If sword, lance, axe, bow, dagger, or beast foe initiates combat, grants Atk/Def+5 to unit during combat and unit can counterattack regardless of foe's range.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "distant_ward": {
+        "id": "distant_ward",
+        "name": "Distant Ward",
+        "description": "If magic, staff, or dragonstone foe initiates combat, grants Atk/Res+5 to unit during combat and unit can counterattack regardless of foe's range.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "dragonskin": {
+        "id": "dragonskin",
+        "name": "Dragonskin",
+        "description": "Neutralizes \"effective against flying\" bonuses.If foe initiates combat, grants Def/Res+4 during combat.",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "dragoon_shield": {
+        "id": "dragoon_shield",
+        "name": "Dragoon Shield",
+        "description": "Neutralizes \"effective against flying\" bonuses. Grants Atk/Spd/Def+3.",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "earth_boost_1": {
+        "id": "earth_boost_1",
+        "name": "Earth Boost 1",
+        "description": "At start of combat, if unit's HP \u2265 foe's HP+3, grants Def+2 during combat.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "earth_boost_2": {
+        "id": "earth_boost_2",
+        "name": "Earth Boost 2",
+        "description": "At start of combat, if unit's HP \u2265 foe's HP+3, grants Def+4 during combat.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "earth_boost_3": {
+        "id": "earth_boost_3",
+        "name": "Earth Boost 3",
+        "description": "At start of combat, if unit's HP \u2265 foe's HP+3, grants Def+6 during combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "fierce_breath": {
+        "id": "fierce_breath",
+        "name": "Fierce Breath",
+        "description": "If foe initiates combat, grants Atk+4 during combat and Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "fierce_stance_1": {
+        "id": "fierce_stance_1",
+        "name": "Fierce Stance 1",
+        "description": "If foe initiates combat, grants Atk+2 during combat.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "fierce_stance_2": {
+        "id": "fierce_stance_2",
+        "name": "Fierce Stance 2",
+        "description": "If foe initiates combat, grants Atk+4 during combat.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "fierce_stance_3": {
+        "id": "fierce_stance_3",
+        "name": "Fierce Stance 3",
+        "description": "If foe initiates combat, grants Atk+6 during combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "fire_boost_1": {
+        "id": "fire_boost_1",
+        "name": "Fire Boost 1",
+        "description": "At start of combat, if unit's HP \u2265 foe's HP+3, grants Atk+2 during combat.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "fire_boost_2": {
+        "id": "fire_boost_2",
+        "name": "Fire Boost 2",
+        "description": "At start of combat, if unit's HP \u2265 foe's HP+3, grants Atk+4 during combat.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "fire_boost_3": {
+        "id": "fire_boost_3",
+        "name": "Fire Boost 3",
+        "description": "At start of combat, if unit's HP \u2265 foe's HP+3, grants Atk+6 during combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "flashing_blade_1": {
+        "id": "flashing_blade_1",
+        "name": "Flashing Blade 1",
+        "description": "If unit's Spd \u2265 foe's Spd+5, grants Special cooldown charge +1 per unit's attack.(Only highest value applied. Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "flashing_blade_2": {
+        "id": "flashing_blade_2",
+        "name": "Flashing Blade 2",
+        "description": "If unit's Spd \u2265 foe's Spd+3, grants Special cooldown charge +1 per unit's attack.(Only highest value applied. Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "flashing_blade_3": {
+        "id": "flashing_blade_3",
+        "name": "Flashing Blade 3",
+        "description": "If unit's Spd > foe's Spd, grants Special cooldown charge +1 per unit's attack.(Only highest value applied. Does not stack.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "flashing_blade_4": {
+        "id": "flashing_blade_4",
+        "name": "Flashing Blade 4",
+        "description": "If unit's Spd > foe's Spd, grants Special cooldown charge +1 and deals +5 damage per unit's attack.(Only highest value applied. Does not stack.)",
+        "sp": 300,
+        "restrictions": []
+    },
+    "fort._def/res_1": {
+        "id": "fort._def/res_1",
+        "name": "Fort. Def/Res 1",
+        "description": "Grants Def/Res+3.Inflicts Atk-3.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "fort._def/res_2": {
+        "id": "fort._def/res_2",
+        "name": "Fort. Def/Res 2",
+        "description": "Grants Def/Res+4.Inflicts Atk-3.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "fort._def/res_3": {
+        "id": "fort._def/res_3",
+        "name": "Fort. Def/Res 3",
+        "description": "Grants Def/Res+6.Inflicts Atk-2.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "fortress_def_1": {
+        "id": "fortress_def_1",
+        "name": "Fortress Def 1",
+        "description": "Grants Def+3.Inflicts Atk-3.",
+        "sp": 40,
+        "restrictions": []
+    },
+    "fortress_def_2": {
+        "id": "fortress_def_2",
+        "name": "Fortress Def 2",
+        "description": "Grants Def+4.Inflicts Atk-3.",
+        "sp": 80,
+        "restrictions": []
+    },
+    "fortress_def_3": {
+        "id": "fortress_def_3",
+        "name": "Fortress Def 3",
+        "description": "Grants Def+5.Inflicts Atk-3.",
+        "sp": 160,
+        "restrictions": []
+    },
+    "fortress_res_1": {
+        "id": "fortress_res_1",
+        "name": "Fortress Res 1",
+        "description": "Grants Res+3.Inflicts Atk-3.",
+        "sp": 40,
+        "restrictions": []
+    },
+    "fortress_res_2": {
+        "id": "fortress_res_2",
+        "name": "Fortress Res 2",
+        "description": "Grants Res+4.Inflicts Atk-3.",
+        "sp": 80,
+        "restrictions": []
+    },
+    "fortress_res_3": {
+        "id": "fortress_res_3",
+        "name": "Fortress Res 3",
+        "description": "Grants Res+5.Inflicts Atk-3.",
+        "sp": 160,
+        "restrictions": []
+    },
+    "fury_1": {
+        "id": "fury_1",
+        "name": "Fury 1",
+        "description": "Grants Atk/Spd/Def/Res+1. After combat, deals 2 damage to unit.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "fury_2": {
+        "id": "fury_2",
+        "name": "Fury 2",
+        "description": "Grants Atk/Spd/Def/Res+2. After combat, deals 4 damage to unit.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "fury_3": {
+        "id": "fury_3",
+        "name": "Fury 3",
+        "description": "Grants Atk/Spd/Def/Res+3. After combat, deals 6 damage to unit.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "fury_4": {
+        "id": "fury_4",
+        "name": "Fury 4",
+        "description": "Grants Atk/Spd/Def/Res+4. After combat, deals 8 damage to unit.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "g_duel_flying_1": {
+        "id": "g_duel_flying_1",
+        "name": "G Duel Flying 1",
+        "description": "Grants HP+3. If unit is 5\u2605 and level 40 and unit's stats total less than 160, treats unit's stats as 160 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)",
+        "sp": 70,
+        "restrictions": []
+    },
+    "g_duel_flying_2": {
+        "id": "g_duel_flying_2",
+        "name": "G Duel Flying 2",
+        "description": "Grants HP+4. If unit is 5\u2605 and level 40 and unit's stats total less than 165, treats unit's stats as 165 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)",
+        "sp": 150,
+        "restrictions": []
+    },
+    "g_duel_flying_3": {
+        "id": "g_duel_flying_3",
+        "name": "G Duel Flying 3",
+        "description": "Grants HP+5. If unit is 5\u2605 and level 40 and unit's stats total less than 170, treats unit's stats as 170 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)",
+        "sp": 300,
+        "restrictions": []
+    },
+    "g_duel_infantry_1": {
+        "id": "g_duel_infantry_1",
+        "name": "G Duel Infantry 1",
+        "description": "Grants HP+3. If unit is 5\u2605 and level 40 and unit's stats total less than 160, treats unit's stats as 160 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)",
+        "sp": 70,
+        "restrictions": []
+    },
+    "g_duel_infantry_2": {
+        "id": "g_duel_infantry_2",
+        "name": "G Duel Infantry 2",
+        "description": "Grants HP+4. If unit is 5\u2605 and level 40 and unit's stats total less than 165, treats unit's stats as 165 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)",
+        "sp": 150,
+        "restrictions": []
+    },
+    "g_duel_infantry_3": {
+        "id": "g_duel_infantry_3",
+        "name": "G Duel Infantry 3",
+        "description": "Grants HP+5. If unit is 5\u2605 and level 40 and unit's stats total less than 170, treats unit's stats as 170 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)",
+        "sp": 300,
+        "restrictions": []
+    },
+    "grani's_shield": {
+        "id": "grani's_shield",
+        "name": "Grani's Shield",
+        "description": "Neutralizes \"effective against cavalry\" bonuses.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "heavy_blade_1": {
+        "id": "heavy_blade_1",
+        "name": "Heavy Blade 1",
+        "description": "If unit's Atk \u2265 foe's Atk+5, grants Special cooldown charge +1 per unit's attack. (Only highest value applied. Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "heavy_blade_2": {
+        "id": "heavy_blade_2",
+        "name": "Heavy Blade 2",
+        "description": "If unit's Atk \u2265 foe's Atk+3, grants Special cooldown charge +1 per unit's attack. (Only highest value applied. Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "heavy_blade_3": {
+        "id": "heavy_blade_3",
+        "name": "Heavy Blade 3",
+        "description": "If unit's Atk > foe's Atk, grants Special cooldown charge +1 per unit's attack. (Only highest value applied. Does not stack.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "heavy_blade_4": {
+        "id": "heavy_blade_4",
+        "name": "Heavy Blade 4",
+        "description": "If unit's Atk > foe's Atk, grants Special cooldown charge +1 and deals +5 damage to foe per unit's attack. (Only highest value applied. Does not stack.)",
+        "sp": 300,
+        "restrictions": []
+    },
+    "hp/atk_1": {
+        "id": "hp/atk_1",
+        "name": "HP/Atk 1",
+        "description": "Grants HP+3, Atk+1.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "hp/atk_2": {
+        "id": "hp/atk_2",
+        "name": "HP/Atk 2",
+        "description": "Grants HP+4, Atk+2.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "hp/def_1": {
+        "id": "hp/def_1",
+        "name": "HP/Def 1",
+        "description": "Grants HP+3, Def+1.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "hp/def_2": {
+        "id": "hp/def_2",
+        "name": "HP/Def 2",
+        "description": "Grants HP+4, Def+2.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "hp_+3": {
+        "id": "hp_+3",
+        "name": "HP +3",
+        "description": "Grants HP+3.",
+        "sp": 40,
+        "restrictions": []
+    },
+    "hp_+4": {
+        "id": "hp_+4",
+        "name": "HP +4",
+        "description": "Grants HP+4.",
+        "sp": 80,
+        "restrictions": []
+    },
+    "hp_+5": {
+        "id": "hp_+5",
+        "name": "HP +5",
+        "description": "Grants HP+5.",
+        "sp": 160,
+        "restrictions": []
+    },
+    "hp/res_1": {
+        "id": "hp/res_1",
+        "name": "HP/Res 1",
+        "description": "Grants HP+3, Res+1.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "hp/res_2": {
+        "id": "hp/res_2",
+        "name": "HP/Res 2",
+        "description": "Grants HP+4, Res+2.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "hp/spd_1": {
+        "id": "hp/spd_1",
+        "name": "HP/Spd 1",
+        "description": "Grants HP+3, Spd+1.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "hp/spd_2": {
+        "id": "hp/spd_2",
+        "name": "HP/Spd 2",
+        "description": "Grants HP+4, Spd+2.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "iote's_shield": {
+        "id": "iote's_shield",
+        "name": "Iote's Shield",
+        "description": "Neutralizes \"effective against flying\" bonuses.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "kestrel_stance_1": {
+        "id": "kestrel_stance_1",
+        "name": "Kestrel Stance 1",
+        "description": "If foe initiates combat, grants Atk/Spd+2 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "kestrel_stance_2": {
+        "id": "kestrel_stance_2",
+        "name": "Kestrel Stance 2",
+        "description": "If foe initiates combat, grants Atk/Spd+4 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "kestrel_stance_3": {
+        "id": "kestrel_stance_3",
+        "name": "Kestrel Stance 3",
+        "description": "If foe initiates combat, grants Atk/Spd+6 during combat and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)",
+        "sp": 300,
+        "restrictions": []
+    },
+    "laws_of_sacae": {
+        "id": "laws_of_sacae",
+        "name": "Laws of Sacae",
+        "description": "If foe initiates combat and the number of allies within 2 spaces \u2265 2, grants Atk/Spd/Def/Res+4 during combat.",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "life_and_death_1": {
+        "id": "life_and_death_1",
+        "name": "Life and Death 1",
+        "description": "Grants Atk/Spd+3.Inflicts Def/Res-3.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "life_and_death_2": {
+        "id": "life_and_death_2",
+        "name": "Life and Death 2",
+        "description": "Grants Atk/Spd+4.Inflicts Def/Res-4.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "life_and_death_3": {
+        "id": "life_and_death_3",
+        "name": "Life and Death 3",
+        "description": "Grants Atk/Spd+5.Inflicts Def/Res-5.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "life_and_death_4": {
+        "id": "life_and_death_4",
+        "name": "Life and Death 4",
+        "description": "Grants Atk/Spd+7.Inflicts Def/Res-5.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "mirror_impact": {
+        "id": "mirror_impact",
+        "name": "Mirror Impact",
+        "description": "If unit initiates combat, grants Atk+6, Res+10 during combat and foe cannot make a follow-up attack.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "mirror_stance_1": {
+        "id": "mirror_stance_1",
+        "name": "Mirror Stance 1",
+        "description": "If foe initiates combat, grants Atk/Res+2 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "mirror_stance_2": {
+        "id": "mirror_stance_2",
+        "name": "Mirror Stance 2",
+        "description": "If foe initiates combat, grants Atk/Res+4 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "mirror_stance_3": {
+        "id": "mirror_stance_3",
+        "name": "Mirror Stance 3",
+        "description": "If foe initiates combat, grants Atk/Res+6 during combat and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)",
+        "sp": 300,
+        "restrictions": []
+    },
+    "mirror_strike_1": {
+        "id": "mirror_strike_1",
+        "name": "Mirror Strike 1",
+        "description": "If unit initiates combat, grants Atk/Res+2 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "mirror_strike_2": {
+        "id": "mirror_strike_2",
+        "name": "Mirror Strike 2",
+        "description": "If unit initiates combat, grants Atk/Res+4 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "ostian_counter": {
+        "id": "ostian_counter",
+        "name": "Ostian Counter",
+        "description": "Unit can counterattack regardless of foe's range. If foe initiates combat, grants Atk/Def+4 during combat.",
+        "sp": 350,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "r_duel_flying_1": {
+        "id": "r_duel_flying_1",
+        "name": "R Duel Flying 1",
+        "description": "Grants HP+3. If unit is 5\u2605 and level 40 and unit's stats total less than 160, treats unit's stats as 160 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)",
+        "sp": 70,
+        "restrictions": []
+    },
+    "r_duel_flying_2": {
+        "id": "r_duel_flying_2",
+        "name": "R Duel Flying 2",
+        "description": "Grants HP+4. If unit is 5\u2605 and level 40 and unit's stats total less than 165, treats unit's stats as 165 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)",
+        "sp": 150,
+        "restrictions": []
+    },
+    "r_duel_flying_3": {
+        "id": "r_duel_flying_3",
+        "name": "R Duel Flying 3",
+        "description": "Grants HP+5. If unit is 5\u2605 and level 40 and unit's stats total less than 170, treats unit's stats as 170 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)",
+        "sp": 300,
+        "restrictions": []
+    },
+    "r_duel_infantry_1": {
+        "id": "r_duel_infantry_1",
+        "name": "R Duel Infantry 1",
+        "description": "Grants HP+3. If unit is 5\u2605 and level 40 and unit's stats total less than 160, treats unit's stats as 160 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)",
+        "sp": 70,
+        "restrictions": []
+    },
+    "r_duel_infantry_2": {
+        "id": "r_duel_infantry_2",
+        "name": "R Duel Infantry 2",
+        "description": "Grants HP+4. If unit is 5\u2605 and level 40 and unit's stats total less than 165, treats unit's stats as 165 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)",
+        "sp": 150,
+        "restrictions": []
+    },
+    "r_duel_infantry_3": {
+        "id": "r_duel_infantry_3",
+        "name": "R Duel Infantry 3",
+        "description": "Grants HP+5. If unit is 5\u2605 and level 40 and unit's stats total less than 170, treats unit's stats as 170 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)",
+        "sp": 300,
+        "restrictions": []
+    },
+    "resistance_+1": {
+        "id": "resistance_+1",
+        "name": "Resistance +1",
+        "description": "Grants Res+1.",
+        "sp": 30,
+        "restrictions": []
+    },
+    "resistance_+2": {
+        "id": "resistance_+2",
+        "name": "Resistance +2",
+        "description": "Grants Res+2.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "resistance_+3": {
+        "id": "resistance_+3",
+        "name": "Resistance +3",
+        "description": "Grants Res+3.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "scendscale": {
+        "id": "scendscale",
+        "name": "Scendscale",
+        "description": "Deals damage = 25% of unit's Atk, but after combat, if unit attacked, deals 7 damage to unit.",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "shield_session_1": {
+        "id": "shield_session_1",
+        "name": "Shield Session 1",
+        "description": "If foe initiates combat, grants bonus to unit's Def/Res during combat = 3 - number of foes who have already acted (min value of 1).",
+        "sp": 60,
+        "restrictions": []
+    },
+    "shield_session_2": {
+        "id": "shield_session_2",
+        "name": "Shield Session 2",
+        "description": "If foe initiates combat, grants bonus to unit's Def/Res during combat = 6 - number of foes who have already acted \u00d7 2 (min value of 2).",
+        "sp": 120,
+        "restrictions": []
+    },
+    "shield_session_3": {
+        "id": "shield_session_3",
+        "name": "Shield Session 3",
+        "description": "If foe initiates combat, grants bonus to unit's Def/Res during combat = 9 - number of foes who have already acted \u00d7 3 (min value of 3).",
+        "sp": 240,
+        "restrictions": []
+    },
+    "sorcery_blade_1": {
+        "id": "sorcery_blade_1",
+        "name": "Sorcery Blade 1",
+        "description": "At start of combat, if unit's HP = 100% and unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "sorcery_blade_2": {
+        "id": "sorcery_blade_2",
+        "name": "Sorcery Blade 2",
+        "description": "At start of combat, if unit's HP \u2265 50% and unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "sorcery_blade_3": {
+        "id": "sorcery_blade_3",
+        "name": "Sorcery Blade 3",
+        "description": "At start of combat, if unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "spd/def_1": {
+        "id": "spd/def_1",
+        "name": "Spd/Def 1",
+        "description": "Grants Spd/Def+1.",
+        "sp": 80,
+        "restrictions": []
+    },
+    "spd/def_2": {
+        "id": "spd/def_2",
+        "name": "Spd/Def 2",
+        "description": "Grants Spd/Def+2.",
+        "sp": 160,
+        "restrictions": []
+    },
+    "spd/def_bond_1": {
+        "id": "spd/def_bond_1",
+        "name": "Spd/Def Bond 1",
+        "description": "If unit is adjacent to an ally, grants Spd/Def+3 during combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "spd/def_bond_2": {
+        "id": "spd/def_bond_2",
+        "name": "Spd/Def Bond 2",
+        "description": "If unit is adjacent to an ally, grants Spd/Def+4 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "spd/def_bond_3": {
+        "id": "spd/def_bond_3",
+        "name": "Spd/Def Bond 3",
+        "description": "If unit is adjacent to an ally, grants Spd/Def+5 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "spd/def_form_1": {
+        "id": "spd/def_form_1",
+        "name": "Spd/Def Form 1",
+        "description": "Grants Spd/Def+X to unit during combat. (X = number of allies within 2 spaces; max 3.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "spd/def_form_2": {
+        "id": "spd/def_form_2",
+        "name": "Spd/Def Form 2",
+        "description": "Grants Spd/Def+X to unit during combat. (X = number of allies within 2 spaces + 2; max 5.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "spd/def_form_3": {
+        "id": "spd/def_form_3",
+        "name": "Spd/Def Form 3",
+        "description": "Grants Spd/Def+X to unit during combat. (X = 2 \u00d7 number of allies within 2 spaces, + 1; max 7.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "spd/def_solo_1": {
+        "id": "spd/def_solo_1",
+        "name": "Spd/Def Solo 1",
+        "description": "If unit is not adjacent to an ally, grants Spd/Def+2 during combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "spd/def_solo_2": {
+        "id": "spd/def_solo_2",
+        "name": "Spd/Def Solo 2",
+        "description": "If unit is not adjacent to an ally, grants Spd/Def+4 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "spd/def_solo_3": {
+        "id": "spd/def_solo_3",
+        "name": "Spd/Def Solo 3",
+        "description": "If unit is not adjacent to an ally, grants Spd/Def+6 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "spd/res_1": {
+        "id": "spd/res_1",
+        "name": "Spd/Res 1",
+        "description": "Grants Spd/Res+1.",
+        "sp": 80,
+        "restrictions": []
+    },
+    "spd/res_2": {
+        "id": "spd/res_2",
+        "name": "Spd/Res 2",
+        "description": "Grants Spd/Res+2.",
+        "sp": 160,
+        "restrictions": []
+    },
+    "spd/res_bond_1": {
+        "id": "spd/res_bond_1",
+        "name": "Spd/Res Bond 1",
+        "description": "If unit is adjacent to an ally, grants Spd/Res+3 during combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "spd/res_bond_2": {
+        "id": "spd/res_bond_2",
+        "name": "Spd/Res Bond 2",
+        "description": "If unit is adjacent to an ally, grants Spd/Res+4 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "spd/res_bond_3": {
+        "id": "spd/res_bond_3",
+        "name": "Spd/Res Bond 3",
+        "description": "If unit is adjacent to an ally, grants Spd/Res+5 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "spd/res_form_1": {
+        "id": "spd/res_form_1",
+        "name": "Spd/Res Form 1",
+        "description": "Grants Spd/Res+X to unit during combat. (X = number of allies within 2 spaces; max 3.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "spd/res_form_2": {
+        "id": "spd/res_form_2",
+        "name": "Spd/Res Form 2",
+        "description": "Grants Spd/Res+X to unit during combat. (X = number of allies within 2 spaces + 2; max 5.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "spd/res_form_3": {
+        "id": "spd/res_form_3",
+        "name": "Spd/Res Form 3",
+        "description": "Grants Spd/Res+X to unit during combat. (X = 2 \u00d7 number of allies within 2 spaces, + 1; max 7.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "spd/res_solo_1": {
+        "id": "spd/res_solo_1",
+        "name": "Spd/Res Solo 1",
+        "description": "If unit is not adjacent to an ally, grants Spd/Res+2 during combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "spd/res_solo_2": {
+        "id": "spd/res_solo_2",
+        "name": "Spd/Res Solo 2",
+        "description": "If unit is not adjacent to an ally, grants Spd/Res+4 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "spd/res_solo_3": {
+        "id": "spd/res_solo_3",
+        "name": "Spd/Res Solo 3",
+        "description": "If unit is not adjacent to an ally, grants Spd/Res+6 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "speed_+1": {
+        "id": "speed_+1",
+        "name": "Speed +1",
+        "description": "Grants Spd+1.",
+        "sp": 30,
+        "restrictions": []
+    },
+    "speed_+2": {
+        "id": "speed_+2",
+        "name": "Speed +2",
+        "description": "Grants Spd+2.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "speed_+3": {
+        "id": "speed_+3",
+        "name": "Speed +3",
+        "description": "Grants Spd+3.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "steady_blow_1": {
+        "id": "steady_blow_1",
+        "name": "Steady Blow 1",
+        "description": "If unit initiates combat, grants Spd/Def+2 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "steady_blow_2": {
+        "id": "steady_blow_2",
+        "name": "Steady Blow 2",
+        "description": "If unit initiates combat, grants Spd/Def+4 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "steady_breath": {
+        "id": "steady_breath",
+        "name": "Steady Breath",
+        "description": "If foe initiates combat, grants Def+4 during combat and Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "steady_posture_1": {
+        "id": "steady_posture_1",
+        "name": "Steady Posture 1",
+        "description": "If foe initiates combat, grants Spd/Def+2 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "steady_posture_2": {
+        "id": "steady_posture_2",
+        "name": "Steady Posture 2",
+        "description": "If foe initiates combat, grants Spd/Def+4 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "steady_posture_3": {
+        "id": "steady_posture_3",
+        "name": "Steady Posture 3",
+        "description": "If foe initiates combat, grants Spd/Def+6 to unit during combat and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)",
+        "sp": 300,
+        "restrictions": []
+    },
+    "steady_stance_1": {
+        "id": "steady_stance_1",
+        "name": "Steady Stance 1",
+        "description": "If foe initiates combat, grants Def+2 during combat.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "steady_stance_2": {
+        "id": "steady_stance_2",
+        "name": "Steady Stance 2",
+        "description": "If foe initiates combat, grants Def+4 during combat.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "steady_stance_3": {
+        "id": "steady_stance_3",
+        "name": "Steady Stance 3",
+        "description": "If foe initiates combat, grants Def+6 during combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "steady_stance_4": {
+        "id": "steady_stance_4",
+        "name": "Steady Stance 4",
+        "description": "If foe initiates combat, grants Def+8 during combat and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)",
+        "sp": 300,
+        "restrictions": []
+    },
+    "sturdy_blow_1": {
+        "id": "sturdy_blow_1",
+        "name": "Sturdy Blow 1",
+        "description": "If unit initiates combat, grants Atk/Def+2 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "sturdy_blow_2": {
+        "id": "sturdy_blow_2",
+        "name": "Sturdy Blow 2",
+        "description": "If unit initiates combat, grants Atk/Def+4 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "sturdy_impact": {
+        "id": "sturdy_impact",
+        "name": "Sturdy Impact",
+        "description": "If unit initiates combat, grants Atk+6, Def+10 during combat and foe cannot make a follow-up attack.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "sturdy_stance_1": {
+        "id": "sturdy_stance_1",
+        "name": "Sturdy Stance 1",
+        "description": "If foe initiates combat, grants Atk/Def+2 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "sturdy_stance_2": {
+        "id": "sturdy_stance_2",
+        "name": "Sturdy Stance 2",
+        "description": "If foe initiates combat, grants Atk/Def+4 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "sturdy_stance_3": {
+        "id": "sturdy_stance_3",
+        "name": "Sturdy Stance 3",
+        "description": "If foe initiates combat, grants Atk/Def+6 during combat and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)",
+        "sp": 300,
+        "restrictions": []
+    },
+    "svalinn_shield": {
+        "id": "svalinn_shield",
+        "name": "Svalinn Shield",
+        "description": "Neutralizes \"effective against armored\" bonuses.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "swift_sparrow_1": {
+        "id": "swift_sparrow_1",
+        "name": "Swift Sparrow 1",
+        "description": "If unit initiates combat, grants Atk/Spd+2 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "swift_sparrow_2": {
+        "id": "swift_sparrow_2",
+        "name": "Swift Sparrow 2",
+        "description": "If unit initiates combat, grants Atk/Spd+4 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "swift_sparrow_3": {
+        "id": "swift_sparrow_3",
+        "name": "Swift Sparrow 3",
+        "description": "If unit initiates combat, grants Atk+6, Spd+7 during combat.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "swift_stance_1": {
+        "id": "swift_stance_1",
+        "name": "Swift Stance 1",
+        "description": "If foe initiates combat, grants Spd/Res+2 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "swift_stance_2": {
+        "id": "swift_stance_2",
+        "name": "Swift Stance 2",
+        "description": "If foe initiates combat, grants Spd/Res+4 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "swift_strike_1": {
+        "id": "swift_strike_1",
+        "name": "Swift Strike 1",
+        "description": "If unit initiates combat, grants Spd/Res+2 during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "swift_strike_2": {
+        "id": "swift_strike_2",
+        "name": "Swift Strike 2",
+        "description": "If unit initiates combat, grants Spd/Res+4 during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "triangle_adept_1": {
+        "id": "triangle_adept_1",
+        "name": "Triangle Adept 1",
+        "description": "If unit has weapon-triangle advantage, boosts Atk by 10%. If unit has weapon-triangle disadvantage, reduces Atk by 10%.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "triangle_adept_2": {
+        "id": "triangle_adept_2",
+        "name": "Triangle Adept 2",
+        "description": "If unit has weapon-triangle advantage, boosts Atk by 15%. If unit has weapon-triangle disadvantage, reduces Atk by 15%.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "triangle_adept_3": {
+        "id": "triangle_adept_3",
+        "name": "Triangle Adept 3",
+        "description": "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "warding_blow_1": {
+        "id": "warding_blow_1",
+        "name": "Warding Blow 1",
+        "description": "If unit initiates combat, grants Res+2 during combat.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "warding_blow_2": {
+        "id": "warding_blow_2",
+        "name": "Warding Blow 2",
+        "description": "If unit initiates combat, grants Res+4 during combat.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "warding_blow_3": {
+        "id": "warding_blow_3",
+        "name": "Warding Blow 3",
+        "description": "If unit initiates combat, grants Res+6 during combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "warding_breath": {
+        "id": "warding_breath",
+        "name": "Warding Breath",
+        "description": "If foe initiates combat, grants Res+4 during combat and Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "warding_stance_1": {
+        "id": "warding_stance_1",
+        "name": "Warding Stance 1",
+        "description": "If foe initiates combat, grants Res+2 during combat.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "warding_stance_2": {
+        "id": "warding_stance_2",
+        "name": "Warding Stance 2",
+        "description": "If foe initiates combat, grants Res+4 during combat.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "warding_stance_3": {
+        "id": "warding_stance_3",
+        "name": "Warding Stance 3",
+        "description": "If foe initiates combat, grants Res+6 during combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "warding_stance_4": {
+        "id": "warding_stance_4",
+        "name": "Warding Stance 4",
+        "description": "If foe initiates combat, grants Res+8 during combat and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)",
+        "sp": 300,
+        "restrictions": []
+    },
+    "water_boost_1": {
+        "id": "water_boost_1",
+        "name": "Water Boost 1",
+        "description": "At start of combat, if unit's HP \u2265 foe's HP+3, grants Res+2 during combat.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "water_boost_2": {
+        "id": "water_boost_2",
+        "name": "Water Boost 2",
+        "description": "At start of combat, if unit's HP \u2265 foe's HP+3, grants Res+4 during combat.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "water_boost_3": {
+        "id": "water_boost_3",
+        "name": "Water Boost 3",
+        "description": "At start of combat, if unit's HP \u2265 foe's HP+3, grants Res+6 during combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "wind_boost_1": {
+        "id": "wind_boost_1",
+        "name": "Wind Boost 1",
+        "description": "At start of combat, if unit's HP \u2265 foe's HP+3, grants Spd+2 during combat.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "wind_boost_2": {
+        "id": "wind_boost_2",
+        "name": "Wind Boost 2",
+        "description": "At start of combat, if unit's HP \u2265 foe's HP+3, grants Spd+4 during combat.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "wind_boost_3": {
+        "id": "wind_boost_3",
+        "name": "Wind Boost 3",
+        "description": "At start of combat, if unit's HP \u2265 foe's HP+3, grants Spd+6 during combat.",
+        "sp": 200,
+        "restrictions": []
+    }
+}

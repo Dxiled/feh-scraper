@@ -1,0 +1,840 @@
+{
+    "aegis": {
+        "id": "aegis",
+        "name": "Aegis",
+        "description": "If foe is 2 spaces from unit, reduces damage from foe's attack by 50%.",
+        "sp": 200,
+        "cooldown": 3,
+        "restrictions": [
+            "Red bow",
+            "Red Dagger",
+            "Red Tome",
+            "Blue bow",
+            "Blue Dagger",
+            "Blue Tome",
+            "Green bow",
+            "Green Dagger",
+            "Green Tome",
+            "Colorless bow",
+            "Colorless Dagger",
+            "Colorless Tome",
+            "Staff"
+        ]
+    },
+    "aether": {
+        "id": "aether",
+        "name": "Aether",
+        "description": "Treats foe's Def/Res as if reduced by 50% during combat.Restores HP = half of damage dealt.",
+        "sp": 500,
+        "cooldown": 5,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "astra": {
+        "id": "astra",
+        "name": "Astra",
+        "description": "Boosts damage dealt by 150%.",
+        "sp": 200,
+        "cooldown": 4,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "blackluna": {
+        "id": "blackluna",
+        "name": "Black Luna",
+        "description": "Treats foe's Def/Res as if reduced by 80% during combat.(Skill cannot be inherited.)",
+        "sp": 500,
+        "cooldown": 3,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "blazingflame": {
+        "id": "blazingflame",
+        "name": "Blazing Flame",
+        "description": "Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).",
+        "sp": 300,
+        "cooldown": 4,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "blazinglight": {
+        "id": "blazinglight",
+        "name": "Blazing Light",
+        "description": "Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).",
+        "sp": 300,
+        "cooldown": 4,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "blazingthunder": {
+        "id": "blazingthunder",
+        "name": "Blazing Thunder",
+        "description": "Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).",
+        "sp": 300,
+        "cooldown": 4,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "blazingwind": {
+        "id": "blazingwind",
+        "name": "Blazing Wind",
+        "description": "Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk minus foe's Def or Res).",
+        "sp": 300,
+        "cooldown": 4,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "blueflame": {
+        "id": "blueflame",
+        "name": "Blue Flame",
+        "description": "Boosts damage by 10. If unit is adjacent to an ally, boosts damage by 25 instead.",
+        "sp": 500,
+        "cooldown": 3,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "bonfire": {
+        "id": "bonfire",
+        "name": "Bonfire",
+        "description": "Boosts damage by 50% of unit's Def.",
+        "sp": 200,
+        "cooldown": 3,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "buckler": {
+        "id": "buckler",
+        "name": "Buckler",
+        "description": "Reduces damage from an adjacent foe's attack by 30%.",
+        "sp": 100,
+        "cooldown": 3,
+        "restrictions": [
+            "Red bow",
+            "Red Dagger",
+            "Red Tome",
+            "Blue bow",
+            "Blue Dagger",
+            "Blue Tome",
+            "Green bow",
+            "Green Dagger",
+            "Green Tome",
+            "Colorless bow",
+            "Colorless Dagger",
+            "Colorless Tome",
+            "Staff"
+        ]
+    },
+    "chillingwind": {
+        "id": "chillingwind",
+        "name": "Chilling Wind",
+        "description": "Boosts damage by 50% of unit's Res.",
+        "sp": 100,
+        "cooldown": 4,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "daylight": {
+        "id": "daylight",
+        "name": "Daylight",
+        "description": "Restores HP = 30% of damage dealt.",
+        "sp": 100,
+        "cooldown": 3,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "draconicaura": {
+        "id": "draconicaura",
+        "name": "Draconic Aura",
+        "description": "Boosts damage by 30% of unit's Atk.",
+        "sp": 200,
+        "cooldown": 3,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "dragonfang": {
+        "id": "dragonfang",
+        "name": "Dragon Fang",
+        "description": "Boosts damage by 50% of unit's Atk.",
+        "sp": 200,
+        "cooldown": 4,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "dragongaze": {
+        "id": "dragongaze",
+        "name": "Dragon Gaze",
+        "description": "Boosts damage by 30% of unit's Atk.",
+        "sp": 100,
+        "cooldown": 4,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "earthfirebalm": {
+        "id": "earthfirebalm",
+        "name": "Earthfire Balm",
+        "description": "When healing an ally with a staff, grants Atk/Def+4 to all allies for 1 turn.",
+        "sp": 200,
+        "cooldown": 1,
+        "restrictions": [
+            "staffonly"
+        ]
+    },
+    "earthfirebalm+": {
+        "id": "earthfirebalm+",
+        "name": "Earthfire Balm+",
+        "description": "When healing an ally with a staff, grants Atk/Def+6 to all allies for 1 turn.",
+        "sp": 300,
+        "cooldown": 1,
+        "restrictions": [
+            "staffonly"
+        ]
+    },
+    "earthwaterbalm": {
+        "id": "earthwaterbalm",
+        "name": "Earthwater Balm",
+        "description": "When healing an ally with a staff, grants Def/Res+4 to all allies for 1 turn.",
+        "sp": 200,
+        "cooldown": 1,
+        "restrictions": [
+            "staffonly"
+        ]
+    },
+    "earthwaterbalm+": {
+        "id": "earthwaterbalm+",
+        "name": "Earthwater Balm+",
+        "description": "When healing an ally with a staff, grants Def/Res+6 to all allies for 1 turn.",
+        "sp": 300,
+        "cooldown": 1,
+        "restrictions": [
+            "staffonly"
+        ]
+    },
+    "escutcheon": {
+        "id": "escutcheon",
+        "name": "Escutcheon",
+        "description": "Reduces damage from an adjacent foe's attack by 30%.",
+        "sp": 200,
+        "cooldown": 2,
+        "restrictions": [
+            "Red bow",
+            "Red Dagger",
+            "Red Tome",
+            "Blue bow",
+            "Blue Dagger",
+            "Blue Tome",
+            "Green bow",
+            "Green Dagger",
+            "Green Tome",
+            "Colorless bow",
+            "Colorless Dagger",
+            "Colorless Tome",
+            "Staff"
+        ]
+    },
+    "fireemblem": {
+        "id": "fireemblem",
+        "name": "Fire Emblem",
+        "description": "Boosts damage by 30% of unit's Spd.Grants Atk/Spd/Def/Res+4 to unit and all allies for 1 turn after combat. (Bonus granted to allies even if unit's HP reaches 0.)",
+        "sp": 500,
+        "cooldown": 2,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "firefloodbalm": {
+        "id": "firefloodbalm",
+        "name": "Fireflood Balm",
+        "description": "When healing an ally with a staff, grants Atk/Res+4 to all allies for 1 turn.",
+        "sp": 200,
+        "cooldown": 1,
+        "restrictions": [
+            "staffonly"
+        ]
+    },
+    "firefloodbalm+": {
+        "id": "firefloodbalm+",
+        "name": "Fireflood Balm+",
+        "description": "When healing an ally with a staff, grants Atk/Res+6 to all allies for 1 turn.",
+        "sp": 300,
+        "cooldown": 1,
+        "restrictions": [
+            "staffonly"
+        ]
+    },
+    "galeforce": {
+        "id": "galeforce",
+        "name": "Galeforce",
+        "description": "If unit initiates combat, grants unit another action after combat.(Once per turn.)",
+        "sp": 500,
+        "cooldown": 5,
+        "restrictions": [
+            "Red bow",
+            "Red Dagger",
+            "Red Tome",
+            "Red Breath",
+            "Blue bow",
+            "Blue Dagger",
+            "Blue Tome",
+            "Blue Breath",
+            "Green bow",
+            "Green Dagger",
+            "Green Tome",
+            "Green Breath",
+            "Colorless bow",
+            "Colorless Dagger",
+            "Colorless Tome",
+            "Staff",
+            "Colorless Breath"
+        ]
+    },
+    "glacies": {
+        "id": "glacies",
+        "name": "Glacies",
+        "description": "Boosts damage by 80% of unit's Res.",
+        "sp": 200,
+        "cooldown": 4,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "glimmer": {
+        "id": "glimmer",
+        "name": "Glimmer",
+        "description": "Boosts damage dealt by 50%.",
+        "sp": 200,
+        "cooldown": 2,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "glowingember": {
+        "id": "glowingember",
+        "name": "Glowing Ember",
+        "description": "Boosts damage by 50% of unit's Def.",
+        "sp": 100,
+        "cooldown": 4,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "growingflame": {
+        "id": "growingflame",
+        "name": "Growing Flame",
+        "description": "Before combat this unit initiates, foes in a wide area around target take damage equal to (unit's Atk minus foe's Def or Res).",
+        "sp": 300,
+        "cooldown": 4,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "growinglight": {
+        "id": "growinglight",
+        "name": "Growing Light",
+        "description": "Before combat this unit initiates, foes in a wide area around target take damage equal to (unit's Atk minus foe's Def or Res).",
+        "sp": 300,
+        "cooldown": 4,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "growingthunder": {
+        "id": "growingthunder",
+        "name": "Growing Thunder",
+        "description": "Before combat this unit initiates, foes in a wide area around target take damage equal to (unit's Atk minus foe's Def or Res).",
+        "sp": 300,
+        "cooldown": 4,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "growingwind": {
+        "id": "growingwind",
+        "name": "Growing Wind",
+        "description": "Before combat this unit initiates, foes in a wide area around target take damage equal to (unit's Atk minus foe's Def or Res).",
+        "sp": 300,
+        "cooldown": 4,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "heavenlylight": {
+        "id": "heavenlylight",
+        "name": "Heavenly Light",
+        "description": "When healing an ally with a staff, restores 10 HP to all allies.",
+        "sp": 150,
+        "cooldown": 2,
+        "restrictions": [
+            "staffonly"
+        ]
+    },
+    "hero'sblood": {
+        "id": "hero'sblood",
+        "name": "Hero's Blood",
+        "description": "Boosts damage by 30% of unit's Spd.Grants Atk/Spd/Def/Res+4 to unit and all allies for 1 turn after combat. (Bonus granted to allies even if unit's HP reaches 0.)",
+        "sp": 500,
+        "cooldown": 2,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "holyvestments": {
+        "id": "holyvestments",
+        "name": "Holy Vestments",
+        "description": "If foe is 2 spaces from unit, reduces damage from foe's attack by 30%.",
+        "sp": 100,
+        "cooldown": 3,
+        "restrictions": [
+            "Red bow",
+            "Red Dagger",
+            "Red Tome",
+            "Blue bow",
+            "Blue Dagger",
+            "Blue Tome",
+            "Green bow",
+            "Green Dagger",
+            "Green Tome",
+            "Colorless bow",
+            "Colorless Dagger",
+            "Colorless Tome",
+            "Staff"
+        ]
+    },
+    "icemirror": {
+        "id": "icemirror",
+        "name": "Ice Mirror",
+        "description": "If foe is 2 spaces from unit, reduces damage from foe's attacks by 30%. Boosts unit's next attack by total damage reduced (by any source, including other skills) when Special triggers. Resets at end of combat. (Skill cannot be inherited.)",
+        "sp": 500,
+        "cooldown": 2,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "iceberg": {
+        "id": "iceberg",
+        "name": "Iceberg",
+        "description": "Boosts damage by 50% of unit's Res.",
+        "sp": 200,
+        "cooldown": 3,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "ignis": {
+        "id": "ignis",
+        "name": "Ignis",
+        "description": "Boosts damage by 80% of unit's Def.",
+        "sp": 200,
+        "cooldown": 4,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "imbue": {
+        "id": "imbue",
+        "name": "Imbue",
+        "description": "When healing an ally with a staff, restores an additional 10 HP to target ally.",
+        "sp": 50,
+        "cooldown": 1,
+        "restrictions": [
+            "staffonly"
+        ]
+    },
+    "imperialastra": {
+        "id": "imperialastra",
+        "name": "Imperial Astra",
+        "description": "Boosts damage by 40% of unit's Spd.",
+        "sp": 500,
+        "cooldown": 2,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "kindled-firebalm": {
+        "id": "kindled-firebalm",
+        "name": "Kindled-Fire Balm",
+        "description": "When healing an ally with a staff, grants Atk+4 to all allies for 1 turn.",
+        "sp": 150,
+        "cooldown": 1,
+        "restrictions": [
+            "staffonly"
+        ]
+    },
+    "luna": {
+        "id": "luna",
+        "name": "Luna",
+        "description": "Treats foe's Def/Res as if reduced by 50% during combat.",
+        "sp": 200,
+        "cooldown": 3,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "lunarflash": {
+        "id": "lunarflash",
+        "name": "Lunar Flash",
+        "description": "Treats foe\u2019s Def/Res as if reduced by 20% during combat. Boosts damage by 20% of unit's Spd.",
+        "sp": 500,
+        "cooldown": 2,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "mayhemaether": {
+        "id": "mayhemaether",
+        "name": "Mayhem Aether",
+        "description": "During combat, treats foe's Def/Res as if reduced by 50%. Restores HP = 50% of damage dealt.",
+        "sp": 500,
+        "cooldown": 4,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "miracle": {
+        "id": "miracle",
+        "name": "Miracle",
+        "description": "If unit's HP > 1 and foe would reduce unit's HP to 0, unit survives with 1 HP.",
+        "sp": 200,
+        "cooldown": 5,
+        "restrictions": []
+    },
+    "moonbow": {
+        "id": "moonbow",
+        "name": "Moonbow",
+        "description": "Treats foe's Def/Res as if reduced by 30% during combat.",
+        "sp": 200,
+        "cooldown": 2,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "newmoon": {
+        "id": "newmoon",
+        "name": "New Moon",
+        "description": "Treats foe's Def/Res as if reduced by 30% during combat.",
+        "sp": 100,
+        "cooldown": 3,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "nightsky": {
+        "id": "nightsky",
+        "name": "Night Sky",
+        "description": "Boosts damage dealt by 50%.",
+        "sp": 100,
+        "cooldown": 3,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "nj\u00f6run'szeal": {
+        "id": "nj\u00f6run'szeal",
+        "name": "Nj\u00f6run's Zeal",
+        "description": "If unit initiates combat, grants another action to unit after combat. (Once per turn.) When Special triggers, inflicts \"restricts movement to 1 space\" on unit and Pair Up cohort through their next action.",
+        "sp": 500,
+        "cooldown": 3,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "noontime": {
+        "id": "noontime",
+        "name": "Noontime",
+        "description": "Restores HP = 30% of damage dealt.",
+        "sp": 200,
+        "cooldown": 2,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "openthefuture": {
+        "id": "openthefuture",
+        "name": "Open the Future",
+        "description": "Boosts damage by 50% of unit's Def. Restores HP = 25% of damage dealt.",
+        "sp": 500,
+        "cooldown": 3,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "pavise": {
+        "id": "pavise",
+        "name": "Pavise",
+        "description": "Reduces damage from an adjacent foe's attack by 50%.",
+        "sp": 200,
+        "cooldown": 3,
+        "restrictions": [
+            "Red bow",
+            "Red Dagger",
+            "Red Tome",
+            "Blue bow",
+            "Blue Dagger",
+            "Blue Tome",
+            "Green bow",
+            "Green Dagger",
+            "Green Tome",
+            "Colorless bow",
+            "Colorless Dagger",
+            "Colorless Tome",
+            "Staff"
+        ]
+    },
+    "radiantaether": {
+        "id": "radiantaether",
+        "name": "Radiant Aether",
+        "description": "During combat, treats foe's Def/Res as if reduced by 50%. Restores HP = 50% of damage dealt.",
+        "sp": 500,
+        "cooldown": 4,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "regnalastra": {
+        "id": "regnalastra",
+        "name": "Regnal Astra",
+        "description": "Boosts damage by 40% of unit's Spd.(Skill cannot be inherited.)",
+        "sp": 500,
+        "cooldown": 2,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "reprisal": {
+        "id": "reprisal",
+        "name": "Reprisal",
+        "description": "Boosts damage by 30% of damage dealt to unit.",
+        "sp": 200,
+        "cooldown": 2,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "retribution": {
+        "id": "retribution",
+        "name": "Retribution",
+        "description": "Boosts damage by 30% of damage dealt to unit.",
+        "sp": 100,
+        "cooldown": 3,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "righteouswind": {
+        "id": "righteouswind",
+        "name": "Righteous Wind",
+        "description": "Boosts damage by 30% of unit's Spd. Restores 10 HP to unit and all allies after combat. (Healing does not stack if triggered more than once per combat. HP restored to allies even if unit's HP reaches 0.)",
+        "sp": 500,
+        "cooldown": 2,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "risingflame": {
+        "id": "risingflame",
+        "name": "Rising Flame",
+        "description": "Before combat this unit initiates, foes in an area near target take damage equal to (unit's Atk minus foe's Def or Res).",
+        "sp": 150,
+        "cooldown": 4,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "risinglight": {
+        "id": "risinglight",
+        "name": "Rising Light",
+        "description": "Before combat this unit initiates, foes in an area near target take damage equal to (unit's Atk minus foe's Def or Res).",
+        "sp": 150,
+        "cooldown": 4,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "risingthunder": {
+        "id": "risingthunder",
+        "name": "Rising Thunder",
+        "description": "Before combat this unit initiates, foes in an area near target take damage equal to (unit's Atk minus foe's Def or Res).",
+        "sp": 150,
+        "cooldown": 4,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "risingwind": {
+        "id": "risingwind",
+        "name": "Rising Wind",
+        "description": "Before combat this unit initiates, foes in an area near target take damage equal to (unit's Atk minus foe's Def or Res).",
+        "sp": 150,
+        "cooldown": 4,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "rupturedsky": {
+        "id": "rupturedsky",
+        "name": "Ruptured Sky",
+        "description": "Boosts damage by 20% of foe's Atk. If in combat against a dragon foe or beast foe, boosts damage by 40% instead of 20%.",
+        "sp": 500,
+        "cooldown": 2,
+        "restrictions": [
+            "Red Breath",
+            "Red Beast",
+            "Blue Breath",
+            "Blue Beast",
+            "Green Breath",
+            "Green Beast",
+            "Staff",
+            "Colorless Breath",
+            "Colorless Beast"
+        ]
+    },
+    "sacredcowl": {
+        "id": "sacredcowl",
+        "name": "Sacred Cowl",
+        "description": "If foe is 2 spaces from unit, reduces damage from foe's attack by 30%.",
+        "sp": 200,
+        "cooldown": 2,
+        "restrictions": [
+            "Red bow",
+            "Red Dagger",
+            "Red Tome",
+            "Blue bow",
+            "Blue Dagger",
+            "Blue Tome",
+            "Green bow",
+            "Green Dagger",
+            "Green Tome",
+            "Colorless bow",
+            "Colorless Dagger",
+            "Colorless Tome",
+            "Staff"
+        ]
+    },
+    "sirius": {
+        "id": "sirius",
+        "name": "Sirius",
+        "description": "Boosts damage by 30% of unit's Spd. Restores HP = 30% of damage dealt.",
+        "sp": 500,
+        "cooldown": 2,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "sol": {
+        "id": "sol",
+        "name": "Sol",
+        "description": "Restores HP = 50% of damage dealt.",
+        "sp": 200,
+        "cooldown": 3,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "solid-earthbalm": {
+        "id": "solid-earthbalm",
+        "name": "Solid-Earth Balm",
+        "description": "When healing an ally with a staff, grants Def+4 to all allies for 1 turn.",
+        "sp": 150,
+        "cooldown": 1,
+        "restrictions": [
+            "staffonly"
+        ]
+    },
+    "still-waterbalm": {
+        "id": "still-waterbalm",
+        "name": "Still-Water Balm",
+        "description": "When healing an ally with a staff, grants Res+4 to all allies for 1 turn.",
+        "sp": 150,
+        "cooldown": 1,
+        "restrictions": [
+            "staffonly"
+        ]
+    },
+    "swift-windsbalm": {
+        "id": "swift-windsbalm",
+        "name": "Swift-Winds Balm",
+        "description": "When healing an ally with a staff, grants Spd+4 to all allies for 1 turn.",
+        "sp": 150,
+        "cooldown": 1,
+        "restrictions": [
+            "staffonly"
+        ]
+    },
+    "twinblades": {
+        "id": "twinblades",
+        "name": "Twin Blades",
+        "description": "Boosts damage by 40% of unit's Res. Disables non-Special skills that \"reduce damage by X%.\"",
+        "sp": 500,
+        "cooldown": 2,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "umbrablast": {
+        "id": "umbrablast",
+        "name": "Umbra Blast",
+        "description": "After combat, deals 5 damage to target and foes within 2 spaces of target and then unit and target foe swap spaces.",
+        "sp": 0,
+        "cooldown": 9,
+        "restrictions": []
+    },
+    "umbracalamity": {
+        "id": "umbracalamity",
+        "name": "Umbra Calamity",
+        "description": "After combat, deals 15 damage to target and foes within 2 spaces of target and then unit and target foe swap spaces.",
+        "sp": 0,
+        "cooldown": 9,
+        "restrictions": []
+    },
+    "umbraeruption": {
+        "id": "umbraeruption",
+        "name": "Umbra Eruption",
+        "description": "After combat, deals 10 damage to target and foes within 2 spaces of target and then unit and target foe swap spaces.",
+        "sp": 0,
+        "cooldown": 9,
+        "restrictions": []
+    },
+    "vengeance": {
+        "id": "vengeance",
+        "name": "Vengeance",
+        "description": "Boosts damage by 50% of damage dealt to unit.",
+        "sp": 200,
+        "cooldown": 3,
+        "restrictions": [
+            "Staff"
+        ]
+    },
+    "windfirebalm": {
+        "id": "windfirebalm",
+        "name": "Windfire Balm",
+        "description": "When healing an ally with a staff, grants Atk/Spd+4 to all allies for 1 turn.",
+        "sp": 200,
+        "cooldown": 1,
+        "restrictions": [
+            "staffonly"
+        ]
+    },
+    "windfirebalm+": {
+        "id": "windfirebalm+",
+        "name": "Windfire Balm+",
+        "description": "When healing an ally with a staff, grants Atk/Spd+6 to all allies for 1 turn.",
+        "sp": 300,
+        "cooldown": 1,
+        "restrictions": [
+            "staffonly"
+        ]
+    }
+}

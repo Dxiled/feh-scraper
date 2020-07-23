@@ -1,0 +1,2448 @@
+{
+    "air_orders_1": {
+        "id": "air_orders_1",
+        "name": "Air Orders 1",
+        "description": "At start of turn, if unit's HP = 100%, grants the following status to adjacent flying allies for 1 turn: \"Unit can move to a space adjacent to any ally within 2 spaces.\"",
+        "sp": 60,
+        "restrictions": []
+    },
+    "air_orders_2": {
+        "id": "air_orders_2",
+        "name": "Air Orders 2",
+        "description": "At start of turn, if unit's HP \u2265 50%, grants the following status to adjacent flying allies for 1 turn: \"Unit can move to a space adjacent to any ally within 2 spaces.\"",
+        "sp": 120,
+        "restrictions": []
+    },
+    "air_orders_3": {
+        "id": "air_orders_3",
+        "name": "Air Orders 3",
+        "description": "At start of turn, grants the following status to adjacent flying allies for 1 turn: \"Unit can move to a space adjacent to any ally within 2 spaces.\"",
+        "sp": 240,
+        "restrictions": []
+    },
+    "armor_march_1": {
+        "id": "armor_march_1",
+        "name": "Armor March 1",
+        "description": "At start of turn, if unit's HP = 100% and unit is adjacent to an armored ally, unit and adjacent armored allies can move 1 extra space. (That turn only. Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "armor_march_2": {
+        "id": "armor_march_2",
+        "name": "Armor March 2",
+        "description": "At start of turn, if unit's HP \u2265 50% and unit is adjacent to an armored ally, unit and adjacent armored allies can move 1 extra space. (That turn only. Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "armor_march_3": {
+        "id": "armor_march_3",
+        "name": "Armor March 3",
+        "description": "At start of turn, if unit is adjacent to an armored ally, unit and adjacent armored allies can move 1 extra space. (That turn only. Does not stack.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "armored_stride_1": {
+        "id": "armored_stride_1",
+        "name": "Armored Stride 1",
+        "description": "At start of turn, if unit's HP = 100% and unit is not adjacent to an ally, unit can move 1 extra space. (That turn only. Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "armored_stride_2": {
+        "id": "armored_stride_2",
+        "name": "Armored Stride 2",
+        "description": "At start of turn, if unit's HP \u2265 50% and unit is not adjacent to an ally, unit can move 1 extra space. (That turn only. Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "armored_stride_3": {
+        "id": "armored_stride_3",
+        "name": "Armored Stride 3",
+        "description": "At start of turn, if unit is not adjacent to an ally, unit can move 1 extra space. (That turn only. Does not stack.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "atk/def_gap_1": {
+        "id": "atk/def_gap_1",
+        "name": "Atk/Def Gap 1",
+        "description": "At start of turn, grants Atk/Def+1 to ally with the highest Atk+Def total for 1 turn. (Excludes unit.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "atk/def_gap_2": {
+        "id": "atk/def_gap_2",
+        "name": "Atk/Def Gap 2",
+        "description": "At start of turn, grants Atk/Def+3 to ally with the highest Atk+Def total for 1 turn. (Excludes unit.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "atk/def_gap_3": {
+        "id": "atk/def_gap_3",
+        "name": "Atk/Def Gap 3",
+        "description": "At start of turn, grants Atk/Def+5 to ally with the highest Atk+Def total for 1 turn. (Excludes unit.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "atk/def_oath_1": {
+        "id": "atk/def_oath_1",
+        "name": "Atk/Def Oath 1",
+        "description": "At start of turn, if unit is adjacent to an ally, grants Atk/Def+3 to unit for 1 turn.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "atk/def_oath_2": {
+        "id": "atk/def_oath_2",
+        "name": "Atk/Def Oath 2",
+        "description": "At start of turn, if unit is adjacent to an ally, grants Atk/Def+4 to unit for 1 turn.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "atk/def_oath_3": {
+        "id": "atk/def_oath_3",
+        "name": "Atk/Def Oath 3",
+        "description": "At start of turn, if unit is adjacent to an ally, grants Atk/Def+5 to unit for 1 turn.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "atk_opening_1": {
+        "id": "atk_opening_1",
+        "name": "Atk Opening 1",
+        "description": "At start of turn, grants Atk+2 to ally with the highest Atk for 1 turn. (Excludes unit.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "atk_opening_2": {
+        "id": "atk_opening_2",
+        "name": "Atk Opening 2",
+        "description": "At start of turn, grants Atk+4 to ally with the highest Atk for 1 turn. (Excludes unit.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "atk_opening_3": {
+        "id": "atk_opening_3",
+        "name": "Atk Opening 3",
+        "description": "At start of turn, grants Atk+6 to ally with the highest Atk for 1 turn. (Excludes unit.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "atk_ploy_1": {
+        "id": "atk_ploy_1",
+        "name": "Atk Ploy 1",
+        "description": "At start of turn, inflicts Atk-3 on foes in cardinal directions with Res < unit's Res through their next actions.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "atk_ploy_2": {
+        "id": "atk_ploy_2",
+        "name": "Atk Ploy 2",
+        "description": "At start of turn, inflicts Atk-4 on foes in cardinal directions with Res < unit's Res through their next actions.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "atk_ploy_3": {
+        "id": "atk_ploy_3",
+        "name": "Atk Ploy 3",
+        "description": "At start of turn, inflicts Atk-5 on foes in cardinal directions with Res < unit's Res through their next actions.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "atk/res_gap_1": {
+        "id": "atk/res_gap_1",
+        "name": "Atk/Res Gap 1",
+        "description": "At start of turn, grants Atk/Res+1 to ally with the highest Atk+Res total for 1 turn. (Excludes unit.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "atk/res_gap_2": {
+        "id": "atk/res_gap_2",
+        "name": "Atk/Res Gap 2",
+        "description": "At start of turn, grants Atk/Res+3 to ally with the highest Atk+Res total for 1 turn. (Excludes unit.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "atk/res_gap_3": {
+        "id": "atk/res_gap_3",
+        "name": "Atk/Res Gap 3",
+        "description": "At start of turn, grants Atk/Res+5 to ally with the highest Atk+Res total for 1 turn. (Excludes unit.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "atk/res_oath_1": {
+        "id": "atk/res_oath_1",
+        "name": "Atk/Res Oath 1",
+        "description": "At start of turn, if unit is adjacent to an ally, grants Atk/Res+3 to unit for 1 turn.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "atk/res_oath_2": {
+        "id": "atk/res_oath_2",
+        "name": "Atk/Res Oath 2",
+        "description": "At start of turn, if unit is adjacent to an ally, grants Atk/Res+4 to unit for 1 turn.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "atk/res_oath_3": {
+        "id": "atk/res_oath_3",
+        "name": "Atk/Res Oath 3",
+        "description": "At start of turn, if unit is adjacent to an ally, grants Atk/Res+5 to unit for 1 turn.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "atk_smoke_1": {
+        "id": "atk_smoke_1",
+        "name": "Atk Smoke 1",
+        "description": "Inflicts Atk-3 on foes within 2 spaces of target through their next actions after combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "atk_smoke_2": {
+        "id": "atk_smoke_2",
+        "name": "Atk Smoke 2",
+        "description": "Inflicts Atk-5 on foes within 2 spaces of target through their next actions after combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "atk_smoke_3": {
+        "id": "atk_smoke_3",
+        "name": "Atk Smoke 3",
+        "description": "Inflicts Atk-7 on foes within 2 spaces of target through their next actions after combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "atk/spd_gap_1": {
+        "id": "atk/spd_gap_1",
+        "name": "Atk/Spd Gap 1",
+        "description": "At start of turn, grants Atk/Spd+1 to ally with the highest Atk+Spd total for 1 turn. (Excludes unit.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "atk/spd_gap_2": {
+        "id": "atk/spd_gap_2",
+        "name": "Atk/Spd Gap 2",
+        "description": "At start of turn, grants Atk/Spd+3 to ally with the highest Atk+Spd total for 1 turn. (Excludes unit.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "atk/spd_gap_3": {
+        "id": "atk/spd_gap_3",
+        "name": "Atk/Spd Gap 3",
+        "description": "At start of turn, grants Atk/Spd+5 to ally with the highest Atk+Spd total for 1 turn. (Excludes unit.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "atk/spd_oath_1": {
+        "id": "atk/spd_oath_1",
+        "name": "Atk/Spd Oath 1",
+        "description": "At start of turn, if unit is adjacent to an ally, grants Atk/Spd+3 to unit for 1 turn.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "atk/spd_oath_2": {
+        "id": "atk/spd_oath_2",
+        "name": "Atk/Spd Oath 2",
+        "description": "At start of turn, if unit is adjacent to an ally, grants Atk/Spd+4 to unit for 1 turn.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "atk/spd_oath_3": {
+        "id": "atk/spd_oath_3",
+        "name": "Atk/Spd Oath 3",
+        "description": "At start of turn, if unit is adjacent to an ally, grants Atk/Spd+5 to unit for 1 turn.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "atk_tactic_1": {
+        "id": "atk_tactic_1",
+        "name": "Atk Tactic 1",
+        "description": "At start of turn, grants Atk+2 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team \u2264 2.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "atk_tactic_2": {
+        "id": "atk_tactic_2",
+        "name": "Atk Tactic 2",
+        "description": "At start of turn, grants Atk+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team \u2264 2.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "atk_tactic_3": {
+        "id": "atk_tactic_3",
+        "name": "Atk Tactic 3",
+        "description": "At start of turn, grants Atk+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team \u2264 2.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "axe_experience_1": {
+        "id": "axe_experience_1",
+        "name": "Axe Experience 1",
+        "description": "While unit lives and uses an axe, unit gets 1.5x EXP.(Only highest value applied. Does not stack.)",
+        "sp": 30,
+        "restrictions": []
+    },
+    "axe_experience_2": {
+        "id": "axe_experience_2",
+        "name": "Axe Experience 2",
+        "description": "While unit lives, all axe allies on team get 1.5x EXP.(Only highest value applied. Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "axe_experience_3": {
+        "id": "axe_experience_3",
+        "name": "Axe Experience 3",
+        "description": "While unit lives, all axe allies on team get 2x EXP.(Only highest value applied. Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "axe_valor_1": {
+        "id": "axe_valor_1",
+        "name": "Axe Valor 1",
+        "description": "While unit lives and uses an axe, unit gets 1.5x SP.(Only highest value applied. Does not stack.)",
+        "sp": 30,
+        "restrictions": []
+    },
+    "axe_valor_2": {
+        "id": "axe_valor_2",
+        "name": "Axe Valor 2",
+        "description": "While unit lives, all axe allies on team get 1.5x SP.(Only highest value applied. Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "axe_valor_3": {
+        "id": "axe_valor_3",
+        "name": "Axe Valor 3",
+        "description": "While unit lives, all axe allies on team get 2x SP.(Only highest value applied. Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "b_tome_exp._1": {
+        "id": "b_tome_exp._1",
+        "name": "B Tome Exp. 1",
+        "description": "While unit lives and uses a blue tome, unit gets 1.5x EXP.(Only highest value applied. Does not stack.)",
+        "sp": 30,
+        "restrictions": []
+    },
+    "b_tome_exp._2": {
+        "id": "b_tome_exp._2",
+        "name": "B Tome Exp. 2",
+        "description": "While unit lives, all blue tome allies on team get 1.5x EXP.(Only highest value applied. Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "b_tome_exp._3": {
+        "id": "b_tome_exp._3",
+        "name": "B Tome Exp. 3",
+        "description": "While unit lives, all blue tome allies on team get 2x EXP.(Only highest value applied. Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "b_tome_valor_1": {
+        "id": "b_tome_valor_1",
+        "name": "B Tome Valor 1",
+        "description": "While unit lives and uses a blue tome, unit gets 1.5x SP.(Only highest value applied. Does not stack.)",
+        "sp": 30,
+        "restrictions": []
+    },
+    "b_tome_valor_2": {
+        "id": "b_tome_valor_2",
+        "name": "B Tome Valor 2",
+        "description": "While unit lives, all blue tome allies on team get 1.5x SP.(Only highest value applied. Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "b_tome_valor_3": {
+        "id": "b_tome_valor_3",
+        "name": "B Tome Valor 3",
+        "description": "While unit lives, all blue tome allies on team get 2x SP.(Only highest value applied. Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "beast_exp._1": {
+        "id": "beast_exp._1",
+        "name": "Beast Exp. 1",
+        "description": "While unit lives and uses beast damage, unit gets 1.5x EXP.(Only highest value applied. Does not stack.)",
+        "sp": 30,
+        "restrictions": []
+    },
+    "beast_exp._2": {
+        "id": "beast_exp._2",
+        "name": "Beast Exp. 2",
+        "description": "While unit lives, all beast allies on team get 1.5x EXP.(Only highest value applied. Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "beast_exp._3": {
+        "id": "beast_exp._3",
+        "name": "Beast Exp. 3",
+        "description": "While unit lives, all beast allies on team get 2x EXP.(Only highest value applied. Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "beast_valor_1": {
+        "id": "beast_valor_1",
+        "name": "Beast Valor 1",
+        "description": "While unit lives and uses beast damage, unit gets 1.5x SP.(Only highest value applied. Does not stack.)",
+        "sp": 30,
+        "restrictions": []
+    },
+    "beast_valor_2": {
+        "id": "beast_valor_2",
+        "name": "Beast Valor 2",
+        "description": "While unit lives, all beast allies on team get 1.5x SP.(Only highest value applied. Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "beast_valor_3": {
+        "id": "beast_valor_3",
+        "name": "Beast Valor 3",
+        "description": "While unit lives, all beast allies on team get 2x SP.(Only highest value applied. Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "bow_exp._1": {
+        "id": "bow_exp._1",
+        "name": "Bow Exp. 1",
+        "description": "While unit lives and uses a bow, unit gets 1.5x EXP.(Only highest value applied. Does not stack.)",
+        "sp": 30,
+        "restrictions": []
+    },
+    "bow_exp._2": {
+        "id": "bow_exp._2",
+        "name": "Bow Exp. 2",
+        "description": "While unit lives, all bow allies on team get 1.5x EXP.(Only highest value applied. Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "bow_exp._3": {
+        "id": "bow_exp._3",
+        "name": "Bow Exp. 3",
+        "description": "While unit lives, all bow allies on team get 2x EXP.(Only highest value applied. Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "bow_valor_1": {
+        "id": "bow_valor_1",
+        "name": "Bow Valor 1",
+        "description": "While unit lives and uses a bow, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
+        "sp": 30,
+        "restrictions": []
+    },
+    "bow_valor_2": {
+        "id": "bow_valor_2",
+        "name": "Bow Valor 2",
+        "description": "While unit lives, all bow allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "bow_valor_3": {
+        "id": "bow_valor_3",
+        "name": "Bow Valor 3",
+        "description": "While unit lives, all bow allies on team get 2x SP. (Only highest value applied. Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "breath_of_life_1": {
+        "id": "breath_of_life_1",
+        "name": "Breath of Life 1",
+        "description": "If unit initiates combat, restores 3 HP to adjacent allies after combat.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "breath_of_life_2": {
+        "id": "breath_of_life_2",
+        "name": "Breath of Life 2",
+        "description": "If unit initiates combat, restores 5 HP to adjacent allies after combat.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "breath_of_life_3": {
+        "id": "breath_of_life_3",
+        "name": "Breath of Life 3",
+        "description": "If unit initiates combat, restores 7 HP to adjacent allies after combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "chaos_named": {
+        "id": "chaos_named",
+        "name": "Chaos Named",
+        "description": "At start of turn, if foes within 3 columns centered on unit have Res \u2264 unit's Res-3, inflicts -5 on the highest of those foes' Atk/Spd/Def/Res through their next actions. (When calculating highest stat, treats Atk as -15. Calculates each stat penalty independently.)",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "close_guard_1": {
+        "id": "close_guard_1",
+        "name": "Close Guard 1",
+        "description": "Allies within 2 spaces gain: \"If foe uses sword, lance, axe, dragonstone, or beast damage, grants Def/Res+2 during combat.\"",
+        "sp": 60,
+        "restrictions": []
+    },
+    "close_guard_2": {
+        "id": "close_guard_2",
+        "name": "Close Guard 2",
+        "description": "Allies within 2 spaces gain: \"If foe uses sword, lance, axe, dragonstone, or beast damage, grants Def/Res+3 during combat.\"",
+        "sp": 120,
+        "restrictions": []
+    },
+    "close_guard_3": {
+        "id": "close_guard_3",
+        "name": "Close Guard 3",
+        "description": "Allies within 2 spaces gain: \"If foe uses sword, lance, axe, dragonstone, or beast damage, grants Def/Res+4 during combat.\"",
+        "sp": 240,
+        "restrictions": []
+    },
+    "dagger_exp._1": {
+        "id": "dagger_exp._1",
+        "name": "Dagger Exp. 1",
+        "description": "While unit lives and uses a dagger, unit gets 1.5x EXP. (Only highest value applied. Does not stack.)",
+        "sp": 30,
+        "restrictions": []
+    },
+    "dagger_exp._2": {
+        "id": "dagger_exp._2",
+        "name": "Dagger Exp. 2",
+        "description": "While unit lives, all dagger allies on team get 1.5x EXP. (Only highest value applied. Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "dagger_exp._3": {
+        "id": "dagger_exp._3",
+        "name": "Dagger Exp. 3",
+        "description": "While unit lives, all dagger allies on team get 2x EXP. (Only highest value applied. Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "dagger_valor_1": {
+        "id": "dagger_valor_1",
+        "name": "Dagger Valor 1",
+        "description": "While unit lives and uses a dagger, unit gets 1.5x SP.(Only highest value applied. Does not stack.)",
+        "sp": 30,
+        "restrictions": []
+    },
+    "dagger_valor_2": {
+        "id": "dagger_valor_2",
+        "name": "Dagger Valor 2",
+        "description": "While unit lives, all dagger allies on team get 1.5x SP.(Only highest value applied. Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "dagger_valor_3": {
+        "id": "dagger_valor_3",
+        "name": "Dagger Valor 3",
+        "description": "While unit lives, all dagger allies on team get 2x SP.(Only highest value applied. Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "def_opening_1": {
+        "id": "def_opening_1",
+        "name": "Def Opening 1",
+        "description": "At start of turn, grants Def+2 to ally with the highest Def for 1 turn. (Excludes unit.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "def_opening_2": {
+        "id": "def_opening_2",
+        "name": "Def Opening 2",
+        "description": "At start of turn, grants Def+4 to ally with the highest Def for 1 turn. (Excludes unit.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "def_opening_3": {
+        "id": "def_opening_3",
+        "name": "Def Opening 3",
+        "description": "At start of turn, grants Def+6 to ally with the highest Def for 1 turn. (Excludes unit.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "def_ploy_1": {
+        "id": "def_ploy_1",
+        "name": "Def Ploy 1",
+        "description": "At start of turn, inflicts Def-3 on foes in cardinal directions with Res < unit's Res through their next actions.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "def_ploy_2": {
+        "id": "def_ploy_2",
+        "name": "Def Ploy 2",
+        "description": "At start of turn, inflicts Def-4 on foes in cardinal directions with Res < unit's Res through their next actions.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "def_ploy_3": {
+        "id": "def_ploy_3",
+        "name": "Def Ploy 3",
+        "description": "At start of turn, inflicts Def-5 on foes in cardinal directions with Res < unit's Res through their next actions.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "def/res_gap_1": {
+        "id": "def/res_gap_1",
+        "name": "Def/Res Gap 1",
+        "description": "At start of turn, grants Def/Res+1 to ally with the highest Def+Res total for 1 turn. (Excludes unit.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "def/res_gap_2": {
+        "id": "def/res_gap_2",
+        "name": "Def/Res Gap 2",
+        "description": "At start of turn, grants Def/Res+3 to ally with the highest Def+Res total for 1 turn. (Excludes unit.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "def/res_gap_3": {
+        "id": "def/res_gap_3",
+        "name": "Def/Res Gap 3",
+        "description": "At start of turn, grants Def/Res+5 to ally with the highest Def+Res total for 1 turn. (Excludes unit.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "def/res_oath_1": {
+        "id": "def/res_oath_1",
+        "name": "Def/Res Oath 1",
+        "description": "At start of turn, if unit is adjacent to an ally, grants Def/Res+3 to unit for 1 turn.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "def/res_oath_2": {
+        "id": "def/res_oath_2",
+        "name": "Def/Res Oath 2",
+        "description": "At start of turn, if unit is adjacent to an ally, grants Def/Res+4 to unit for 1 turn.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "def/res_oath_3": {
+        "id": "def/res_oath_3",
+        "name": "Def/Res Oath 3",
+        "description": "At start of turn, if unit is adjacent to an ally, grants Def/Res+5 to unit for 1 turn.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "def_smoke_1": {
+        "id": "def_smoke_1",
+        "name": "Def Smoke 1",
+        "description": "Inflicts Def-3 on foes within 2 spaces of target through their next actions after combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "def_smoke_2": {
+        "id": "def_smoke_2",
+        "name": "Def Smoke 2",
+        "description": "Inflicts Def-5 on foes within 2 spaces of target through their next actions after combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "def_smoke_3": {
+        "id": "def_smoke_3",
+        "name": "Def Smoke 3",
+        "description": "Inflicts Def-7 on foes within 2 spaces of target through their next actions after combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "def_tactic_1": {
+        "id": "def_tactic_1",
+        "name": "Def Tactic 1",
+        "description": "At start of turn, grants Def+2 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team \u2264 2.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "def_tactic_2": {
+        "id": "def_tactic_2",
+        "name": "Def Tactic 2",
+        "description": "At start of turn, grants Def+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team \u2264 2.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "def_tactic_3": {
+        "id": "def_tactic_3",
+        "name": "Def Tactic 3",
+        "description": "At start of turn, grants Def+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team \u2264 2.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "distant_guard_1": {
+        "id": "distant_guard_1",
+        "name": "Distant Guard 1",
+        "description": "Allies within 2 spaces gain: \"If foe uses bow, dagger, magic, or staff, grants Def/Res+2 during combat.\"",
+        "sp": 60,
+        "restrictions": []
+    },
+    "distant_guard_2": {
+        "id": "distant_guard_2",
+        "name": "Distant Guard 2",
+        "description": "Allies within 2 spaces gain: \"If foe uses bow, dagger, magic, or staff, grants Def/Res+3 during combat.\"",
+        "sp": 120,
+        "restrictions": []
+    },
+    "distant_guard_3": {
+        "id": "distant_guard_3",
+        "name": "Distant Guard 3",
+        "description": "Allies within 2 spaces gain: \"If foe uses bow, dagger, magic, or staff, grants Def/Res+4 during combat.\"",
+        "sp": 240,
+        "restrictions": []
+    },
+    "divine_fang": {
+        "id": "divine_fang",
+        "name": "Divine Fang",
+        "description": "At start of turn, grants \"effective against dragons\" to adjacent allies for 1 turn.",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "dragon_valor_1": {
+        "id": "dragon_valor_1",
+        "name": "Dragon Valor 1",
+        "description": "While unit lives and uses a dragonstone, unit gets 1.5x SP.(Only highest value applied. Does not stack.)",
+        "sp": 30,
+        "restrictions": []
+    },
+    "dragon_valor_2": {
+        "id": "dragon_valor_2",
+        "name": "Dragon Valor 2",
+        "description": "While unit lives, all dragonstone allies on team get 1.5x SP.(Only highest value applied. Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "dragon_valor_3": {
+        "id": "dragon_valor_3",
+        "name": "Dragon Valor 3",
+        "description": "While unit lives, all dragonstone allies on team get 2x SP.(Only highest value applied. Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "drive_atk_1": {
+        "id": "drive_atk_1",
+        "name": "Drive Atk 1",
+        "description": "Grants Atk+2 to allies within 2 spaces during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "drive_atk_2": {
+        "id": "drive_atk_2",
+        "name": "Drive Atk 2",
+        "description": "Grants Atk+3 to allies within 2 spaces during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "drive_def_1": {
+        "id": "drive_def_1",
+        "name": "Drive Def 1",
+        "description": "Grants Def+2 to allies within 2 spaces during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "drive_def_2": {
+        "id": "drive_def_2",
+        "name": "Drive Def 2",
+        "description": "Grants Def+3 to allies within 2 spaces during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "drive_res_1": {
+        "id": "drive_res_1",
+        "name": "Drive Res 1",
+        "description": "Grants Res+2 to allies within 2 spaces during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "drive_res_2": {
+        "id": "drive_res_2",
+        "name": "Drive Res 2",
+        "description": "Grants Res+3 to allies within 2 spaces during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "drive_spd_1": {
+        "id": "drive_spd_1",
+        "name": "Drive Spd 1",
+        "description": "Grants Spd+2 to allies within 2 spaces during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "drive_spd_2": {
+        "id": "drive_spd_2",
+        "name": "Drive Spd 2",
+        "description": "Grants Spd+3 to allies within 2 spaces during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "even_atk_wave_1": {
+        "id": "even_atk_wave_1",
+        "name": "Even Atk Wave 1",
+        "description": "At start of even-numbered turns, grants Atk+2 to unit and adjacent allies for 1 turn.(Bonus granted to unit even if no allies are adjacent.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "even_atk_wave_2": {
+        "id": "even_atk_wave_2",
+        "name": "Even Atk Wave 2",
+        "description": "At start of even-numbered turns, grants Atk+4 to unit and adjacent allies for 1 turn.(Bonus granted to unit even if no allies are adjacent.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "even_atk_wave_3": {
+        "id": "even_atk_wave_3",
+        "name": "Even Atk Wave 3",
+        "description": "At start of even-numbered turns, grants Atk+6 to unit and adjacent allies for 1 turn.(Bonus granted to unit even if no allies are adjacent.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "even_def_wave_1": {
+        "id": "even_def_wave_1",
+        "name": "Even Def Wave 1",
+        "description": "At start of even-numbered turns, grants Def+2 to unit and adjacent allies for 1 turn.(Bonus granted to unit even if no allies are adjacent.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "even_def_wave_2": {
+        "id": "even_def_wave_2",
+        "name": "Even Def Wave 2",
+        "description": "At start of even-numbered turns, grants Def+4 to unit and adjacent allies for 1 turn.(Bonus granted to unit even if no allies are adjacent.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "even_def_wave_3": {
+        "id": "even_def_wave_3",
+        "name": "Even Def Wave 3",
+        "description": "At start of even-numbered turns, grants Def+6 to unit and adjacent allies for 1 turn.(Bonus granted to unit even if no allies are adjacent.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "even_res_wave_1": {
+        "id": "even_res_wave_1",
+        "name": "Even Res Wave 1",
+        "description": "At start of even-numbered turns, grants Res+2 to unit and adjacent allies for 1 turn.(Bonus granted to unit even if no allies are adjacent.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "even_res_wave_2": {
+        "id": "even_res_wave_2",
+        "name": "Even Res Wave 2",
+        "description": "At start of even-numbered turns, grants Res+4 to unit and adjacent allies for 1 turn.(Bonus granted to unit even if no allies are adjacent.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "even_res_wave_3": {
+        "id": "even_res_wave_3",
+        "name": "Even Res Wave 3",
+        "description": "At start of even-numbered turns, grants Res+6 to unit and adjacent allies for 1 turn.(Bonus granted to unit even if no allies are adjacent.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "even_spd_wave_1": {
+        "id": "even_spd_wave_1",
+        "name": "Even Spd Wave 1",
+        "description": "At start of even-numbered turns, grants Spd+2 to unit and adjacent allies for 1 turn.(Bonus granted to unit even if no allies are adjacent.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "even_spd_wave_2": {
+        "id": "even_spd_wave_2",
+        "name": "Even Spd Wave 2",
+        "description": "At start of even-numbered turns, grants Spd+4 to unit and adjacent allies for 1 turn.(Bonus granted to unit even if no allies are adjacent.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "even_spd_wave_3": {
+        "id": "even_spd_wave_3",
+        "name": "Even Spd Wave 3",
+        "description": "At start of even-numbered turns, grants Spd+6 to unit and adjacent allies for 1 turn.(Bonus granted to unit even if no allies are adjacent.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "flier_guidance_1": {
+        "id": "flier_guidance_1",
+        "name": "Flier Guidance 1",
+        "description": "If unit's HP = 100%, flying allies within 2 spaces can move to a space adjacent to unit.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "flier_guidance_2": {
+        "id": "flier_guidance_2",
+        "name": "Flier Guidance 2",
+        "description": "If unit's HP \u2265 50%, flying allies within 2 spaces can move to a space adjacent to unit.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "flier_guidance_3": {
+        "id": "flier_guidance_3",
+        "name": "Flier Guidance 3",
+        "description": "Flying allies within 2 spaces can move to a space adjacent to unit.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "fortify_armor": {
+        "id": "fortify_armor",
+        "name": "Fortify Armor",
+        "description": "At start of turn, grants Def/Res+6 to adjacent armored allies for 1 turn.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "fortify_beasts": {
+        "id": "fortify_beasts",
+        "name": "Fortify Beasts",
+        "description": "At start of turn, grants Def/Res+6 to adjacent beast allies for 1 turn.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "fortify_cavalry": {
+        "id": "fortify_cavalry",
+        "name": "Fortify Cavalry",
+        "description": "At start of turn, grants Def/Res+6 to adjacent cavalry allies for 1 turn.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "fortify_def_1": {
+        "id": "fortify_def_1",
+        "name": "Fortify Def 1",
+        "description": "At start of turn, grants Def+2 to adjacent allies for 1 turn.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "fortify_def_2": {
+        "id": "fortify_def_2",
+        "name": "Fortify Def 2",
+        "description": "At start of turn, grants Def+3 to adjacent allies for 1 turn.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "fortify_def_3": {
+        "id": "fortify_def_3",
+        "name": "Fortify Def 3",
+        "description": "At start of turn, grants Def+4 to adjacent allies for 1 turn.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "fortify_def_4": {
+        "id": "fortify_def_4",
+        "name": "Fortify Def 4",
+        "description": "At start of turn, grants Def+7 to adjacent allies for 1 turn.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "fortify_dragons": {
+        "id": "fortify_dragons",
+        "name": "Fortify Dragons",
+        "description": "At start of turn, grants Def/Res+6 to adjacent dragon allies for 1 turn.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "fortify_fliers": {
+        "id": "fortify_fliers",
+        "name": "Fortify Fliers",
+        "description": "At start of turn, grants Def/Res+6 to adjacent flying allies for 1 turn.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "fortify_res_1": {
+        "id": "fortify_res_1",
+        "name": "Fortify Res 1",
+        "description": "At start of turn, grants Res+2 to adjacent allies for 1 turn.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "fortify_res_2": {
+        "id": "fortify_res_2",
+        "name": "Fortify Res 2",
+        "description": "At start of turn, grants Res+3 to adjacent allies for 1 turn.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "fortify_res_3": {
+        "id": "fortify_res_3",
+        "name": "Fortify Res 3",
+        "description": "At start of turn, grants Res+4 to adjacent allies for 1 turn.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "fortify_res_4": {
+        "id": "fortify_res_4",
+        "name": "Fortify Res 4",
+        "description": "At start of turn, grants Res+7 to adjacent allies for 1 turn.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "g_tome_exp._1": {
+        "id": "g_tome_exp._1",
+        "name": "G Tome Exp. 1",
+        "description": "While unit lives and uses a green tome, unit gets 1.5x EXP.(Only highest value applied. Does not stack.)",
+        "sp": 30,
+        "restrictions": []
+    },
+    "g_tome_exp._2": {
+        "id": "g_tome_exp._2",
+        "name": "G Tome Exp. 2",
+        "description": "While unit lives, all green tome allies on team get 1.5x EXP.(Only highest value applied. Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "g_tome_exp._3": {
+        "id": "g_tome_exp._3",
+        "name": "G Tome Exp. 3",
+        "description": "While unit lives, all green tome allies on team get 2x EXP.(Only highest value applied. Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "g_tome_valor_1": {
+        "id": "g_tome_valor_1",
+        "name": "G Tome Valor 1",
+        "description": "While unit lives and uses a green tome, unit gets 1.5x SP.(Only highest value applied. Does not stack.)",
+        "sp": 30,
+        "restrictions": []
+    },
+    "g_tome_valor_2": {
+        "id": "g_tome_valor_2",
+        "name": "G Tome Valor 2",
+        "description": "While unit lives, all green tome allies on team get 1.5x SP.(Only highest value applied. Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "g_tome_valor_3": {
+        "id": "g_tome_valor_3",
+        "name": "G Tome Valor 3",
+        "description": "While unit lives, all green tome allies on team get 2x SP.(Only highest value applied. Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "glare": {
+        "id": "glare",
+        "name": "Glare",
+        "description": "After combat, if unit attacked, inflicts status on target and foes within 1 space of target restricting movement to 1 space through their next actions.",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "goad_armor": {
+        "id": "goad_armor",
+        "name": "Goad Armor",
+        "description": "Grants Atk/Spd+4 to armored allies within 2 spaces during combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "goad_beasts": {
+        "id": "goad_beasts",
+        "name": "Goad Beasts",
+        "description": "Grants Atk/Spd+4 to beast allies within 2 spaces during combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "goad_cavalry": {
+        "id": "goad_cavalry",
+        "name": "Goad Cavalry",
+        "description": "Grants Atk/Spd+4 to cavalry allies within 2 spaces during combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "goad_dragons": {
+        "id": "goad_dragons",
+        "name": "Goad Dragons",
+        "description": "Grants Atk/Spd+4 to dragon allies within 2 spaces during combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "goad_fliers": {
+        "id": "goad_fliers",
+        "name": "Goad Fliers",
+        "description": "Grants Atk/Spd+4 to flying allies within 2 spaces during combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "ground_orders_1": {
+        "id": "ground_orders_1",
+        "name": "Ground Orders 1",
+        "description": "At start of turn, if unit's HP = 100%, grants the following status to adjacent infantry, armored, and cavalry allies for 1 turn: \"Unit can move to a space adjacent to any ally within 2 spaces.\"",
+        "sp": 60,
+        "restrictions": []
+    },
+    "ground_orders_2": {
+        "id": "ground_orders_2",
+        "name": "Ground Orders 2",
+        "description": "At start of turn, if unit's HP \u2265 50%, grants the following status to adjacent infantry, armored, and cavalry allies for 1 turn: \"Unit can move to a space adjacent to any ally within 2 spaces.\"",
+        "sp": 120,
+        "restrictions": []
+    },
+    "ground_orders_3": {
+        "id": "ground_orders_3",
+        "name": "Ground Orders 3",
+        "description": "At start of turn, grants the following status to adjacent infantry, armored, and cavalry allies for 1 turn: \"Unit can move to a space adjacent to any ally within 2 spaces.\"",
+        "sp": 240,
+        "restrictions": []
+    },
+    "guidance_1": {
+        "id": "guidance_1",
+        "name": "Guidance 1",
+        "description": "If unit's HP = 100%, infantry and armored allies within 2 spaces can move to a space adjacent to unit.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "guidance_2": {
+        "id": "guidance_2",
+        "name": "Guidance 2",
+        "description": "If unit's HP \u2265 50%, infantry and armored allies within 2 spaces can move to a space adjacent to unit.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "guidance_3": {
+        "id": "guidance_3",
+        "name": "Guidance 3",
+        "description": "Infantry and armored allies within 2 spaces can move to a space adjacent to unit.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "hone_armor": {
+        "id": "hone_armor",
+        "name": "Hone Armor",
+        "description": "At start of turn, grants Atk/Spd+6 to adjacent armored allies for 1 turn.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "hone_atk_1": {
+        "id": "hone_atk_1",
+        "name": "Hone Atk 1",
+        "description": "At start of turn, grants Atk+2 to adjacent allies for 1 turn.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "hone_atk_2": {
+        "id": "hone_atk_2",
+        "name": "Hone Atk 2",
+        "description": "At start of turn, grants Atk+3 to adjacent allies for 1 turn.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "hone_atk_3": {
+        "id": "hone_atk_3",
+        "name": "Hone Atk 3",
+        "description": "At start of turn, grants Atk+4 to adjacent allies for 1 turn.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "hone_atk_4": {
+        "id": "hone_atk_4",
+        "name": "Hone Atk 4",
+        "description": "At start of turn, grants Atk+7 to adjacent allies for 1 turn.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "hone_beasts": {
+        "id": "hone_beasts",
+        "name": "Hone Beasts",
+        "description": "At start of turn, grants Atk/Spd+6 to adjacent beast allies for 1 turn.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "hone_cavalry": {
+        "id": "hone_cavalry",
+        "name": "Hone Cavalry",
+        "description": "At start of turn, grants Atk/Spd+6 to adjacent cavalry allies for 1 turn.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "hone_dragons": {
+        "id": "hone_dragons",
+        "name": "Hone Dragons",
+        "description": "At start of turn, grants Atk/Spd+6 to adjacent dragon allies for 1 turn.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "hone_fliers": {
+        "id": "hone_fliers",
+        "name": "Hone Fliers",
+        "description": "At start of turn, grants Atk/Spd+6 to adjacent flying allies for 1 turn.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "hone_spd_1": {
+        "id": "hone_spd_1",
+        "name": "Hone Spd 1",
+        "description": "At start of turn, grants Spd+2 to adjacent allies for 1 turn.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "hone_spd_2": {
+        "id": "hone_spd_2",
+        "name": "Hone Spd 2",
+        "description": "At start of turn, grants Spd+3 to adjacent allies for 1 turn.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "hone_spd_3": {
+        "id": "hone_spd_3",
+        "name": "Hone Spd 3",
+        "description": "At start of turn, grants Spd+4 to adjacent allies for 1 turn.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "hone_spd_4": {
+        "id": "hone_spd_4",
+        "name": "Hone Spd 4",
+        "description": "At start of turn, grants Spd+7 to adjacent allies for 1 turn.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "human_virtue": {
+        "id": "human_virtue",
+        "name": "Human Virtue",
+        "description": "At start of turn, if unit is adjacent to any allies that are not beast or dragon allies, grants Atk/Spd+6 to unit and those allies for 1 turn.",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "impenetrable_dark": {
+        "id": "impenetrable_dark",
+        "name": "Impenetrable Dark",
+        "description": "During combat, disables skills of all foes excluding foe in combat.",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "inf._hexblade_1": {
+        "id": "inf._hexblade_1",
+        "name": "Inf. Hexblade 1",
+        "description": "If adjacent infantry allies use sword, lance, axe, bow, or dagger, calculates their damage using the lower of foe's Def or Res during combat. (Does not affect damage dealt by Specials that trigger before combat.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "inf._hexblade_2": {
+        "id": "inf._hexblade_2",
+        "name": "Inf. Hexblade 2",
+        "description": "If adjacent infantry allies use sword, lance, axe, bow, or dagger, grants Atk/Spd+1 to those allies and calculates their damage using the lower of foe's Def or Res during combat. (Does not affect damage dealt by Specials that trigger before combat.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "inf._hexblade_3": {
+        "id": "inf._hexblade_3",
+        "name": "Inf. Hexblade 3",
+        "description": "If adjacent infantry allies use sword, lance, axe, bow, or dagger, grants Atk/Spd+2 to those allies and calculates their damage using the lower of foe's Def or Res during combat. (Does not affect damage dealt by Specials that trigger before combat.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "infantry_breath_1": {
+        "id": "infantry_breath_1",
+        "name": "Infantry Breath 1",
+        "description": "Adjacent infantry allies gain: \"If foe initiates combat, grants Special cooldown charge +1 per attack during combat. (Only highest value applied. Does not stack.)\"",
+        "sp": 60,
+        "restrictions": []
+    },
+    "infantry_breath_2": {
+        "id": "infantry_breath_2",
+        "name": "Infantry Breath 2",
+        "description": "Adjacent infantry allies gain: \"If foe initiates combat, grants Def/Res+1 during combat and Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)\"",
+        "sp": 120,
+        "restrictions": []
+    },
+    "infantry_breath_3": {
+        "id": "infantry_breath_3",
+        "name": "Infantry Breath 3",
+        "description": "Adjacent infantry allies gain: \"If foe initiates combat, grants Def/Res+2 during combat and Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)\"",
+        "sp": 240,
+        "restrictions": []
+    },
+    "infantry_flash_1": {
+        "id": "infantry_flash_1",
+        "name": "Infantry Flash 1",
+        "description": "Infantry allies within 2 spaces gain: \"If unit's Spd \u2265 foe's Spd+5, grants Special cooldown charge +1 per unit's attack. (Only highest value applied. Does not stack.)\"",
+        "sp": 60,
+        "restrictions": []
+    },
+    "infantry_flash_2": {
+        "id": "infantry_flash_2",
+        "name": "Infantry Flash 2",
+        "description": "Infantry allies within 2 spaces gain: \"If unit's Spd \u2265 foe's Spd+3, grants Special cooldown charge +1 per unit's attack. (Only highest value applied. Does not stack.)\"",
+        "sp": 120,
+        "restrictions": []
+    },
+    "infantry_flash_3": {
+        "id": "infantry_flash_3",
+        "name": "Infantry Flash 3",
+        "description": "Infantry allies within 2 spaces gain: \"If unit's Spd > foe's Spd, grants Special cooldown charge +1 per unit's attack. (Only highest value applied. Does not stack.)\"",
+        "sp": 240,
+        "restrictions": []
+    },
+    "infantry_pulse_1": {
+        "id": "infantry_pulse_1",
+        "name": "Infantry Pulse 1",
+        "description": "At the start of turn 1, grants Special cooldown count-1 to all infantry allies on team with HP \u2264 unit's HP-5. (Stacks with similar skills.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "infantry_pulse_2": {
+        "id": "infantry_pulse_2",
+        "name": "Infantry Pulse 2",
+        "description": "At the start of turn 1, grants Special cooldown count-1 to all infantry allies on team with HP \u2264 unit's HP-3. (Stacks with similar skills.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "infantry_pulse_3": {
+        "id": "infantry_pulse_3",
+        "name": "Infantry Pulse 3",
+        "description": "At the start of turn 1, grants Special cooldown count-1 to all infantry allies on team with HP < unit's HP. (Stacks with similar skills.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "infantry_rush_1": {
+        "id": "infantry_rush_1",
+        "name": "Infantry Rush 1",
+        "description": "Infantry allies within 2 spaces gain: \"If unit's Atk \u2265 foe's Atk+5, grants Special cooldown charge +1 per unit's attack. (Only highest value applied. Does not stack.)\"",
+        "sp": 60,
+        "restrictions": []
+    },
+    "infantry_rush_2": {
+        "id": "infantry_rush_2",
+        "name": "Infantry Rush 2",
+        "description": "Infantry allies within 2 spaces gain: \"If unit's Atk \u2265 foe's Atk+3, grants Special cooldown charge +1 per unit's attack. (Only highest value applied. Does not stack.)\"",
+        "sp": 120,
+        "restrictions": []
+    },
+    "infantry_rush_3": {
+        "id": "infantry_rush_3",
+        "name": "Infantry Rush 3",
+        "description": "Infantry allies within 2 spaces gain: \"If unit's Atk > foe's Atk, grants Special cooldown charge +1 per unit's attack. (Only highest value applied. Does not stack.)\"",
+        "sp": 240,
+        "restrictions": []
+    },
+    "joint_drive_atk": {
+        "id": "joint_drive_atk",
+        "name": "Joint Drive Atk",
+        "description": "Grants Atk+4 to allies within 2 spaces during combat. If unit is within 2 spaces of an ally, grants Atk+4 to unit during combat.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "joint_drive_spd": {
+        "id": "joint_drive_spd",
+        "name": "Joint Drive Spd",
+        "description": "Grants Spd+4 to allies within 2 spaces during combat. If unit is within 2 spaces of an ally, grants Spd+4 to unit during combat.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "joint_hone_atk": {
+        "id": "joint_hone_atk",
+        "name": "Joint Hone Atk",
+        "description": "At start of turn, if unit is adjacent to an ally, grants Atk+5 to unit and adjacent allies for 1 turn.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "joint_hone_def": {
+        "id": "joint_hone_def",
+        "name": "Joint Hone Def",
+        "description": "At start of turn, if unit is adjacent to an ally, grants Def+5 to unit and adjacent allies for 1 turn.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "joint_hone_spd": {
+        "id": "joint_hone_spd",
+        "name": "Joint Hone Spd",
+        "description": "At start of turn, if unit is adjacent to an ally, grants Spd+5 to unit and adjacent allies for 1 turn.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "lance_exp._1": {
+        "id": "lance_exp._1",
+        "name": "Lance Exp. 1",
+        "description": "While unit lives and uses a lance, unit gets 1.5x EXP.(Only highest value applied. Does not stack.)",
+        "sp": 30,
+        "restrictions": []
+    },
+    "lance_exp._2": {
+        "id": "lance_exp._2",
+        "name": "Lance Exp. 2",
+        "description": "While unit lives, all lance allies on team get 1.5x EXP.(Only highest value applied. Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "lance_exp._3": {
+        "id": "lance_exp._3",
+        "name": "Lance Exp. 3",
+        "description": "While unit lives, all lance allies on team get 2x EXP.(Only highest value applied. Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "lance_valor_1": {
+        "id": "lance_valor_1",
+        "name": "Lance Valor 1",
+        "description": "While unit lives and uses a lance, unit gets 1.5x SP.(Only highest value applied. Does not stack.)",
+        "sp": 30,
+        "restrictions": []
+    },
+    "lance_valor_2": {
+        "id": "lance_valor_2",
+        "name": "Lance Valor 2",
+        "description": "While unit lives, all lance allies on team get 1.5x SP.(Only highest value applied. Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "lance_valor_3": {
+        "id": "lance_valor_3",
+        "name": "Lance Valor 3",
+        "description": "While unit lives, all lance allies on team get 2x SP.(Only highest value applied. Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "mila's_turnwheel": {
+        "id": "mila's_turnwheel",
+        "name": "Mila's Turnwheel",
+        "description": "At start of turn, inflicts\u3010Isolation\u3011on foes in cardinal directions with Def < unit's Def through their next actions.If deployed in Aether Raids offense during Light season, grants Turn Limit+1. (If the Turn Limit is 7, it will increase to 8, etc.)\u3010Isolation\u3011Target cannot use or be the target of Assist skills through its next action. (Target can neither use nor be the target of skills like Dance and Sing, skills that neutralize penalties, like Restore and Harsh Command+, etc.)",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "odd_atk_wave_1": {
+        "id": "odd_atk_wave_1",
+        "name": "Odd Atk Wave 1",
+        "description": "At start of odd-numbered turns, grants Atk+2 to unit and adjacent allies for 1 turn.(Bonus granted to unit even if no allies are adjacent.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "odd_atk_wave_2": {
+        "id": "odd_atk_wave_2",
+        "name": "Odd Atk Wave 2",
+        "description": "At start of odd-numbered turns, grants Atk+4 to unit and adjacent allies for 1 turn.(Bonus granted to unit even if no allies are adjacent.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "odd_atk_wave_3": {
+        "id": "odd_atk_wave_3",
+        "name": "Odd Atk Wave 3",
+        "description": "At start of odd-numbered turns, grants Atk+6 to unit and adjacent allies for 1 turn.(Bonus granted to unit even if no allies are adjacent.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "odd_def_wave_1": {
+        "id": "odd_def_wave_1",
+        "name": "Odd Def Wave 1",
+        "description": "At start of odd-numbered turns, grants Def+2 to unit and adjacent allies for 1 turn.(Bonus granted to unit even if no allies are adjacent.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "odd_def_wave_2": {
+        "id": "odd_def_wave_2",
+        "name": "Odd Def Wave 2",
+        "description": "At start of odd-numbered turns, grants Def+4 to unit and adjacent allies for 1 turn.(Bonus granted to unit even if no allies are adjacent.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "odd_def_wave_3": {
+        "id": "odd_def_wave_3",
+        "name": "Odd Def Wave 3",
+        "description": "At start of odd-numbered turns, grants Def+6 to unit and adjacent allies for 1 turn.(Bonus granted to unit even if no allies are adjacent.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "odd_res_wave_1": {
+        "id": "odd_res_wave_1",
+        "name": "Odd Res Wave 1",
+        "description": "At start of odd-numbered turns, grants Res+2 to unit and adjacent allies for 1 turn.(Bonus granted to unit even if no allies are adjacent.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "odd_res_wave_2": {
+        "id": "odd_res_wave_2",
+        "name": "Odd Res Wave 2",
+        "description": "At start of odd-numbered turns, grants Res+4 to unit and adjacent allies for 1 turn.(Bonus granted to unit even if no allies are adjacent.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "odd_res_wave_3": {
+        "id": "odd_res_wave_3",
+        "name": "Odd Res Wave 3",
+        "description": "At start of odd-numbered turns, grants Res+6 to unit and adjacent allies for 1 turn.(Bonus granted to unit even if no allies are adjacent.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "odd_spd_wave_1": {
+        "id": "odd_spd_wave_1",
+        "name": "Odd Spd Wave 1",
+        "description": "At start of odd-numbered turns, grants Spd+2 to unit and adjacent allies for 1 turn.(Bonus granted to unit even if no allies are adjacent.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "odd_spd_wave_2": {
+        "id": "odd_spd_wave_2",
+        "name": "Odd Spd Wave 2",
+        "description": "At start of odd-numbered turns, grants Spd+4 to unit and adjacent allies for 1 turn.(Bonus granted to unit even if no allies are adjacent.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "odd_spd_wave_3": {
+        "id": "odd_spd_wave_3",
+        "name": "Odd Spd Wave 3",
+        "description": "At start of odd-numbered turns, grants Spd+6 to unit and adjacent allies for 1 turn.(Bonus granted to unit even if no allies are adjacent.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "ostia's_pulse": {
+        "id": "ostia's_pulse",
+        "name": "Ostia's Pulse",
+        "description": "At the start of turn 1, grants Special cooldown count-1 to all allies. Granted only if number of those allies' movement types on current team \u2264 2.",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "panic_ploy_1": {
+        "id": "panic_ploy_1",
+        "name": "Panic Ploy 1",
+        "description": "At start of turn, converts bonuses on foes in cardinal directions with HP \u2264 unit's HP-5 into penalties through their next actions.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "panic_ploy_2": {
+        "id": "panic_ploy_2",
+        "name": "Panic Ploy 2",
+        "description": "At start of turn, converts bonuses on foes in cardinal directions with HP \u2264 unit's HP-3 into penalties through their next actions.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "panic_ploy_3": {
+        "id": "panic_ploy_3",
+        "name": "Panic Ploy 3",
+        "description": "At start of turn, converts bonuses on foes in cardinal directions with HP < unit's HP into penalties through their next actions.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "panic_smoke_1": {
+        "id": "panic_smoke_1",
+        "name": "Panic Smoke 1",
+        "description": "If unit initiates combat, inflicts\u3010Panic\u3011on target and foes within 1 space of target after combat.\u3010Panic\u3011Converts bonuses on target into penalties through its next action.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "panic_smoke_2": {
+        "id": "panic_smoke_2",
+        "name": "Panic Smoke 2",
+        "description": "If unit initiates combat, inflicts\u3010Panic\u3011on target and foes within 2 spaces of target after combat.\u3010Panic\u3011Converts bonuses on target into penalties through its next action.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "panic_smoke_3": {
+        "id": "panic_smoke_3",
+        "name": "Panic Smoke 3",
+        "description": "Inflicts\u3010Panic\u3011on target and foes within 2 spaces of target after combat.\u3010Panic\u3011Converts bonuses on target into penalties through its next action.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "pulse_smoke_1": {
+        "id": "pulse_smoke_1",
+        "name": "Pulse Smoke 1",
+        "description": "If unit initiates combat, inflicts Special cooldown count+1 on target and foes within 1 space of target after combat. (No effect on Special cooldown counts already at maximum.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "pulse_smoke_2": {
+        "id": "pulse_smoke_2",
+        "name": "Pulse Smoke 2",
+        "description": "If unit initiates combat, inflicts Special cooldown count+1 on target and foes within 2 spaces of target after combat. (No effect on Special cooldown counts already at maximum.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "pulse_smoke_3": {
+        "id": "pulse_smoke_3",
+        "name": "Pulse Smoke 3",
+        "description": "Inflicts Special cooldown count+1 on target and foes within 2 spaces of target after combat. (No effect on Special cooldown counts already at maximum.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "r_tome_exp._1": {
+        "id": "r_tome_exp._1",
+        "name": "R Tome Exp. 1",
+        "description": "While unit lives and uses a red tome, unit gets 1.5x EXP.(Only highest value applied. Does not stack.)",
+        "sp": 30,
+        "restrictions": []
+    },
+    "r_tome_exp._2": {
+        "id": "r_tome_exp._2",
+        "name": "R Tome Exp. 2",
+        "description": "While unit lives, all red tome allies on team get 1.5x EXP.(Only highest value applied. Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "r_tome_exp._3": {
+        "id": "r_tome_exp._3",
+        "name": "R Tome Exp. 3",
+        "description": "While unit lives, all red tome allies on team get 2x EXP.(Only highest value applied. Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "r_tome_valor_1": {
+        "id": "r_tome_valor_1",
+        "name": "R Tome Valor 1",
+        "description": "While unit lives and uses a red tome, unit gets 1.5x SP.(Only highest value applied. Does not stack.)",
+        "sp": 30,
+        "restrictions": []
+    },
+    "r_tome_valor_2": {
+        "id": "r_tome_valor_2",
+        "name": "R Tome Valor 2",
+        "description": "While unit lives, all red tome allies on team get 1.5x SP.(Only highest value applied. Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "r_tome_valor_3": {
+        "id": "r_tome_valor_3",
+        "name": "R Tome Valor 3",
+        "description": "While unit lives, all red tome allies on team get 2x SP.(Only highest value applied. Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "res_opening_1": {
+        "id": "res_opening_1",
+        "name": "Res Opening 1",
+        "description": "At start of turn, grants Res+2 to ally with the highest Res for 1 turn. (Excludes unit.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "res_opening_2": {
+        "id": "res_opening_2",
+        "name": "Res Opening 2",
+        "description": "At start of turn, grants Res+4 to ally with the highest Res for 1 turn. (Excludes unit.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "res_opening_3": {
+        "id": "res_opening_3",
+        "name": "Res Opening 3",
+        "description": "At start of turn, grants Res+6 to ally with the highest Res for 1 turn. (Excludes unit.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "res_ploy_1": {
+        "id": "res_ploy_1",
+        "name": "Res Ploy 1",
+        "description": "At start of turn, inflicts Res-3 on foes in cardinal directions with Res < unit's Res through their next actions.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "res_ploy_2": {
+        "id": "res_ploy_2",
+        "name": "Res Ploy 2",
+        "description": "At start of turn, inflicts Res-4 on foes in cardinal directions with Res < unit's Res through their next actions.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "res_ploy_3": {
+        "id": "res_ploy_3",
+        "name": "Res Ploy 3",
+        "description": "At start of turn, inflicts Res-5 on foes in cardinal directions with Res < unit's Res through their next actions.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "res_smoke_1": {
+        "id": "res_smoke_1",
+        "name": "Res Smoke 1",
+        "description": "Inflicts Res-3 on foes within 2 spaces of target through their next actions after combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "res_smoke_2": {
+        "id": "res_smoke_2",
+        "name": "Res Smoke 2",
+        "description": "Inflicts Res-5 on foes within 2 spaces of target through their next actions after combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "res_smoke_3": {
+        "id": "res_smoke_3",
+        "name": "Res Smoke 3",
+        "description": "Inflicts Res-7 on foes within 2 spaces of target through their next actions after combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "res_tactic_1": {
+        "id": "res_tactic_1",
+        "name": "Res Tactic 1",
+        "description": "At start of turn, grants Res+2 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team \u2264 2.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "res_tactic_2": {
+        "id": "res_tactic_2",
+        "name": "Res Tactic 2",
+        "description": "At start of turn, grants Res+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team \u2264 2.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "res_tactic_3": {
+        "id": "res_tactic_3",
+        "name": "Res Tactic 3",
+        "description": "At start of turn, grants Res+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team \u2264 2.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "rouse_atk/def_1": {
+        "id": "rouse_atk/def_1",
+        "name": "Rouse Atk/Def 1",
+        "description": "At start of turn, if unit is not adjacent to an ally, grants Atk/Def+2 to unit for 1 turn.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "rouse_atk/def_2": {
+        "id": "rouse_atk/def_2",
+        "name": "Rouse Atk/Def 2",
+        "description": "At start of turn, if unit is not adjacent to an ally, grants Atk/Def+4 to unit for 1 turn.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "rouse_atk/def_3": {
+        "id": "rouse_atk/def_3",
+        "name": "Rouse Atk/Def 3",
+        "description": "At start of turn, if unit is not adjacent to an ally, grants Atk/Def+6 to unit for 1 turn.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "rouse_atk/res_1": {
+        "id": "rouse_atk/res_1",
+        "name": "Rouse Atk/Res 1",
+        "description": "At start of turn, if unit is not adjacent to an ally, grants Atk/Res+2 to unit for 1 turn.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "rouse_atk/res_2": {
+        "id": "rouse_atk/res_2",
+        "name": "Rouse Atk/Res 2",
+        "description": "At start of turn, if unit is not adjacent to an ally, grants Atk/Res+4 to unit for 1 turn.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "rouse_atk/res_3": {
+        "id": "rouse_atk/res_3",
+        "name": "Rouse Atk/Res 3",
+        "description": "At start of turn, if unit is not adjacent to an ally, grants Atk/Res+6 to unit for 1 turn.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "rouse_def/res_1": {
+        "id": "rouse_def/res_1",
+        "name": "Rouse Def/Res 1",
+        "description": "At start of turn, if unit is not adjacent to an ally, grants Def/Res+2 to unit for 1 turn.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "rouse_def/res_2": {
+        "id": "rouse_def/res_2",
+        "name": "Rouse Def/Res 2",
+        "description": "At start of turn, if unit is not adjacent to an ally, grants Def/Res+4 to unit for 1 turn.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "rouse_def/res_3": {
+        "id": "rouse_def/res_3",
+        "name": "Rouse Def/Res 3",
+        "description": "At start of turn, if unit is not adjacent to an ally, grants Def/Res+6 to unit for 1 turn.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "rouse_spd/def_1": {
+        "id": "rouse_spd/def_1",
+        "name": "Rouse Spd/Def 1",
+        "description": "At start of turn, if unit is not adjacent to an ally, grants Spd/Def+2 to unit for 1 turn.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "rouse_spd/def_2": {
+        "id": "rouse_spd/def_2",
+        "name": "Rouse Spd/Def 2",
+        "description": "At start of turn, if unit is not adjacent to an ally, grants Spd/Def+4 to unit for 1 turn.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "rouse_spd/def_3": {
+        "id": "rouse_spd/def_3",
+        "name": "Rouse Spd/Def 3",
+        "description": "At start of turn, if unit is not adjacent to an ally, grants Spd/Def+6 to unit for 1 turn.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "rouse_spd/res_1": {
+        "id": "rouse_spd/res_1",
+        "name": "Rouse Spd/Res 1",
+        "description": "At start of turn, if unit is not adjacent to an ally, grants Spd/Res+2 to unit for 1 turn.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "rouse_spd/res_2": {
+        "id": "rouse_spd/res_2",
+        "name": "Rouse Spd/Res 2",
+        "description": "At start of turn, if unit is not adjacent to an ally, grants Spd/Res+4 to unit for 1 turn.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "rouse_spd/res_3": {
+        "id": "rouse_spd/res_3",
+        "name": "Rouse Spd/Res 3",
+        "description": "At start of turn, if unit is not adjacent to an ally, grants Spd/Res+6 to unit for 1 turn.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "savage_blow_1": {
+        "id": "savage_blow_1",
+        "name": "Savage Blow 1",
+        "description": "If unit initiates combat, deals 3 damage to foes within 2 spaces of target after combat.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "savage_blow_2": {
+        "id": "savage_blow_2",
+        "name": "Savage Blow 2",
+        "description": "If unit initiates combat, deals 5 damage to foes within 2 spaces of target after combat.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "savage_blow_3": {
+        "id": "savage_blow_3",
+        "name": "Savage Blow 3",
+        "description": "If unit initiates combat, deals 7 damage to foes within 2 spaces of target after combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "solitary_dream": {
+        "id": "solitary_dream",
+        "name": "Solitary Dream",
+        "description": "At start of turn, if unit is adjacent to only dragon allies or if unit is not adjacent to any ally, grants Atk/Spd/Def/Res+4 to unit and unit can move 1 extra space. (That turn only. Does not stack.)",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "sparkling_boost": {
+        "id": "sparkling_boost",
+        "name": "Sparkling Boost",
+        "description": "At start of turn, restores 10 HP to ally that has been dealt the most damage. (Excludes unit.)",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "spd/def_oath_1": {
+        "id": "spd/def_oath_1",
+        "name": "Spd/Def Oath 1",
+        "description": "At start of turn, if unit is adjacent to an ally, grants Spd/Def+3 to unit for 1 turn.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "spd/def_oath_2": {
+        "id": "spd/def_oath_2",
+        "name": "Spd/Def Oath 2",
+        "description": "At start of turn, if unit is adjacent to an ally, grants Spd/Def+4 to unit for 1 turn.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "spd/def_oath_3": {
+        "id": "spd/def_oath_3",
+        "name": "Spd/Def Oath 3",
+        "description": "At start of turn, if unit is adjacent to an ally, grants Spd/Def+5 to unit for 1 turn.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "spd_opening_1": {
+        "id": "spd_opening_1",
+        "name": "Spd Opening 1",
+        "description": "At start of turn, grants Spd+2 to ally with the highest Spd for 1 turn. (Excludes unit.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "spd_opening_2": {
+        "id": "spd_opening_2",
+        "name": "Spd Opening 2",
+        "description": "At start of turn, grants Spd+4 to ally with the highest Spd for 1 turn. (Excludes unit.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "spd_opening_3": {
+        "id": "spd_opening_3",
+        "name": "Spd Opening 3",
+        "description": "At start of turn, grants Spd+6 to ally with the highest Spd for 1 turn. (Excludes unit.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "spd_ploy_1": {
+        "id": "spd_ploy_1",
+        "name": "Spd Ploy 1",
+        "description": "At start of turn, inflicts Spd-3 on foes in cardinal directions with Res < unit's Res through their next actions.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "spd_ploy_2": {
+        "id": "spd_ploy_2",
+        "name": "Spd Ploy 2",
+        "description": "At start of turn, inflicts Spd-4 on foes in cardinal directions with Res < unit's Res through their next actions.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "spd_ploy_3": {
+        "id": "spd_ploy_3",
+        "name": "Spd Ploy 3",
+        "description": "At start of turn, inflicts Spd-5 on foes in cardinal directions with Res < unit's Res through their next actions.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "spd/res_gap_1": {
+        "id": "spd/res_gap_1",
+        "name": "Spd/Res Gap 1",
+        "description": "At start of turn, grants Spd/Res+1 to ally with the highest Spd+Res total for 1 turn. (Excludes unit.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "spd/res_gap_2": {
+        "id": "spd/res_gap_2",
+        "name": "Spd/Res Gap 2",
+        "description": "At start of turn, grants Spd/Res+3 to ally with the highest Spd+Res total for 1 turn. (Excludes unit.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "spd/res_gap_3": {
+        "id": "spd/res_gap_3",
+        "name": "Spd/Res Gap 3",
+        "description": "At start of turn, grants Spd/Res+5 to ally with the highest Spd+Res total for 1 turn. (Excludes unit.)",
+        "sp": 240,
+        "restrictions": []
+    },
+    "spd_smoke_1": {
+        "id": "spd_smoke_1",
+        "name": "Spd Smoke 1",
+        "description": "Inflicts Spd-3 on foes within 2 spaces of target through their next actions after combat.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "spd_smoke_2": {
+        "id": "spd_smoke_2",
+        "name": "Spd Smoke 2",
+        "description": "Inflicts Spd-5 on foes within 2 spaces of target through their next actions after combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "spd_smoke_3": {
+        "id": "spd_smoke_3",
+        "name": "Spd Smoke 3",
+        "description": "Inflicts Spd-7 on foes within 2 spaces of target through their next actions after combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "spd_tactic_1": {
+        "id": "spd_tactic_1",
+        "name": "Spd Tactic 1",
+        "description": "At start of turn, grants Spd+2 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team \u2264 2.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "spd_tactic_2": {
+        "id": "spd_tactic_2",
+        "name": "Spd Tactic 2",
+        "description": "At start of turn, grants Spd+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team \u2264 2.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "spd_tactic_3": {
+        "id": "spd_tactic_3",
+        "name": "Spd Tactic 3",
+        "description": "At start of turn, grants Spd+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team \u2264 2.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "spur_atk_1": {
+        "id": "spur_atk_1",
+        "name": "Spur Atk 1",
+        "description": "Grants Atk+2 to adjacent allies during combat.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "spur_atk_2": {
+        "id": "spur_atk_2",
+        "name": "Spur Atk 2",
+        "description": "Grants Atk+3 to adjacent allies during combat.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "spur_atk_3": {
+        "id": "spur_atk_3",
+        "name": "Spur Atk 3",
+        "description": "Grants Atk+4 to adjacent allies during combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "spur_atk/def_1": {
+        "id": "spur_atk/def_1",
+        "name": "Spur Atk/Def 1",
+        "description": "Grants Atk/Def+2 to adjacent allies during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "spur_atk/def_2": {
+        "id": "spur_atk/def_2",
+        "name": "Spur Atk/Def 2",
+        "description": "Grants Atk/Def+3 to adjacent allies during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "spur_atk/res_1": {
+        "id": "spur_atk/res_1",
+        "name": "Spur Atk/Res 1",
+        "description": "Grants Atk/Res+2 to adjacent allies during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "spur_atk/res_2": {
+        "id": "spur_atk/res_2",
+        "name": "Spur Atk/Res 2",
+        "description": "Grants Atk/Res+3 to adjacent allies during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "spur_atk/spd_1": {
+        "id": "spur_atk/spd_1",
+        "name": "Spur Atk/Spd 1",
+        "description": "Grants Atk/Spd+2 to adjacent allies during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "spur_atk/spd_2": {
+        "id": "spur_atk/spd_2",
+        "name": "Spur Atk/Spd 2",
+        "description": "Grants Atk/Spd+3 to adjacent allies during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "spur_def_1": {
+        "id": "spur_def_1",
+        "name": "Spur Def 1",
+        "description": "Grants Def+2 to adjacent allies during combat.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "spur_def_2": {
+        "id": "spur_def_2",
+        "name": "Spur Def 2",
+        "description": "Grants Def+3 to adjacent allies during combat.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "spur_def_3": {
+        "id": "spur_def_3",
+        "name": "Spur Def 3",
+        "description": "Grants Def+4 to adjacent allies during combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "spur_def/res_1": {
+        "id": "spur_def/res_1",
+        "name": "Spur Def/Res 1",
+        "description": "Grants Def/Res +2 to adjacent allies during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "spur_def/res_2": {
+        "id": "spur_def/res_2",
+        "name": "Spur Def/Res 2",
+        "description": "Grants Def/Res +3 to adjacent allies during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "spur_res_1": {
+        "id": "spur_res_1",
+        "name": "Spur Res 1",
+        "description": "Grants Res+2 to adjacent allies during combat.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "spur_res_2": {
+        "id": "spur_res_2",
+        "name": "Spur Res 2",
+        "description": "Grants Res+3 to adjacent allies during combat.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "spur_res_3": {
+        "id": "spur_res_3",
+        "name": "Spur Res 3",
+        "description": "Grants Res+4 to adjacent allies during combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "spur_spd_1": {
+        "id": "spur_spd_1",
+        "name": "Spur Spd 1",
+        "description": "Grants Spd+2 to adjacent allies during combat.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "spur_spd_2": {
+        "id": "spur_spd_2",
+        "name": "Spur Spd 2",
+        "description": "Grants Spd+3 to adjacent allies during combat.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "spur_spd_3": {
+        "id": "spur_spd_3",
+        "name": "Spur Spd 3",
+        "description": "Grants Spd+4 to adjacent allies during combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "spur_spd/def_1": {
+        "id": "spur_spd/def_1",
+        "name": "Spur Spd/Def 1",
+        "description": "Grants Spd/Def+2 to adjacent allies during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "spur_spd/def_2": {
+        "id": "spur_spd/def_2",
+        "name": "Spur Spd/Def 2",
+        "description": "Grants Spd/Def+3 to adjacent allies during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "spur_spd/res_1": {
+        "id": "spur_spd/res_1",
+        "name": "Spur Spd/Res 1",
+        "description": "Grants Spd/Res+2 to adjacent allies during combat.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "spur_spd/res_2": {
+        "id": "spur_spd/res_2",
+        "name": "Spur Spd/Res 2",
+        "description": "Grants Spd/Res+3 to adjacent allies during combat.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "staff_exp._1": {
+        "id": "staff_exp._1",
+        "name": "Staff Exp. 1",
+        "description": "While unit lives and uses a staff, unit gets 1.5x EXP. (Only highest value applied. Does not stack.)",
+        "sp": 30,
+        "restrictions": [
+            "staffonly"
+        ]
+    },
+    "staff_exp._2": {
+        "id": "staff_exp._2",
+        "name": "Staff Exp. 2",
+        "description": "While unit lives, all staff allies on team get 1.5x EXP. (Only highest value applied. Does not stack.)",
+        "sp": 60,
+        "restrictions": [
+            "staffonly"
+        ]
+    },
+    "staff_exp._3": {
+        "id": "staff_exp._3",
+        "name": "Staff Exp. 3",
+        "description": "While unit lives, all staff allies on team get 2x EXP. (Only highest value applied. Does not stack.)",
+        "sp": 120,
+        "restrictions": [
+            "staffonly"
+        ]
+    },
+    "staff_valor_1": {
+        "id": "staff_valor_1",
+        "name": "Staff Valor 1",
+        "description": "While unit lives and uses a staff, unit gets 1.5x SP after combat or after using a healing Assist skill.(Only highest value applied. Does not stack.)",
+        "sp": 30,
+        "restrictions": [
+            "staffonly"
+        ]
+    },
+    "staff_valor_2": {
+        "id": "staff_valor_2",
+        "name": "Staff Valor 2",
+        "description": "While unit lives, all staff allies on team get 1.5x SP after combat or after using healing Assist skills.(Only highest value applied. Does not stack.)",
+        "sp": 60,
+        "restrictions": [
+            "staffonly"
+        ]
+    },
+    "staff_valor_3": {
+        "id": "staff_valor_3",
+        "name": "Staff Valor 3",
+        "description": "While unit lives, all staff allies on team get 2x SP after combat or after using healing Assist skills.(Only highest value applied. Does not stack.)",
+        "sp": 120,
+        "restrictions": [
+            "staffonly"
+        ]
+    },
+    "surtr's_menace": {
+        "id": "surtr's_menace",
+        "name": "Surtr's Menace",
+        "description": "At start of turn, if unit is within 2 spaces of a foe, grants Atk/Spd/Def/Res+4 for 1 turn and inflicts Atk/Spd/Def/Res-4 on foes within 2 spaces through their next actions.",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "sword_exp._1": {
+        "id": "sword_exp._1",
+        "name": "Sword Exp. 1",
+        "description": "While unit lives and uses a sword, unit gets 1.5x EXP.(Only highest value applied. Does not stack.)",
+        "sp": 30,
+        "restrictions": []
+    },
+    "sword_exp._2": {
+        "id": "sword_exp._2",
+        "name": "Sword Exp. 2",
+        "description": "While unit lives, all sword allies on team get 1.5x EXP.(Only highest value applied. Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "sword_exp._3": {
+        "id": "sword_exp._3",
+        "name": "Sword Exp. 3",
+        "description": "While unit lives, all sword allies on team get 2x EXP.(Only highest value applied. Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "sword_valor_1": {
+        "id": "sword_valor_1",
+        "name": "Sword Valor 1",
+        "description": "While unit lives and uses a sword, unit gets 1.5x SP.(Only highest value applied. Does not stack.)",
+        "sp": 30,
+        "restrictions": []
+    },
+    "sword_valor_2": {
+        "id": "sword_valor_2",
+        "name": "Sword Valor 2",
+        "description": "While unit lives, all sword allies on team get 1.5x SP.(Only highest value applied. Does not stack.)",
+        "sp": 60,
+        "restrictions": []
+    },
+    "sword_valor_3": {
+        "id": "sword_valor_3",
+        "name": "Sword Valor 3",
+        "description": "While unit lives, all sword allies on team get 2x SP.(Only highest value applied. Does not stack.)",
+        "sp": 120,
+        "restrictions": []
+    },
+    "threat._atk/def_1": {
+        "id": "threat._atk/def_1",
+        "name": "Threat. Atk/Def 1",
+        "description": "At start of turn, inflicts Atk/Def-3 on foes within 2 spaces through their next actions.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "threat._atk/def_2": {
+        "id": "threat._atk/def_2",
+        "name": "Threat. Atk/Def 2",
+        "description": "At start of turn, inflicts Atk/Def-4 on foes within 2 spaces through their next actions.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "threat._atk/def_3": {
+        "id": "threat._atk/def_3",
+        "name": "Threat. Atk/Def 3",
+        "description": "At start of turn, if unit is within 2 spaces of a foe, grants Atk/Def+5 to unit for 1 turn and inflicts Atk/Def-5 on foes within 2 spaces through their next actions.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "threat._atk/res_1": {
+        "id": "threat._atk/res_1",
+        "name": "Threat. Atk/Res 1",
+        "description": "At start of turn, inflicts Atk/Res-3 on foes within 2 spaces through their next actions.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "threat._atk/res_2": {
+        "id": "threat._atk/res_2",
+        "name": "Threat. Atk/Res 2",
+        "description": "At start of turn, inflicts Atk/Res-4 on foes within 2 spaces through their next actions.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "threat._atk/res_3": {
+        "id": "threat._atk/res_3",
+        "name": "Threat. Atk/Res 3",
+        "description": "At start of turn, if unit is within 2 spaces of a foe, grants Atk/Res+5 to unit for 1 turn and inflicts Atk/Res-5 on foes within 2 spaces through their next actions.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "threat._atk/spd_1": {
+        "id": "threat._atk/spd_1",
+        "name": "Threat. Atk/Spd 1",
+        "description": "At start of turn, inflicts Atk/Spd-3 on foes within 2 spaces through their next actions.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "threat._atk/spd_2": {
+        "id": "threat._atk/spd_2",
+        "name": "Threat. Atk/Spd 2",
+        "description": "At start of turn, inflicts Atk/Spd-4 on foes within 2 spaces through their next actions.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "threat._atk/spd_3": {
+        "id": "threat._atk/spd_3",
+        "name": "Threat. Atk/Spd 3",
+        "description": "At start of turn, if unit is within 2 spaces of a foe, grants Atk/Spd+5 to unit for 1 turn and inflicts Atk/Spd-5 on foes within 2 spaces through their next actions.",
+        "sp": 300,
+        "restrictions": []
+    },
+    "threaten_atk_1": {
+        "id": "threaten_atk_1",
+        "name": "Threaten Atk 1",
+        "description": "At start of turn, inflicts Atk-3 on foes within 2 spaces through their next actions.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "threaten_atk_2": {
+        "id": "threaten_atk_2",
+        "name": "Threaten Atk 2",
+        "description": "At start of turn, inflicts Atk-4 on foes within 2 spaces through their next actions.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "threaten_atk_3": {
+        "id": "threaten_atk_3",
+        "name": "Threaten Atk 3",
+        "description": "At start of turn, inflicts Atk-5 on foes within 2 spaces through their next actions.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "threaten_def_1": {
+        "id": "threaten_def_1",
+        "name": "Threaten Def 1",
+        "description": "At start of turn, inflicts Def-3 on foes within 2 spaces through their next actions.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "threaten_def_2": {
+        "id": "threaten_def_2",
+        "name": "Threaten Def 2",
+        "description": "At start of turn, inflicts Def-4 on foes within 2 spaces through their next actions.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "threaten_def_3": {
+        "id": "threaten_def_3",
+        "name": "Threaten Def 3",
+        "description": "At start of turn, inflicts Def-5 on foes within 2 spaces through their next actions.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "threaten_res_1": {
+        "id": "threaten_res_1",
+        "name": "Threaten Res 1",
+        "description": "At start of turn, inflicts Res-3 on foes within 2 spaces through their next actions.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "threaten_res_2": {
+        "id": "threaten_res_2",
+        "name": "Threaten Res 2",
+        "description": "At start of turn, inflicts Res-4 on foes within 2 spaces through their next actions.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "threaten_res_3": {
+        "id": "threaten_res_3",
+        "name": "Threaten Res 3",
+        "description": "At start of turn, inflicts Res-5 on foes within 2 spaces through their next actions.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "threaten_spd_1": {
+        "id": "threaten_spd_1",
+        "name": "Threaten Spd 1",
+        "description": "At start of turn, inflicts Spd-3 on foes within 2 spaces through their next actions.",
+        "sp": 50,
+        "restrictions": []
+    },
+    "threaten_spd_2": {
+        "id": "threaten_spd_2",
+        "name": "Threaten Spd 2",
+        "description": "At start of turn, inflicts Spd-4 on foes within 2 spaces through their next actions.",
+        "sp": 100,
+        "restrictions": []
+    },
+    "threaten_spd_3": {
+        "id": "threaten_spd_3",
+        "name": "Threaten Spd 3",
+        "description": "At start of turn, inflicts Spd-5 on foes within 2 spaces through their next actions.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "time's_pulse_1": {
+        "id": "time's_pulse_1",
+        "name": "Time's Pulse 1",
+        "description": "At the start of every third turn, if Special cooldown count is at its maximum value, grants Special cooldown count-1.",
+        "sp": 60,
+        "restrictions": []
+    },
+    "time's_pulse_2": {
+        "id": "time's_pulse_2",
+        "name": "Time's Pulse 2",
+        "description": "At start of odd-numbered turns, if Special cooldown count is at its maximum value, grants Special cooldown count-1.",
+        "sp": 120,
+        "restrictions": []
+    },
+    "time's_pulse_3": {
+        "id": "time's_pulse_3",
+        "name": "Time's Pulse 3",
+        "description": "At start of turn, if Special cooldown count is at its maximum value, grants Special cooldown count-1.",
+        "sp": 240,
+        "restrictions": []
+    },
+    "upheaval": {
+        "id": "upheaval",
+        "name": "Upheaval",
+        "description": "At the start of turn 1, deals 7 damage to all foes, and if defending in Aether Raids during anima season, destroys offensive structure within same column as unit. (Does not affect structures that cannot be destroyed.)",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "vision_of_arcadia": {
+        "id": "vision_of_arcadia",
+        "name": "Vision of Arcadia",
+        "description": "At start of turn, if a dragon or beast ally is deployed, grants Atk/Def+6 to ally with the highest Atk for 1 turn.",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    },
+    "ward_armor": {
+        "id": "ward_armor",
+        "name": "Ward Armor",
+        "description": "Grants Def/Res+4 to armored allies within 2 spaces during combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "ward_beasts": {
+        "id": "ward_beasts",
+        "name": "Ward Beasts",
+        "description": "Grants Def/Res+4 to beast allies within 2 spaces during combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "ward_cavalry": {
+        "id": "ward_cavalry",
+        "name": "Ward Cavalry",
+        "description": "Grants Def/Res+4 to cavalry allies within 2 spaces during combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "ward_dragons": {
+        "id": "ward_dragons",
+        "name": "Ward Dragons",
+        "description": "Grants Def/Res+4 to dragon allies within 2 spaces during combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "ward_fliers": {
+        "id": "ward_fliers",
+        "name": "Ward Fliers",
+        "description": "Grants Def/Res+4 to flying allies within 2 spaces during combat.",
+        "sp": 200,
+        "restrictions": []
+    },
+    "with_everyone!": {
+        "id": "with_everyone!",
+        "name": "With Everyone!",
+        "description": "At start of turn, if unit is adjacent to an ally, grants Def/Res+5 to unit and adjacent allies for 1 turn.",
+        "sp": 300,
+        "restrictions": [
+            "unique"
+        ]
+    }
+}
